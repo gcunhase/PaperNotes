@@ -1,10 +1,10 @@
 #### 2017-07
-
 * *Adversarial Neural Machine Translation* (April 2017) [[arXiv](https://arxiv.org/abs/1704.06933)]
 * *Tacotron: A Fully End-to-End Text-To-Speech Synthesis Model* (March 2017) [[arXiv](https://arxiv.org/abs/1703.10135)] [[code1](https://github.com/Kyubyong/tacotron), [code2](https://github.com/barronalex/Tacotron)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/tacotron.md)]
+* *A GRU-Gated Attention Model for Neural Machine Translation* [[arXiv](https://arxiv.org/pdf/1704.08430.pdf)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/gruatt.md)]
+* *Nematus: a Toolkit for Neural Machine Translation* (Mar 2017) [[arXiv](https://arxiv.org/pdf/1703.04357.pdf)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/nematus.md)]
 
 #### Before
-
 * *SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient* (Sep 2016) [[arXiv](https://arxiv.org/abs/1609.05473)]
 * *Coupled Generative Adversarial Networks* (Jun 2016) [[arXiv](https://arxiv.org/abs/1606.07536)]
 * *Generative Adversarial Network* (Jun 2014) [[arXiv](https://arxiv.org/abs/1406.2661)]
