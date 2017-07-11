@@ -9,5 +9,6 @@ TLDR;
 ### Notes / Questions
 
 ### Results
-Check out some [demos](https://github.com/google/tacotron).
+* Check out some [demos](https://github.com/google/tacotron).
+* My trials: 
 
