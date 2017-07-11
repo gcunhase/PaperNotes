@@ -14,6 +14,7 @@ TLDR; Context vectors for different target words produced by Attention Networks 
 * In this way, we can obtain translation-sensitive source representations which are then feed into the attention network to generate discriminative context vectors.
 
 ### Notes / Questions
+* What does the attention model do that the GRU didn't already do?
 
 ### Results
 * NIST Chinese-English
