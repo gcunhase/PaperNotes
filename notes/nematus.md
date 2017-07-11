@@ -1,4 +1,4 @@
-## Nematus: a Toolkit for Neural Machine Translation
+## [Nematus: a Toolkit for Neural Machine Translation](https://arxiv.org/pdf/1703.04357.pdf)
 Rico Sennrich et al., Submitted on 13 Mar 2017
 
 TLDR; Conditional GRU-Attention Model
