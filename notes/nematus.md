@@ -8,6 +8,3 @@ TLDR; Conditional GRU-Attention Model
 * Conditional GRU-Attention Model
 
 ### Notes / Questions
-
-### Results
-* 
