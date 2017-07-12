@@ -6,7 +6,7 @@ TLDR; SeqGAN's goal is to solve GAN's limitation of being unable to generate seq
 ### Key Points
 * Proposed Model: extends GANs with the RL-based generator to solve the sequence generation problem, where a reward signal is provided by the discriminator at the end of each episode via Monte Carlo approach, and the generator picks the action and learns the policy using estimated overall rewards.
 <p align="center">
-<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/SeqGAN.png" width="400" alt="CoGAN">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/SeqGAN.png" width="400" alt="SeqGAN">
 </p>
 
 * Problems of GAN generating sequences:
