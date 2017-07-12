@@ -35,8 +35,8 @@ TLDR; SeqGAN's goal is to solve GAN's limitation of being unable to generate seq
 * Run *book_demo.py*
   * Char-based Seq-GAN on data from Moby Dick.
   * ValueError: empty range for randrange() (0,-9, -9)
-    - Solution: Try to read the book source from this address: *http://www.gutenberg.org/files/2701/2701-0.txt*. [Python Decoding Error](https://github.com/ofirnachum/sequence_gan/issues/10).
-
+    - [Solution](https://github.com/ofirnachum/sequence_gan/issues/10): Try to read the book source from this address: *http://www.gutenberg.org/files/2701/2701-0.txt*.
+  * Output: 
 
 
 
