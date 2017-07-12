@@ -8,3 +8,4 @@ TLDR; Conditional GRU-Attention Model
 * Conditional GRU-Attention Model
 
 ### Notes / Questions
+* Similar notes: [textclassifier-RNN](https://richliao.github.io/supervised/classification/2016/12/26/textclassifier-RNN/)
