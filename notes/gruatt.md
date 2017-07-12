@@ -23,6 +23,10 @@ TLDR; Context vectors for different target words produced by Attention Networks 
 </p>
 </figure>
 
+<!---
+Diagram source: https://www.lucidchart.com/documents/edit/087437f7-a9e1-41e5-8786-aba8b587e37a
+-->
+
 ### Results
 * NIST Chinese-English
 * Significant improvements
