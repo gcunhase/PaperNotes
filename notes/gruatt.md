@@ -19,7 +19,7 @@ TLDR; Context vectors for different target words produced by Attention Networks 
 <figure>
 <p align="center">
 <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/GRU.png" width="300" alt="GRU">
-<figcaption>GRU structure</figcaption>
+<figcaption><p align="center">GRU structure</p></figcaption>
 </p>
 </figure>
 
