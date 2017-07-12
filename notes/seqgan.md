@@ -20,7 +20,7 @@ TLDR; SeqGAN's goal is to solve GAN's limitation of being unable to generate seq
 
 ### Results
 #### [Code1](https://github.com/codekansas/seqgan-text-tensorflow), samples n=100
-* Batch 32, Epoch 147: *e to an  e and terent  ao   e the prosection tontrin the e the pee ae er the perira  the provect to *
+* Batch 32, Epoch 147: *e to an  e and terent  ao   e the prosection tontrin the e the pee ae er the perira  the provect to*
 * Batch 1, Epoch 33, stopped then ran again until epoch 62: *the eerer to tee  tererted to testanced the eereicipation of the provide to the e pervice the prove*
 * Char-LSTM produces words and sentences that don't always make sense. Fine tuning?
 
