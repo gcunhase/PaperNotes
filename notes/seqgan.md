@@ -19,10 +19,14 @@ TLDR; SeqGAN's goal is to solve GAN's limitation of being unable to generate seq
 * Do the authors use char-LSTM? If so, would our result improve is we use word-LSTM or just further the approximations?
 
 ### Results
-#### [Code1](https://github.com/codekansas/seqgan-text-tensorflow), samples n=100
+#### Code1: [seqgan-text-tensorflow](https://github.com/codekansas/seqgan-text-tensorflow), samples n=100
 * Batch 32, Epoch 147: *e to an  e and terent  ao   e the prosection tontrin the e the pee ae er the perira  the provect to*
 * Batch 1, Epoch 33, stopped then ran again until epoch 62: *the eerer to tee  tererted to testanced the eereicipation of the provide to the e pervice the prove*
 * Char-LSTM produces words and sentences that don't always make sense. Fine tuning?
 
-#### [Code2](https://github.com/LantaoYu/SeqGAN), published by authors
+#### Code2: [SeqGAN](https://github.com/LantaoYu/SeqGAN), published by authors
+* Based on [code3](https://github.com/ofirnachum/sequence_gan)
+
+#### Code3: [sequence_gan](https://github.com/ofirnachum/sequence_gan)
+
 
