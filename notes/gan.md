@@ -9,7 +9,7 @@ TLDR; GAN consists of a generative net G and a discriminative model D, both MLPs
 * Both the generative and discriminative models are realized as multilayer perceptrons.
 
 <p align="center">
-<img style="float:right"src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/GAN.png" width="300" alt="GAN">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/GAN.png" width="300" alt="GAN">
 </p>
 
 ### Notes / Questions
