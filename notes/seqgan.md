@@ -25,8 +25,15 @@ TLDR; SeqGAN's goal is to solve GAN's limitation of being unable to generate seq
 * Char-LSTM produces words and sentences that don't always make sense. Fine tuning?
 
 #### Code2: [SeqGAN](https://github.com/LantaoYu/SeqGAN), published by authors
-* Based on [code3](https://github.com/ofirnachum/sequence_gan)
+* Based on code3 below
 
 #### Code3: [sequence_gan](https://github.com/ofirnachum/sequence_gan)
+* Run *simple_demo.py*: 
+
+
+
+
+
+
 
 
