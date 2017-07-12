@@ -16,11 +16,16 @@ TLDR; Context vectors for different target words produced by Attention Networks 
 ### Notes / Questions
 * What does the attention model do that the GRU didn't already do?
 * GRU vs what I think the proposed model looks like:
+
+<figure><img src='//discourse-meta.s3-us-west-1.amazonaws.com/original/2X/3/39239a7f2b0f0aa72bdd0d3c1880f15f1a967276.png'><figcaption>The discourse logo</figcaption></figure>
+
 <p align="center">
+<figure>
 <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/GRU.png" width="300" alt="GRU">
+<figcaption>GRU structure</figcaption></figure>
 </p>
 <p align="center">
-<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/cGRUatt.png" width="300" alt="cGRUatt">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/cGRUatt.png" width="600" alt="cGRUatt">
 </p>
 
 ### Results
