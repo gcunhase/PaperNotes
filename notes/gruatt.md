@@ -22,7 +22,6 @@ TLDR; Context vectors for different target words produced by Attention Networks 
 <figcaption><p align="center">cGRUatt structure</p></figcaption>
 </p>
 </figure>
-
 <!---
 Diagram source: https://www.lucidchart.com/documents/edit/087437f7-a9e1-41e5-8786-aba8b587e37a
 -->
