@@ -15,6 +15,13 @@ TLDR; Context vectors for different target words produced by Attention Networks 
 
 ### Notes / Questions
 * What does the attention model do that the GRU didn't already do?
+* GRU vs what I think the proposed model looks like:
+<p align="center">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/GRU.png" width="300" alt="GRU">
+</p>
+<p align="center">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/cGRUatt.png" width="300" alt="cGRUatt">
+</p>
 
 ### Results
 * NIST Chinese-English
