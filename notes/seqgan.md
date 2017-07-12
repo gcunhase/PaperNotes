@@ -5,8 +5,9 @@ TLDR; SeqGAN's goal is to solve GAN's limitation of being unable to generate seq
 
 ### Key Points
 * Proposed Model: extends GANs with the RL-based generator to solve the sequence generation problem, where a reward signal is provided by the discriminator at the end of each episode via Monte Carlo approach, and the generator picks the action and learns the policy using estimated overall rewards.
-
-<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/SeqGAN.png" width="500" alt="CoGAN" align="middle">
+<p align="center">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/SeqGAN.png" width="400" alt="CoGAN">
+</p>
 
 * Problems of GAN generating sequences:
   - "GAN is designed for generating real-valued, continuous data but has difficulties in directly generating sequences of discrete tokens, such as texts." Meaning that slight changes in discrete tokens wouldn't really make sense in this network (probably no corresponding token for such slight change in the limited dictionary space). -> SOLUTION: regard the generative model as a stochastic parameterized policy (applying Monte Carlo search)
