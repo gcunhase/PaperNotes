@@ -18,7 +18,7 @@ TLDR; Context vectors for different target words produced by Attention Networks 
 * What I think the proposed model looks like:
 <figure>
 <p align="center">
-<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/cGRUatt_blocks.png" width="600" alt="cGRUatt">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/cGRUatt_blocks2.png" width="600" alt="cGRUatt">
 <figcaption><p align="center">cGRUatt structure</p></figcaption>
 </p>
 </figure>
