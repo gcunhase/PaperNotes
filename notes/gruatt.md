@@ -23,11 +23,13 @@ TLDR; Context vectors for different target words produced by Attention Networks 
 </p>
 </figure>
 
-<p align="center">
 <figure>
-<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/cGRUatt.png" width="600" alt="cGRUatt">
-<figcaption>cGRUatt structure</figcaption></figure>
+<p align="center">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/cGRUatt.png" width="300" alt="cGRUatt">
+<figcaption><p align="center">cGRUatt structure</p></figcaption>
 </p>
+</figure>
+
 
 ### Results
 * NIST Chinese-English
