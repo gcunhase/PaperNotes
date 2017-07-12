@@ -8,7 +8,7 @@ TLDR; GAN consists of a generative net G and a discriminative model D, both MLPs
 * Generative net G: learns to confuse D by generating high quality data, synthesize images resembling real images.
 * Both the generative and discriminative models are realized as multilayer perceptrons.
 
-<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/GAN.png" width="300" alt="CoGAN" align="middle">
+<center><img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/GAN.png" width="300" alt="CoGAN"></center>
 
 ### Notes / Questions
 * Z is the noise vector used to initilize G.
