@@ -11,3 +11,7 @@
 * *WaveNet: A Generative Model for Raw Audio* (Sep 2016) [[arXiv](https://arxiv.org/abs/1609.03499)]
 * *Conditional Image Generation with PixelCNN Decoders* (Jun 2016) [[arXiv](https://arxiv.org/abs/1606.05328)]
 
+
+#### Books
+##### 2017-07/08
+* *Bad Choices: How algorithms can help you think smarter and live happier* by Ali Almossawi (2017) [notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/badchoices.md)
