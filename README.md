@@ -14,4 +14,4 @@
 
 #### Books
 ##### 2017-07/08
-* *Bad Choices: How algorithms can help you think smarter and live happier* by Ali Almossawi (2017) [notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/badchoices.md)
+* *Bad Choices: How algorithms can help you think smarter and live happier* by Ali Almossawi (2017) [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/badchoices.md)]
