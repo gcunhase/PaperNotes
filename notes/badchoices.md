@@ -1,7 +1,7 @@
 ## Bad Choices: How algorithms can help you think smarter and live happier
 Ali Almossawi (2017)
 
-TLDR; Book about algorithms being applied in mundane tasks.
+TLDR; Book about algorithms being applied in mundane tasks. Ideal read for people who are beginning their study in Data Structures but also a good read for anyone in the Computer Science field to understand more day-to-day applications.
 
 ### Key Points
 0. Introduction
@@ -30,4 +30,3 @@ TLDR; Book about algorithms being applied in mundane tasks.
   
   
 ### Notes / Questions
-* Ideal read for people who are beginning their study in Data Structures but also a good read for anyone in the Computer Science field to understand more day-to-day applications.
