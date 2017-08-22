@@ -1,3 +1,7 @@
+#### 2017-08
+* *Neural Audio Synthesis of Musical Notes with WaveNet Autoencoders* (April 2017) [[arXiv](https://arxiv.org/abs/1704.01279)]
+* *Video Pixel Networks* (Oct 2016) [[arXiv](https://arxiv.org/abs/1610.00527)]
+
 #### 2017-07
 * *Adversarial Neural Machine Translation* (April 2017) [[arXiv](https://arxiv.org/abs/1704.06933)]
 * *Tacotron: A Fully End-to-End Text-To-Speech Synthesis Model* (March 2017) [[arXiv](https://arxiv.org/abs/1703.10135)] [[code1](https://github.com/Kyubyong/tacotron), [code2](https://github.com/barronalex/Tacotron)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/tacotron.md)]
@@ -15,3 +19,7 @@
 #### Books
 ##### 2017-07/08
 * *Bad Choices: How algorithms can help you think smarter and live happier* by Ali Almossawi (2017) [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/badchoices.md)]
+
+
+#### Blogs
+* [DeepMind](https://deepmind.com/blog/)
