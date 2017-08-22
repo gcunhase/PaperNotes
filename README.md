@@ -13,7 +13,7 @@
 * *Coupled Generative Adversarial Networks* (Jun 2016) [[arXiv](https://arxiv.org/abs/1606.07536)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/cogan.md)]
 * *Generative Adversarial Network* (Jun 2014) [[arXiv](https://arxiv.org/abs/1406.2661)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/gan.md)]
 * *WaveNet: A Generative Model for Raw Audio* (Sep 2016) [[arXiv](https://arxiv.org/abs/1609.03499)] [[code](https://github.com/ibab/tensorflow-wavenet)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/wavenet.md)]
-* *Conditional Image Generation with PixelCNN Decoders* (Jun 2016) [[arXiv](https://arxiv.org/abs/1606.05328)]
+* *Conditional Image Generation with PixelCNN Decoders* (Jun 2016) [[arXiv](https://arxiv.org/abs/1606.05328)] [[code](https://github.com/anantzoid/Conditional-PixelCNN-decoder)]
 
 
 #### Books
