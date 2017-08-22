@@ -14,7 +14,7 @@ TLDR; Deep neural network for generating raw audio waveforms.
 
 
 ### Notes / Questions
-*Prediction/inferencing
+* Prediction/inferencing
   * DeepMind reported that 1 second of audio generation takes about 90 minutes to generate: prohibitive for real-time applications
   * Later Wavenet authors said the "90 minutes per second" claim is [false](https://www.reddit.com/r/MachineLearning/comments/53ilcr/fast_wavenet_an_efficient_wavenet_generation/). With a receptive field of 16k, an efficient implementation takes ~2 minutes per second (GPU, older 6GB Titan). So 45 times faster than reported.
   * There have been reports of 1 minute being generated in [2](https://www.reddit.com/r/MachineLearning/comments/53ilcr/fast_wavenet_an_efficient_wavenet_generation/) or [6](https://www.reddit.com/r/MachineLearning/comments/51sr9t/deepmind_wavenet_a_generative_model_for_raw_audio/d7f6ejp/) hours
