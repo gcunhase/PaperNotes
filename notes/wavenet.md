@@ -20,5 +20,5 @@ TLDR; Deep neural network for generating raw audio waveforms.
   * There have been reports of 1 minute being generated in [2](https://www.reddit.com/r/MachineLearning/comments/53ilcr/fast_wavenet_an_efficient_wavenet_generation/) or [6](https://www.reddit.com/r/MachineLearning/comments/51sr9t/deepmind_wavenet_a_generative_model_for_raw_audio/d7f6ejp/) hours
 * Learning/training
   * Training wise, some people [reported](https://github.com/ibab/tensorflow-wavenet/issues/193) okay results after a week of training (500K steps) on TitanXP
-  * NSynth (WaveNet-based autoencoder for synthesizing audio): about 10 days to train on 32 K40 GPUs (worth $72000 or $5,000 on Google Cloud)
+  * NSynth (WaveNet-based autoencoder for synthesizing audio): about 10 days to train on 32 K40 GPUs (worth 72k or 5k USD on Google Cloud)
 
