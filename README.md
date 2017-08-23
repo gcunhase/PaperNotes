@@ -24,3 +24,7 @@
 
 #### Blogs
 * [DeepMind](https://deepmind.com/blog/)
+
+#### Other notes
+* [My Ubuntu notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/myubuntunotes.md)
+
