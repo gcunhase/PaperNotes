@@ -23,14 +23,24 @@ sudo reboot
 
     ```python -c 'import tensorflow as tf; print(tf.__version__)'```
 
-1. [Install CUDA 7.5](http://www.r-tutor.com/gpu-computing/cuda-installation/cuda7.5-ubuntu)
+1. Install CUDA
 
+    * [CUDA 7.5](http://www.r-tutor.com/gpu-computing/cuda-installation/cuda7.5-ubuntu)
     ```
     cd ./Desktop/tensorflow/
     wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/cuda-repo-ubuntu1404_7.5-18_amd64.deb
     sudo dpkg -i cuda-repo-ubuntu1404_7.5-18_amd64.deb
     sudo apt-get update -y
     sudo apt-get install cuda-toolkit-7-5 -y
+    ```
+
+    * [CUDA 8.0](https://developer.nvidia.com/cuda-downloads)
+    ```
+    cd ./Desktop/tensorflow/
+    wget https://developer.nvidia.com/compute/cuda/8.0/Prod2/local_installers/cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64-deb
+    sudo dpkg -i cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64.deb
+    sudo apt-get update
+    sudo apt-get install cuda
     ```
 
     * Check if everything is okay
@@ -40,8 +50,8 @@ sudo reboot
 2. Install cuDNN v5.1 ([download](https://developer.nvidia.com/rdp/cudnn-download)) and copy cudnn.h to cuda/include and libcudnn* to cuda/lib64
   
     ```
-    sudo cp cuda/include/cudnn.h /usr/local/cuda-7.5/include/
-    sudo cp cuda/lib64/libcudnn* /usr/local/cuda-7.5/lib64/
+    sudo cp cuda/include/cudnn.h /usr/local/cuda-8.0/include/
+    sudo cp cuda/lib64/libcudnn* /usr/local/cuda-8.0/lib64/
     ```
 
 3. Edit bash file
@@ -51,9 +61,9 @@ sudo reboot
     * Add at end of file:
   
     ```
-    export PATH=/usr/local/cuda-7.5/bin:$PATH
-    export LD_LIBRARY_PATH=/usr/local/cuda-7.5/lib64
-    export CUDA_HOME=/usr/local/cuda-7.5
+    export PATH=/usr/local/cuda-8.0/bin:$PATH
+    export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64
+    export CUDA_HOME=/usr/local/cuda-8.0
     ```
     
     * Recompile bash file:
@@ -99,19 +109,19 @@ sudo reboot
 
 
 6. Installing Tensorflow 
-    * Copy files downloaded using the git command to ```/usr/local/cuda-7.5/```
+    * Copy files downloaded using the git command to ```/usr/local/cuda-8.0/```
   
     ```sudo git clone https://github.com/tensorflow/tensorflow```
 
-    * Go to ```/usr/local/cuda-7.5/tensorflow``` and run ```sudo TF_UNNOFICIAL_SETTING=1 ./configure```
+    * Go to ```/usr/local/cuda-8.0/tensorflow``` and run ```sudo TF_UNNOFICIAL_SETTING=1 ./configure```
         * Chosen settings:
        ```
        /usr/local/lib/python2.7/dist-packages
        /usr/bin/gcc
-       7.5
-       /usr/local/cuda-7.5
+       8.0
+       /usr/local/cuda-8.0
        5.1.10
-       /usr/local/cuda-7.5
+       /usr/local/cuda-8.0
        Cuda compute capabilities, defaul: "3.5,5.2"
        ```
 
