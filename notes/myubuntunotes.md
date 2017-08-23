@@ -19,7 +19,7 @@ sudo reboot
 ```
 
 ### Installing Tensorflow
-0. Tensorflow version:
+0. Tensorflow version outside of tensorflow directory:
 ```
 python -c 'import tensorflow as tf; print(tf.__version__)'
 ```
@@ -44,9 +44,6 @@ Download from [website](https://developer.nvidia.com/rdp/cudnn-download)
 ```
 sudo cp cuda/include/cudnn.h /usr/local/cuda-7.5/include/
 sudo cp cuda/lib64/libcudnn* /usr/local/cuda-7.5/lib64/
-
-sudo cp cuda/include/cudnn.h /usr/local/cuda/include/
-sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64/
 ```
 
 3. Edit bash file
