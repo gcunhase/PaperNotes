@@ -100,11 +100,11 @@ sudo apt-get update -y
 6. Installing Tensorflow 
   * Copy files downloaded using the git command to ```/usr/local/cuda-7.5/```
   
-```sudo git clone https://github.com/tensorflow/tensorflow```
+    ```sudo git clone https://github.com/tensorflow/tensorflow```
 
   * Go to ```/usr/local/cuda-7.5/tensorflow``` and run ```sudo TF_UNNOFICIAL_SETTING=1 ./configure```
     * Chosen settings:
-```
+       ```
        /usr/local/lib/python2.7/dist-packages
        /usr/bin/gcc
        7.5
@@ -112,7 +112,7 @@ sudo apt-get update -y
        5.1.10
        /usr/local/cuda-7.5
        Cuda compute capabilities, defaul: "3.5,5.2"
-```
+       ```
 
 7. Testing Tensorflow
    * Try import module
