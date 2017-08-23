@@ -32,6 +32,7 @@ sudo dpkg -i cuda-repo-ubuntu1404_7.5-18_amd64.deb
 sudo apt-get update -y
 sudo apt-get install cuda-toolkit-7-5 -y
 ```
+
   * Check if everything is okay
 ```  
 /usr/local/cuda/bin/nvcc --version
