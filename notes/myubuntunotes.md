@@ -125,9 +125,12 @@ sudo reboot
 
     * [Download tensorflow models](https://github.com/tensorflow/models)
 
-    * Try convolutional.py in: ```~/Desktop/tensorflow/models-master/tutorials/image/mnist/convolutional.py```
+    * Try convolutional.py:
     
-    ```sudo python convolutional.py```
+        ```
+        cd ~/Desktop/tensorflow/models-master/tutorials/image/mnist/convolutional.py
+        sudo python convolutional.py
+        ```
 
 8. Notes
    * PixelCNN needs CuDNNv5.1
