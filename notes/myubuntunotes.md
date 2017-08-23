@@ -75,30 +75,45 @@ sudo apt-get install oracle-java8-installer
 ```
 
 5. Install [Bazel](bazel.io/docs/install.html)
-* Add Bazel distribution URI as a package source (one time setup)
+
+  * Add Bazel distribution URI as a package source (one time setup)
 ```
 echo "deb http://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list
 curl https://storage.googleapis.com/bazel-apt/doc/apt-key.pub.gpg | sudo apt-key add -
 ```
-* Update and install Bazel
+
+  * Update and install Bazel
 ```
 sudo apt-get update && sudo apt-get install bazel
 sudo apt-get upgrade bazel
 ```
-* [Check installation](http://askubuntu.com/questions/87415/how-can-i-find-out-if-a-specific-program-is-installed)
+
+  * [Check installation](http://askubuntu.com/questions/87415/how-can-i-find-out-if-a-specific-program-is-installed)
 ```apt-cache policy bazel```
 
-* [Fix key error](http://askubuntu.com/questions/127326/how-to-fix-missing-gpg-keys)
+  * [Fix key error](http://askubuntu.com/questions/127326/how-to-fix-missing-gpg-keys)
 ```
 sudo add-apt-repository ppa:webupd8team/y-ppa-manager  
 sudo apt-get update -y 
 ```   
-  * Once you install it start it, then go to advance and select "import all missing GPG keys"
+    * Once you install it start it, then go to advance and select "import all missing GPG keys"
 
 
 6. Installing Tensorflow 
+  * Copy files downloaded using the git command to ```/usr/local/cuda-7.5/```
+```sudo git clone https://github.com/tensorflow/tensorflow```
 
-
+  * Go to ```/usr/local/cuda-7.5/tensorflow``` and run ```sudo TF_UNNOFICIAL_SETTING=1 ./configure```
+    * Chosen settings:
+```
+/usr/local/lib/python2.7/dist-packages
+/usr/bin/gcc
+7.5
+/usr/local/cuda-7.5
+5
+/usr/local/cuda-7.5
+Cuda compute capabilities, defaul: "3.5,5.2"
+```
 
 7. Testing Tensorflow
 * Try import module
