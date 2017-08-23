@@ -116,16 +116,17 @@ sudo reboot
        ```
 
 7. Testing Tensorflow
-       * Try import module
+    * Try import module
    
        ```
        python
        import tensorflow as tf
        ```
 
-       * [Download tensorflow models](https://github.com/tensorflow/models)
+    * [Download tensorflow models](https://github.com/tensorflow/models)
 
-       * Try convolutional.py in: ```~/Desktop/tensorflow/models-master/tutorials/image/mnist/convolutional.py```
+    * Try convolutional.py in: ```~/Desktop/tensorflow/models-master/tutorials/image/mnist/convolutional.py```
+    
     ```sudo python convolutional.py```
 
 8. Notes
