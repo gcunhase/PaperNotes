@@ -3,9 +3,8 @@
 TLDR; Important notes on Ubuntu
 
 ### [Login Loop Fix](https://askubuntu.com/questions/223501/ubuntu-gets-stuck-in-a-login-loop)
-* Log in shell (Ctrl+Alt+[F1 to F6])
-* Type:
-```
+* Log in shell (Ctrl+Alt+[F1 to F6]) and type:
+```shell
 sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt update
 ```
