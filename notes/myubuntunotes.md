@@ -37,8 +37,7 @@ sudo reboot
   
     ```/usr/local/cuda/bin/nvcc --version```
 
-2. Install cuDNN v5.1 and copy cudnn.h to cuda/include and libcudnn* to cuda/lib64
-  * Installing v5.1: Download from [website](https://developer.nvidia.com/rdp/cudnn-download)
+2. Install cuDNN v5.1 ([download](https://developer.nvidia.com/rdp/cudnn-download)) and copy cudnn.h to cuda/include and libcudnn* to cuda/lib64
   
     ```
     sudo cp cuda/include/cudnn.h /usr/local/cuda-7.5/include/
@@ -49,7 +48,7 @@ sudo reboot
 
     ```sudo gedit ~/.bashrc```
 
-  * Add at end of file:
+    * Add at end of file:
   
     ```
     export PATH=/usr/local/cuda-7.5/bin:$PATH
@@ -57,7 +56,7 @@ sudo reboot
     export CUDA_HOME=/usr/local/cuda-7.5
     ```
     
-  * Recompile bash file:
+    * Recompile bash file:
   
     ```source ~/.bashrc```
 
