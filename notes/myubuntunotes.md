@@ -47,11 +47,19 @@ sudo reboot
   
     ```/usr/local/cuda/bin/nvcc --version```
 
+    * Test CUDA
+    ```
+    cd /usr/local/cuda-8.0/samples/5_Simulations/nbody
+    sudo make
+    ./nbody
+    ```
+
 2. Install cuDNN v5.1 ([download](https://developer.nvidia.com/rdp/cudnn-download)) and copy cudnn.h to cuda/include and libcudnn* to cuda/lib64
   
     ```
     sudo cp cuda/include/cudnn.h /usr/local/cuda-8.0/include/
     sudo cp cuda/lib64/libcudnn* /usr/local/cuda-8.0/lib64/
+    sudo chmod a+r /usr/local/cuda-8.0/include/cudnn.h /usr/local/cuda-8.0/lib64/libcudnn*
     ```
 
 3. Edit bash file
@@ -108,7 +116,12 @@ sudo reboot
         * Once you install it start it, then go to advance and select "import all missing GPG keys"
 
 
-6. Installing Tensorflow 
+6. Installing Tensorflow
+
+    * Run: ```pip install tensorflow-gpu```
+
+OR
+
     * Copy files downloaded using the git command to ```/usr/local/cuda-8.0/```
   
     ```sudo git clone https://github.com/tensorflow/tensorflow```
@@ -146,3 +159,6 @@ sudo reboot
    * PixelCNN needs CuDNNv5.1
    * CUDA 8.0 required on Ubuntu 16.04
    * If python doesn't work, try ```/usr/bin/python```
+   * Good [tutorial](http://www.nvidia.com/object/gpu-accelerated-applications-tensorflow-installation.html)
+   
+   
