@@ -125,7 +125,7 @@ sudo reboot
 
     * [Download tensorflow models](https://github.com/tensorflow/models)
 
-    * Try convolutional.py:
+    * Try *convolutional.py*:
     
         ```
         cd ~/Desktop/tensorflow/models-master/tutorials/image/mnist/convolutional.py
