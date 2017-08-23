@@ -113,13 +113,14 @@ Cuda compute capabilities, defaul: "3.5,5.2"
 ```
 
 7. Testing Tensorflow
-* Try import module
+   * Try import module
 ```
 python
 import tensorflow as tf
 ```
-* [Download tensorflow models](https://github.com/tensorflow/models)
-  * Try convolutional.py in: ```~/Desktop/tensorflow/models-master/tutorials/image/mnist/convolutional.py```
+   
+   * [Download tensorflow models](https://github.com/tensorflow/models)
+   * Try convolutional.py in: ```~/Desktop/tensorflow/models-master/tutorials/image/mnist/convolutional.py```
 ```
 sudo python convolutional.py
 OR if that doesn't work
@@ -127,12 +128,5 @@ sudo /usr/bin/python convolutional.py
 ```
 
 8. Notes
-  * PixelCNN needs CuDNNv5.1
-  * CUDA 8.0 required on Ubuntu 16.04
-
-	
-1. Item
-2. Item
-   * Mixed
-   * Mixed  
-3. Item
+   * PixelCNN needs CuDNNv5.1
+   * CUDA 8.0 required on Ubuntu 16.04
