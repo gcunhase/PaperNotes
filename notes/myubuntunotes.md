@@ -32,7 +32,7 @@ sudo reboot
 
     * [CUDA 7.5](http://www.r-tutor.com/gpu-computing/cuda-installation/cuda7.5-ubuntu)
     ```
-    cd ./Desktop/tensorflow/
+    cd ~/Desktop/tensorflow/
     wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/cuda-repo-ubuntu1404_7.5-18_amd64.deb
     sudo dpkg -i cuda-repo-ubuntu1404_7.5-18_amd64.deb
     sudo apt-get update -y
@@ -41,7 +41,7 @@ sudo reboot
 
     * [CUDA 8.0](https://developer.nvidia.com/cuda-downloads)
     ```
-    cd ./Desktop/tensorflow/
+    cd ~/Desktop/tensorflow/
     wget https://developer.nvidia.com/compute/cuda/8.0/Prod2/local_installers/cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64-deb
     sudo dpkg -i cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64.deb
     sudo apt-get update
@@ -74,7 +74,7 @@ sudo reboot
     * Add at end of file:
   
     ```
-    export PATH=/usr/local/cuda-8.0/bin:$PATH
+    export PATH=/usr/local/cuda-8.0/bin:$HOME/bin:$PATH
     export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64
     export CUDA_HOME=/usr/local/cuda-8.0
     ```
@@ -103,10 +103,12 @@ sudo reboot
     curl https://storage.googleapis.com/bazel-apt/doc/apt-key.pub.gpg | sudo apt-key add -
     ```
 
-    * Update and install Bazel
+    * Update and install Bazel 0.5.2 (error on 0.5.3)
     ```
-    sudo apt-get update && sudo apt-get install bazel
-    sudo apt-get upgrade bazel
+    sudo apt-get update
+    wget https://github.com/bazelbuild/bazel/releases/download/0.5.2/bazel-0.5.2-installer-linux-x86_64.sh
+    sudo chmod +x bazel-0.5.2-installer-linux-x86_64.sh
+    sudo ./bazel-0.5.2-installer-linux-x86_64.sh
     ```
 
     * [Check installation](http://askubuntu.com/questions/87415/how-can-i-find-out-if-a-specific-program-is-installed)
@@ -140,6 +142,15 @@ sudo reboot
        /usr/local/cuda-8.0
        Cuda compute capabilities, defaul: "3.5,5.2"
        ```
+    
+    * Build target with GPU Support using Bazel
+    
+    ```
+    sudo bazel build -c opt //tensorflow/tools/pip_package:build_pip_package
+    sudo bazel build -c opt --config=cuda-8.0 //tensorflow/tools/pip_package:build_pip_package
+    bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
+    sudo pip install /tmp/tensorflow_pkg/tensorflow-NAME.whl
+    ```
 
 7. Testing Tensorflow
     * Try import module
