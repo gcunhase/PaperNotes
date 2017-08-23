@@ -20,6 +20,7 @@ sudo reboot
 
 ### Installing Tensorflow
 0. Tensorflow version outside of tensorflow directory:
+
     ```python -c 'import tensorflow as tf; print(tf.__version__)'```
 
 1. [Install CUDA 7.5](http://www.r-tutor.com/gpu-computing/cuda-installation/cuda7.5-ubuntu)
