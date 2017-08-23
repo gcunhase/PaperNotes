@@ -114,12 +114,15 @@ Cuda compute capabilities, defaul: "3.5,5.2"
 
 7. Testing Tensorflow
    * Try import module
+   
 ```
 python
 import tensorflow as tf
 ```
+
    
    * [Download tensorflow models](https://github.com/tensorflow/models)
+
    * Try convolutional.py in: ```~/Desktop/tensorflow/models-master/tutorials/image/mnist/convolutional.py```
 ```
 sudo python convolutional.py
