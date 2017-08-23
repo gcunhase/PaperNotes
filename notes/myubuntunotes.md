@@ -2,6 +2,11 @@
 
 TLDR; Important notes related to Ubuntu
 
+### Which Ubuntu
+```
+lsb_release -a
+```
+
 ### [Login Loop Fix](https://askubuntu.com/questions/223501/ubuntu-gets-stuck-in-a-login-loop)
 * Log in shell (Ctrl+Alt+[F1 to F6]) and type:
 ```
