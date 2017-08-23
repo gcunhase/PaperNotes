@@ -114,5 +114,7 @@ OR if that doesn't work
 sudo /usr/bin/python convolutional.py
 ```
 
-
+8. Notes
+ * PixelCNN needs CuDNNv5.1
+ * CUDA 8.0 required on Ubuntu 16.04
 
