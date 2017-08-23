@@ -24,6 +24,7 @@ sudo reboot
     ```python -c 'import tensorflow as tf; print(tf.__version__)'```
 
 1. [Install CUDA 7.5](http://www.r-tutor.com/gpu-computing/cuda-installation/cuda7.5-ubuntu)
+
     ```
     cd ./Desktop/tensorflow/
     wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/cuda-repo-ubuntu1404_7.5-18_amd64.deb
@@ -33,19 +34,23 @@ sudo reboot
     ```
 
   * Check if everything is okay
+  
     ```/usr/local/cuda/bin/nvcc --version```
 
 2. Install cuDNN v5.1 and copy cudnn.h to cuda/include and libcudnn* to cuda/lib64
   * Installing v5.1: Download from [website](https://developer.nvidia.com/rdp/cudnn-download)
+  
     ```
     sudo cp cuda/include/cudnn.h /usr/local/cuda-7.5/include/
     sudo cp cuda/lib64/libcudnn* /usr/local/cuda-7.5/lib64/
     ```
 
 3. Edit bash file
+
     ```sudo gedit ~/.bashrc```
 
   * Add at end of file:
+  
     ```
     export PATH=/usr/local/cuda-7.5/bin:$PATH
     export LD_LIBRARY_PATH=/usr/local/cuda-7.5/lib64
@@ -53,12 +58,15 @@ sudo reboot
     ```
     
   * Recompile bash file:
+  
     ```source ~/.bashrc```
 
 4. Install JDLK8, Git and other dependencies
+
     ```sudo apt-get install -y python-numpy swig python-dev python-wheel python-pip libcurl3-dev libcupti-dev git```
 
   * Install JDLK 8
+  
     ```
     sudo add-apt-repository ppa:webupd8team/java
     sudo apt-get update -y
