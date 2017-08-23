@@ -1,10 +1,10 @@
 ## My Ubuntu Notes
 
-TLDR; Important notes on Ubuntu
+TLDR; Important notes related to Ubuntu
 
 ### [Login Loop Fix](https://askubuntu.com/questions/223501/ubuntu-gets-stuck-in-a-login-loop)
 * Log in shell (Ctrl+Alt+[F1 to F6]) and type:
-```shell
+```
 sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt update
 ```
@@ -17,3 +17,7 @@ sudo apt install nvidia-[latest package number]
 ```
 sudo reboot
 ```
+
+### Installing Tensorflow
+
+
