@@ -50,6 +50,7 @@ sudo cp cuda/lib64/libcudnn* /usr/local/cuda-7.5/lib64/
 ```
 sudo gedit ~/.bashrc
 ```
+
   * Add at end of file:
 ```
 export PATH=/usr/local/cuda-7.5/bin:$PATH
@@ -98,27 +99,28 @@ sudo apt-get update -y
 
 6. Installing Tensorflow 
   * Copy files downloaded using the git command to ```/usr/local/cuda-7.5/```
+  
 ```sudo git clone https://github.com/tensorflow/tensorflow```
 
   * Go to ```/usr/local/cuda-7.5/tensorflow``` and run ```sudo TF_UNNOFICIAL_SETTING=1 ./configure```
     * Chosen settings:
 ```
-/usr/local/lib/python2.7/dist-packages
-/usr/bin/gcc
-7.5
-/usr/local/cuda-7.5
-5
-/usr/local/cuda-7.5
-Cuda compute capabilities, defaul: "3.5,5.2"
+       /usr/local/lib/python2.7/dist-packages
+       /usr/bin/gcc
+       7.5
+       /usr/local/cuda-7.5
+       5.1.10
+       /usr/local/cuda-7.5
+       Cuda compute capabilities, defaul: "3.5,5.2"
 ```
 
 7. Testing Tensorflow
    * Try import module
    
-```
-python
-import tensorflow as tf
-```
+       ```
+       python
+       import tensorflow as tf
+       ```
 
    
    * [Download tensorflow models](https://github.com/tensorflow/models)
