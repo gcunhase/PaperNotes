@@ -1,4 +1,5 @@
 #### 2017-08
+* *A Nested Attention Neural Hybrid Model for Grammatical Error Correction* (Jul 2017) [[arXiv](https://arxiv.org/abs/1707.02026)] 
 * *Neural Audio Synthesis of Musical Notes with WaveNet Autoencoders* (April 2017) [[arXiv](https://arxiv.org/abs/1704.01279)]
 * *Video Pixel Networks* (Oct 2016) [[arXiv](https://arxiv.org/abs/1610.00527)]
 
