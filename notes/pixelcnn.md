@@ -5,9 +5,14 @@ TLDR; Deep neural network for generating images according to their probability d
 
 ### Key Points
 * Model: 
+* Applications:
 
 
 ### Notes / Questions
+* Horizontal vs Vertical Mask
+  * It's needed because
+  * Horizontal mask:
+  * Vertical mask:
 
 
 ### Results
