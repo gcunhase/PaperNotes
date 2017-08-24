@@ -116,7 +116,10 @@ sudo reboot
     ```
 
     * [Check installation](http://askubuntu.com/questions/87415/how-can-i-find-out-if-a-specific-program-is-installed)
-    ```apt-cache policy bazel```
+    ```
+    sudo bazel version
+    apt-cache policy bazel
+    ```
 
     * [Fix key error](http://askubuntu.com/questions/127326/how-to-fix-missing-gpg-keys)
     ```
