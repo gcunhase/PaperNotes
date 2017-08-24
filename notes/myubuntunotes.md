@@ -24,9 +24,12 @@ sudo reboot
 ```
 
 ### Installing Tensorflow
-0. Tensorflow version outside of tensorflow directory:
+0. Tensorflow version outside of tensorflow directory (my computer and IBM server respectively):
 
-    ```python -c 'import tensorflow as tf; print(tf.__version__)'```
+    ```
+    python -c 'import tensorflow as tf; print(tf.__version__)'
+    python -c 'import sys; sys.path.insert(0, "/opt/DL/tensorflow/lib/python2.7/site-packages"); import tensorflow as tf; print(tf.__version__)'
+    ```
 
 1. Install CUDA
 
@@ -174,5 +177,7 @@ sudo reboot
    * CUDA 8.0 required on Ubuntu 16.04
    * If python doesn't work, try ```/usr/bin/python```
    * Good [tutorial](http://www.nvidia.com/object/gpu-accelerated-applications-tensorflow-installation.html)
+   
+ 
    
    
