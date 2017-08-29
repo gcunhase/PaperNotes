@@ -16,12 +16,10 @@ TLDR; Deep neural network for generating images according to their probability d
 
 <figure>
 <p align="center">
-<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/pixelcnn_blind_spot.png" width="600" alt="Blind spot">
-<figcaption><p align="center">cGRUatt structure</p></figcaption>
-</p>
-<p align="center">
-<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/pixelcnn_vert_ho_masks.png" width="600" alt="Vert and Ho Masks">
-<figcaption><p align="center">cGRUatt structure</p></figcaption>
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/pixelcnn_blind_spot.png" width="300" alt="Blind spot">
+<figcaption><p align="center">Blind spot</p></figcaption>
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/pixelcnn_vert_ho_masks.png" width="300" alt="Vert and Ho Masks">
+<figcaption><p align="center">Vert and Ho Masks</p></figcaption>
 </p>
 </figure>
 
