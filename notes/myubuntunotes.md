@@ -16,6 +16,15 @@ lsb_release -a
 
     ```exit```
 
+### Selecting a GPU to use
+* Check available GPUs
+
+    ```nvidia-smi```
+
+* Select GPU id 0
+
+    ```sudo CUDA_VISIBLE_DEVICES=0 python script.py```
+
 
 ### [Login Loop Fix](https://askubuntu.com/questions/223501/ubuntu-gets-stuck-in-a-login-loop)
 * Log in shell (Ctrl+Alt+[F1 to F6]) and type:
