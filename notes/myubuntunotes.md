@@ -7,6 +7,14 @@ TLDR; Important notes related to Ubuntu
 lsb_release -a
 ```
 
+### Recording a log file
+* Type the following to store all input and output in the terminal in *screen.log*
+    ```script screen.log```
+
+* To stop the script:
+    ```exit```
+
+
 ### [Login Loop Fix](https://askubuntu.com/questions/223501/ubuntu-gets-stuck-in-a-login-loop)
 * Log in shell (Ctrl+Alt+[F1 to F6]) and type:
 ```
