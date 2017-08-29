@@ -24,7 +24,7 @@ TLDR; Deep neural network for generating images according to their probability d
 </figure>
 
 <p align="center">
-<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/pixelcnn_blind_spot.png" width="300"/> <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/pixelcnn_blind_spot.png" width="300"/> 
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/pixelcnn_blind_spot.png" width="300"/> <figcaption>Blind spot</figcaption> <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/pixelcnn_blind_spot.png" width="300"/> 
 </p>
 
 ### Results
