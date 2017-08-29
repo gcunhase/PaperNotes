@@ -14,12 +14,9 @@ TLDR; Deep neural network for generating images according to their probability d
       * Horizontal mask: conditions on the current row (regular conv)
       * Vertical mask: conditions on all rows above the current row
 
-<figure>
 <p align="center">
 <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/pixelcnn_blind_spot.png" width="300"/> <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/pixelcnn_vert_ho_masks.png" width="300"/> 
-<figcaption><p align="center">Vert and Ho Masks</p></figcaption>
 </p>
-</figure>
 
 
 ### Results
