@@ -9,9 +9,11 @@ lsb_release -a
 
 ### Recording a log file
 * Type the following to store all input and output in the terminal in *screen.log*
+
     ```script screen.log```
 
 * To stop the script:
+
     ```exit```
 
 
