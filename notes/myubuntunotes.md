@@ -8,18 +8,14 @@ lsb_release -a
 ```
 
 ### Recording a log file
-* Type the following to store all input and output in the terminal in *screen.log*
-    ```script screen.log```
+* Type the following to store all input and output in the terminal in *screen.log*: ```script screen.log```
 
-* To stop the script:
-    ```exit```
+* To stop the script: ```exit```
 
 ### Selecting a GPU to use
-* Check available GPUs
-    ```nvidia-smi```
+* Check available GPUs: ```nvidia-smi```
 
-* Select GPU id 0
-    ```sudo CUDA_VISIBLE_DEVICES=0 python script.py```
+* Select GPU id 0: ```sudo CUDA_VISIBLE_DEVICES=0 python script.py```
 
 
 ### [Login Loop Fix](https://askubuntu.com/questions/223501/ubuntu-gets-stuck-in-a-login-loop)
