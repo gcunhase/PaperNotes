@@ -27,6 +27,18 @@ TLDR; Book about algorithms being applied in mundane tasks. Ideal read for peopl
   * Jaccard index
   * Link analysis
 7. Update that status  
+  * The brain has the ability to detect salience. Information that occurs more often is considered less meaningful
+  * Run-time and space complexity
+  * David A. Huffman: variable-length binary code. He exploited the fact that some characters in a sentence appear more often than other ones.
+  * Data compression: Huffman coding
+8. Get the jobs done
+  * Context switching
+  * Pipelining
+  * Dijkstra's algorithm, graph-search algorithm
+  * Priority queue
+9. Fix the necklace  
   
+  
+ 
   
 ### Notes / Questions
