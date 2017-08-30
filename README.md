@@ -1,3 +1,5 @@
+#### 2017-09
+
 #### 2017-08
 * *Using Noise to Speed Up Video Classification with Recurrent Backpropagation* (IJCNN 2017) [[IEEEXplore](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7965843)]
 * *Get To The Point: Summarization with Pointer-Generator Networks* (Apr 2017) [[arXiv](https://arxiv.org/abs/1704.04368)] [[code](https://github.com/abisee/pointer-generator)]
