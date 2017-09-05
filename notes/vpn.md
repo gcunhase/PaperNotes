@@ -12,18 +12,19 @@ TLDR; Generative video model based on deep neural networks that reflects the fac
     * Resolution preserving CNN encoders: dilated convolutions (larger receptive fields and better capture of global motion), preserves spacial resolution at all layers in order to maximize representational capacity.
     * PixelCNN decoders: use masked convolutions to capture space and colour dependencies, use a softmax layer to model the multinomial distributions over raw pixel values.
 * Newly defined network building blocks
+
     * Multiplicative Units (MU): incorporates LSTM-like gates into a convolutional layer.
-<p align="center">
-<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/vpn_mu.png" width="200" alt="VPN MU">
-</p>
+<center>
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/vpn_mu.png" width="300" alt="VPN MU">
+</center>
     
-   * Residual Multiplicative Blocks (RMB): composed of multiple layers of MUs, allows for easy gradient propagation through man layers of the network.
+    * Residual Multiplicative Blocks (RMB): composed of multiple layers of MUs, allows for easy gradient propagation through man layers of the network.
    
 <p align="center">
 <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/vpn_rmb.png" width="600" alt="VPN RMB">
 </p>
 
-    * Dilated convolutions
+    * Dilated convolutions: used to increase receptive field.
 
 * Applications / paper evaluations:
     * [Moving MNIST dataset](http://www.cs.toronto.edu/~nitish/unsupervised_video/)
