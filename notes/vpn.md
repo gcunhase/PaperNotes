@@ -11,8 +11,17 @@ TLDR; Generative video model based on deep neural networks that reflects the fac
 * Architecture: 2 parts
     * Resolution preserving CNN encoders: dilated convolutions (larger receptive fields and better capture of global motion), preserves spacial resolution at all layers in order to maximize representational capacity.
     * PixelCNN decoders: use masked convolutions to capture space and colour dependencies, use a softmax layer to model the multinomial distributions over raw pixel values.
-* Newly defined multiplicative units (MU) and corresponding residual blocks.
-[insert image]
+* Newly defined multiplicative units (MU) and corresponding residual blocks (RMB).
+[insert both images]
+<!---
+<figure>
+<p align="center">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/cGRUatt_blocks2.png" width="600" alt="cGRUatt">
+<figcaption><p align="center">cGRUatt structure</p></figcaption>
+</p>
+</figure>
+---!>
+
 
 * Applications / paper evaluations:
     * [Moving MNIST dataset](http://www.cs.toronto.edu/~nitish/unsupervised_video/)
