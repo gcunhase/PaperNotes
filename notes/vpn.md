@@ -17,8 +17,8 @@ TLDR; Generative video model based on deep neural networks that reflects the fac
 <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/vpn_mu.png" width="200" alt="VPN MU">
 </p>
     
-    * Residual Multiplicative Blocks (RMB): composed of multiple layers of MUs, allows for easy gradient propagation through man layers of the network.
-    
+   * Residual Multiplicative Blocks (RMB): composed of multiple layers of MUs, allows for easy gradient propagation through man layers of the network.
+   
 <p align="center">
 <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/vpn_rmb.png" width="600" alt="VPN RMB">
 </p>
