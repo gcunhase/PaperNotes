@@ -1,10 +1,10 @@
 ## [Video Pixel Networks](https://arxiv.org/abs/1610.00527)
 Nal Kalchbrenner et al., Submitted on Oct 2016
 
-TLDR; "Generative video model based on deep neural networks, that reflects the factorization of the joint distribution of the pixel values in a video."
+TLDR; Generative video model based on deep neural networks that reflects the factorization of the joint distribution of the pixel values in a video.
 
 ### Key Points
-* 4D tensor: time dimension, 2 space dimensions of each frame and colour channels of a pixel
+* 4D tensor: $x_{t,i,j,c}$ - time dimension, 2 space dimensions of each frame and colour channels of a pixel
 * Operates on pixels without preprocessing and predicts discrete multinomial distributions over raw pixel intensities, allowing the model to estimate distributions of any shape.
 * Model:
 
