@@ -13,20 +13,14 @@ TLDR; Generative video model based on deep neural networks that reflects the fac
     * PixelCNN decoders: use masked convolutions to capture space and colour dependencies, use a softmax layer to model the multinomial distributions over raw pixel values.
 * Newly defined network building blocks
     * Multiplicative Units (MU): incorporates LSTM-like gates into a convolutional layer.
-<figure>
 <p align="center">
-<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/vpn_mu.png" width="600" alt="VPN MU">
-<figcaption><p align="center">cGRUatt structure</p></figcaption>
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/vpn_mu.png" width="400" alt="VPN MU">
 </p>
-</figure>
     
     * Residual Multiplicative Blocks (RMB): composed of multiple layers of MUs, allows for easy gradient propagation through man layers of the network.
-<figure>
 <p align="center">
 <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/vpn_rmb.png" width="600" alt="VPN RMB">
-<figcaption><p align="center">cGRUatt structure</p></figcaption>
 </p>
-</figure>
 
     * Dilated convolutions
 
