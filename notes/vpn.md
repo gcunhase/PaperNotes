@@ -14,10 +14,11 @@ TLDR; Generative video model based on deep neural networks that reflects the fac
 * Newly defined network building blocks
     * Multiplicative Units (MU): incorporates LSTM-like gates into a convolutional layer.
 <p align="center">
-<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/vpn_mu.png" width="400" alt="VPN MU">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/vpn_mu.png" width="200" alt="VPN MU">
 </p>
     
     * Residual Multiplicative Blocks (RMB): composed of multiple layers of MUs, allows for easy gradient propagation through man layers of the network.
+    
 <p align="center">
 <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/vpn_rmb.png" width="600" alt="VPN RMB">
 </p>
