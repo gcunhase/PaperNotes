@@ -26,11 +26,6 @@ TLDR; Generative video model based on deep neural networks that reflects the fac
 
     * Dilated convolutions: used to increase receptive field.
 
-* Applications / paper evaluations:
-    * [Moving MNIST dataset](http://www.cs.toronto.edu/~nitish/unsupervised_video/)
-    * [Robotic Pushing dataset](https://sites.google.com/site/brainrobotdata/home/push-dataset)
-
-
 ### Notes / Questions
 * Google Deepmind, same authors as [PixelCNN](https://github.com/gcunhase/PaperNotes/blob/master/notes/pixelcnn.md).
 * 4D tensor: $x_{t,i,j,c}$
@@ -41,4 +36,6 @@ TLDR; Generative video model based on deep neural networks that reflects the fac
 
 
 ### Results
-* No code available
+* Applications / paper evaluations:
+    * [Moving MNIST dataset](http://www.cs.toronto.edu/~nitish/unsupervised_video/)
+    * [Robotic Pushing dataset](https://sites.google.com/site/brainrobotdata/home/push-dataset)
