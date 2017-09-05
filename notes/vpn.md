@@ -6,11 +6,7 @@ TLDR; Generative video model based on deep neural networks that reflects the fac
 ### Key Points
 * 4D tensor: time dimension, 2 space dimensions of each frame and colour channels of a pixel
 * Operates on pixels without preprocessing and predicts discrete multinomial distributions over raw pixel intensities, allowing the model to estimate distributions of any shape.
-* Model:
-
-$ p(x) = \prod_{t=0}^{T}\prod_{i=0}^{N}\prod_{j=0}^{N} p(x_{t,i,j,B} | x_{<}, x_{t,i,j,R}, x_{t,i,j,G}) p(x_{t,i,j,G} | x_{<}, x_{t,i,j,R}) p(x_{t,i,j,R} | x_{<}) $
-
-where $x_{<} = x_{(t,<i,<j,:)} \cup x_{(t,:,:,:)}$ comprises the RGB values of all pixels to the left and above the pixel at position $(i,j)$ as well as the RGB values of all the pixels from all the previous frames.
+* Model: $ p(x) = \prod_{t=0}^{T}\prod_{i=0}^{N}\prod_{j=0}^{N} p(x_{t,i,j,B} | x_{<}, x_{t,i,j,R}, x_{t,i,j,G}) p(x_{t,i,j,G} | x_{<}, x_{t,i,j,R}) p(x_{t,i,j,R} | x_{<}) $, where $x_{<} = x_{(t,<i,<j,:)} \cup x_{(t,:,:,:)}$ comprises the RGB values of all pixels to the left and above the pixel at position $(i,j)$ as well as the RGB values of all the pixels from all the previous frames.
 
 * Architecture: 2 parts
     * Resolution preserving CNN encoders: dilated convolutions (larger receptive fields and better capture of global motion), preserves spacial resolution at all layers in order to maximize representational capacity.
