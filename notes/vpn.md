@@ -11,17 +11,24 @@ TLDR; Generative video model based on deep neural networks that reflects the fac
 * Architecture: 2 parts
     * Resolution preserving CNN encoders: dilated convolutions (larger receptive fields and better capture of global motion), preserves spacial resolution at all layers in order to maximize representational capacity.
     * PixelCNN decoders: use masked convolutions to capture space and colour dependencies, use a softmax layer to model the multinomial distributions over raw pixel values.
-* Newly defined multiplicative units (MU) and corresponding residual blocks (RMB).
-[insert both images]
-<!---
+* Newly defined network building blocks
+    * Multiplicative Units (MU): incorporates LSTM-like gates into a convolutional layer.
 <figure>
 <p align="center">
-<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/cGRUatt_blocks2.png" width="600" alt="cGRUatt">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/vpn_mu.png" width="600" alt="VPN MU">
 <figcaption><p align="center">cGRUatt structure</p></figcaption>
 </p>
 </figure>
----!>
+    
+    * Residual Multiplicative Blocks (RMB): composed of multiple layers of MUs, allows for easy gradient propagation through man layers of the network.
+<figure>
+<p align="center">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/vpn_rmb.png" width="600" alt="VPN RMB">
+<figcaption><p align="center">cGRUatt structure</p></figcaption>
+</p>
+</figure>
 
+    * Dilated convolutions
 
 * Applications / paper evaluations:
     * [Moving MNIST dataset](http://www.cs.toronto.edu/~nitish/unsupervised_video/)
