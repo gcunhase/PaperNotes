@@ -8,9 +8,11 @@ TLDR; Generative video model based on deep neural networks that reflects the fac
 * Operates on pixels without preprocessing and predicts discrete multinomial distributions over raw pixel intensities, allowing the model to estimate distributions of any shape.
 * Model:
 
+\begin{center}
 $ p(x) = \prod_{t=0}^{T}\prod_{i=0}^{N}\prod_{j=0}^{N} p(x_{t,i,j,B} | x_{<}, x_{t,i,j,R}, x_{t,i,j,G}) p(x_{t,i,j,G} | x_{<}, x_{t,i,j,R}) p(x_{t,i,j,R} | x_{<}) $
+\end{center}
 
-where comprises the RGB values of all pixels to the left and above the pixel at position $(i,j)$ as well as the RGB values of all the pixels from all the previous frames, that is: $x_{<} = x_{(t,<i,<j,:)} \cup x_{(t,:,:,:)}$
+where $x_{<}$ comprises the RGB values of all pixels to the left and above the pixel at position $(i,j)$ as well as the RGB values of all the pixels from all the previous frames, that is: $x_{<} = x_{(t,<i,<j,:)} \cup x_{(t,:,:,:)}$
 
 * Architecture: 2 parts
     * Resolution preserving CNN encoders: dilated convolutions (larger receptive fields and better capture of global motion), preserves spacial resolution at all layers in order to maximize representational capacity.
