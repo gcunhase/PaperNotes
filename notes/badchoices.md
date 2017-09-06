@@ -4,14 +4,14 @@ Ali Almossawi (2017)
 TLDR; Book about algorithms being applied in mundane tasks. Ideal read for people who are beginning their study in Data Structures but also a good read for anyone in the Computer Science field to understand more day-to-day applications.
 
 ### Key Points
-* "Recognizing good and bad .. task"
-* "Algorithm can be used as a tool for smarter thinking."
-
-* Fundamentals: Stacks, Arrays, Asymptotic Notation, Wosrt and average cases, linked lists
-* Searching: binary, linear, hash tables
-* Sorting: library, insertion, quick, merge, priority queues
-* Graphs: maze-solving, link analysis
-* Strings: Huffman coding
+* *"Recognizing good and bad choices is aided to a great extent by knowing what the catalog of choices looks like for a particular task."*
+* *"Algorithm can be used as a tool for smarter thinking."*
+* Techniques:
+   * *Fundamentals*: stacks, arrays, asymptotic notation, worst and average cases, linked lists
+   * *Searching*: binary, linear, hash tables
+   * *Sorting*: library, insertion, quick, merge, priority queues
+   * *Graphs*: maze-solving, link analysis
+   * *Strings*: Huffman coding
 
 ### Notes by Chapter
 
