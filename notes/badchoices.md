@@ -4,6 +4,9 @@ Ali Almossawi (2017)
 TLDR; Book about algorithms being applied in mundane tasks. Ideal read for people who are beginning their study in Data Structures but also a good read for anyone in the Computer Science field to understand more day-to-day applications.
 
 ### Key Points
+* "Recognizing good and bad .. task"
+* "Algorithm can be used as a tool for smarter thinking."
+
 * Fundamentals: Stacks, Arrays, Asymptotic Notation, Wosrt and average cases, linked lists
 * Searching: binary, linear, hash tables
 * Sorting: library, insertion, quick, merge, priority queues
@@ -27,5 +30,5 @@ TLDR; Book about algorithms being applied in mundane tasks. Ideal read for peopl
 | 9. Fix the necklace | <ul><li>Linked list: adds and removes items at a constant time</li></ul> |
 | 10. Locate that box  | <ul><li>Big-theta and big-omega notations: upper and lowers bounds</li></ul> |
 | 11. Fill those shelves | <ul><li>Library sort or gapped-insertion sort</li></ul> |
-| 12. Navigate those aisles | <ul><li>Matrix: array of array (2D array), multi-dimensional array</li><li>"I put an array in your array so you won't got astray"</li><li></li><li></li></ul> |
+| 12. Navigate those aisles | <ul><li>Matrix: array of array (2D array), multi-dimensional array</li><li>"I put an array in your array so you won't got astray"</li><li>Hash table: collisions. Solution: chaining (collection of collections hash table). Load factor: 0 (empty) - 1 (full)</li><li>Priority queue: balancing tree (heap), tree of nodes. Properties: every node has lower priority than its parent and each node has 2 child nodes to ensure $height <= log(n)$, where n is the number of items in the heap.</li><li>Binary search tree</li><li>FIFO queue</li><li></li></ul> |
  
