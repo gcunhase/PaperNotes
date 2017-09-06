@@ -41,5 +41,3 @@ TLDR; Book about algorithms being applied in mundane tasks. Ideal read for peopl
 10. Locate that box  
   
  
-  
-### Notes / Questions
