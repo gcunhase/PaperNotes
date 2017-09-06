@@ -27,5 +27,5 @@ TLDR; Book about algorithms being applied in mundane tasks. Ideal read for peopl
 | 9. Fix the necklace | <ul><li>Linked list: adds and removes items at a constant time</li></ul> |
 | 10. Locate that box  | <ul><li>Big-theta and big-omega notations: upper and lowers bounds</li></ul> |
 | 11. Fill those shelves | <ul><li>Library sort or gapped-insertion sort</li></ul> |
-| 12. Navigate those aisles | <ul><li> </li></ul> |
+| 12. Navigate those aisles | <ul><li>Matrix: array of array (2D array), multi-dimensional array</li><li>"I put an array in your array so you won't got astray"</li><li></li><li></li></ul> |
  
