@@ -24,7 +24,7 @@ TLDR; Book about algorithms being applied in mundane tasks. Ideal read for peopl
 | 7. Update that status | <ul><li>The brain has the ability to detect salience. Information that occurs more often is considered less meaningful</li><li>Run-time and space complexity</li><li>David A. Huffman: variable-length binary code. He exploited the fact that some characters in a sentence appear more often than other ones.</li><li>Data compression: Huffman coding</li></ul> |
 | 8. Get the jobs done | <ul><li>Context switching</li><li>Pipelining</li><li>Dijkstra's algorithm, graph-search algorithm</li><li>Priority queue</li></ul> |
 | 9. Fix the necklace | <ul><li>Linked list: adds and removes items at a constant time</li></ul> |
-| 10. Locate that box  | <ul><li>big-theta and big-omega notations: upper and lowers bounds</li></ul> |
+| 10. Locate that box  | <ul><li>Big-theta and big-omega notations: upper and lowers bounds</li></ul> |
 | 11. Fill those shelves | <ul><li>Library sort or gapped-insertion sort</li></ul> |
 | 12. Navigate those aisles | <ul><li> </li></ul> |
  
