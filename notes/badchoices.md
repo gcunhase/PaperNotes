@@ -4,6 +4,14 @@ Ali Almossawi (2017)
 TLDR; Book about algorithms being applied in mundane tasks. Ideal read for people who are beginning their study in Data Structures but also a good read for anyone in the Computer Science field to understand more day-to-day applications.
 
 ### Key Points
+* Fundamentals: Stacks, Arrays, Asymptotic Notation, Wosrt and average cases, linked lists
+* Searching: binary, linear, hash tables
+* Sorting: library, insertion, quick, merge, priority queues
+* Graphs: maze-solving, link analysis
+* Strings: Huffman coding
+
+### Notes by Chapter
+
 0. Introduction
 * Heaviside: "Shall I refuse my dinner because I do not understand digestion?"
 * Memento movie: main character can't form new memories after suffering an accident.
@@ -21,7 +29,7 @@ TLDR; Book about algorithms being applied in mundane tasks. Ideal read for peopl
 5. Sort that post
   * Insertion, selection, bubble sort
   * Dividing and conquering
-  * Page 47: linearithmic (mergesort by John von Neumann and quicksort by Tony Hoare)
+  * Page 47: linearithmic *O(n log n)* (mergesort by John von Neumann and quicksort by Tony Hoare)
 6. Be more hip
   * Matrix multiplication
   * Jaccard index
@@ -39,5 +47,10 @@ TLDR; Book about algorithms being applied in mundane tasks. Ideal read for peopl
 9. Fix the necklace  
   * Linked list: adds and removes items at a constant time
 10. Locate that box  
+  * big-theta and big-omega notations: upper and lowers bounds
+11. Fill those shelves 
+  * Library sort or gapped-insertion sort
+12. Navigate those aisles
+  * 
   
- 
+  
