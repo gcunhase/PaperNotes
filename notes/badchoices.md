@@ -13,15 +13,12 @@ TLDR; Book about algorithms being applied in mundane tasks. Ideal read for peopl
 ### Notes by Chapter
 
 
-+---------------+---------------+--------------------+
-| Fruit         | Price         | Advantages         |
-+===============+===============+====================+
-| Bananas       | $1.34         | - built-in wrapper |
-|               |               | - bright color     |
-+---------------+---------------+--------------------+
-| Oranges       | $2.10         | - cures scurvy     |
-|               |               | - tasty            |
-+---------------+---------------+--------------------+
+| Chapter (12) | Notes  |
+| ------------- |:-------------:|
+| 0. Introduction | <ul><li>Heaviside: "Shall I refuse my dinner because I do not understand digestion?"</li><li>Memento movie: main character can't form new memories after suffering an accident.</li></ul> |
+| 1. Match those socks | centered      |
+
+
 
 0. Introduction
 * Heaviside: "Shall I refuse my dinner because I do not understand digestion?"
