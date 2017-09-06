@@ -192,7 +192,7 @@ sudo reboot
    * CUDA 8.0 required on Ubuntu 16.04
    * If python doesn't work, try ```/usr/bin/python```
    * Good [tutorial](http://www.nvidia.com/object/gpu-accelerated-applications-tensorflow-installation.html)
-   * Installing [Tensorflow 1.2]](https://www.tensorflow.org/install/install_linux#the_url_of_the_tensorflow_python_package)
+   * Installing [Tensorflow 1.2](https://www.tensorflow.org/install/install_linux#the_url_of_the_tensorflow_python_package)
 
         ```python
         pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.3.0-cp27-none-linux_x86_64.whl
