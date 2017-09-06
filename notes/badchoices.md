@@ -6,11 +6,11 @@ TLDR; Book about algorithms being applied in mundane tasks. Ideal read for peopl
 ### Key Points
 0. Introduction
 * Heaviside: "Shall I refuse my dinner because I do not understand digestion?"
-* Memento: book or movie?
+* Memento movie: main character can't form new memories after suffering an accident.
 1. Match those socks
   * AlphaGo: ammasses a greater memory from which to work
   * "Many of the faster ways of solving problems in this book, are fast because of their ability to avoid doing the same action on the same thing multiple times."
-  * British TV show countdown: contestants have 30 seconds to come up with the longest word they can make from the nice letters in front of them
+  * British TV show Countdown: contestants have 30 seconds to come up with the longest word they can make from the nice letters in front of them
   * "Trie": tree-based structure that exploits the fact that words or numbers share prefixes and uses that knowledge to make things like spell-checking and auto-completing words that you might enter into a search box much faster
 2. Find your size
   * Binary vs Linear search
@@ -37,7 +37,8 @@ TLDR; Book about algorithms being applied in mundane tasks. Ideal read for peopl
   * Dijkstra's algorithm, graph-search algorithm
   * Priority queue
 9. Fix the necklace  
-  
+  * Linked list: adds and removes items at a constant time
+10. Locate that box  
   
  
   
