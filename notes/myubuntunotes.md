@@ -20,6 +20,7 @@ lsb_release -a
 ### Server ssh error
 * *WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!*
     * Remove that entry from known_hosts using the following command then try again:
+    
     ```ssh-keygen -R *ip_address_or_hostname*```
 
 ### [Login Loop Fix](https://askubuntu.com/questions/223501/ubuntu-gets-stuck-in-a-login-loop)
