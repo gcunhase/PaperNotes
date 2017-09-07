@@ -7,6 +7,9 @@ TLDR; Important notes related to Ubuntu
 lsb_release -a
 ```
 
+### Find files
+   ```find ~/ -type f -name "postgis-2.0.0"```
+
 ### Recording a log file
 * Type the following to store all input and output in the terminal in *screen.log*: ```script screen.log```
 
