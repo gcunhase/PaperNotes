@@ -1,13 +1,13 @@
 #### 2017-09
 * *Using Noise to Speed Up Video Classification with Recurrent Backpropagation* (IJCNN 2017) [[IEEEXplore](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7965843)]
 * *Get To The Point: Summarization with Pointer-Generator Networks* (Apr 2017) [[arXiv](https://arxiv.org/abs/1704.04368)] [[code](https://github.com/abisee/pointer-generator)]  [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/pointergennet.md)]
-* [BOOK] *Artificial Intelligence and The End of The Human Era: Our Final Invention* by James Barrat [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/book_ai_jamesBarrat.md)]
+* [BOOK] *Artificial Intelligence and The End of The Human Era: Our Final Invention* by James Barrat [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/book_ai_barrat.md)]
 
 #### 2017-08
 * *A Nested Attention Neural Hybrid Model for Grammatical Error Correction* (Jul 2017) [[arXiv](https://arxiv.org/abs/1707.02026)] 
 * *Neural Audio Synthesis of Musical Notes with WaveNet Autoencoders* (April 2017) [[arXiv](https://arxiv.org/abs/1704.01279)]
 * *Video Pixel Networks* (Oct 2016) [[arXiv](https://arxiv.org/abs/1610.00527)]  [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/vpn.md)]
-* [BOOK] *Bad Choices: How algorithms can help you think smarter and live happier* by Ali Almossawi (2017) [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/book_badchoices.md)]
+* [BOOK] *Bad Choices: How algorithms can help you think smarter and live happier* by Ali Almossawi (2017) [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/book_badchoices_almossawi.md)]
 
 #### 2017-07
 * *Adversarial Neural Machine Translation* (April 2017) [[arXiv](https://arxiv.org/abs/1704.06933)]
