@@ -10,6 +10,13 @@ lsb_release -a
 ### Find files
    ```find ~/ -type f -name [filename]```
 
+### Tar
+* Compress
+   ```tar -zcvf archive_name.tar.gz folder_to_compress```
+
+* Extract
+   ```tar -zxvf archive_name.tar.gz```
+
 ### Recording a log file
 * Type the following to store all input and output in the terminal in *screen.log*: ```script screen.log```
 
