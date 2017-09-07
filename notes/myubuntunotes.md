@@ -192,12 +192,17 @@ sudo reboot
    * CUDA 8.0 required on Ubuntu 16.04
    * If python doesn't work, try ```/usr/bin/python```
    * Good [tutorial](http://www.nvidia.com/object/gpu-accelerated-applications-tensorflow-installation.html)
-   * Installing [Tensorflow 1.2](https://www.tensorflow.org/install/install_linux#the_url_of_the_tensorflow_python_package)
-        * Needs CUDA 8.0 and Cudnn 6
+   * All versions of Tensorflow's [source code](https://github.com/tensorflow/tensorflow/releases)
+   * All versions of Tensorflow's install link:
+   ```
+   curl -s https://storage.googleapis.com/tensorflow |xmllint --format - |grep whl
+   ```
+   * Installing Tensorflow 1.2
+        * Needs CUDA 8.0 and Cudnn 6?
         * In step 6, in *Build target with GPU Support using Bazel*, switch the last two commands with:
             ```python
-            cd /tmp/tensorflow-pkg/; wget https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.3.0-cp27-none-linux_x86_64.whl
-            sudo pip install --ignore-installed --upgrade /tmp/tensorflow-pkg/tensorflow_gpu-1.3.0-cp27-none-linux_x86_64.whl
+            cd /tmp/tensorflow-pkg/; wget https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.2.1-cp27-none-linux_x86_64.whl
+            sudo pip install --ignore-installed --upgrade /tmp/tensorflow-pkg/tensorflow_gpu-1.2.1-cp27-none-linux_x86_64.whl
             ```
             
    
