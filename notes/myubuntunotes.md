@@ -195,9 +195,9 @@ sudo reboot
    * All versions of Tensorflow's [source code](https://github.com/tensorflow/tensorflow/releases)
    * All versions of Tensorflow's install link:
    
-   ```
-   curl -s https://storage.googleapis.com/tensorflow |xmllint --format - |grep whl
-   ```
+        ```
+        curl -s https://storage.googleapis.com/tensorflow |xmllint --format - |grep whl
+        ```
    
    * Installing Tensorflow 1.2
         * Needs CUDA 8.0 and Cudnn 6?
