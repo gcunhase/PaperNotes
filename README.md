@@ -22,7 +22,7 @@
 * *WaveNet: A Generative Model for Raw Audio* (Sep 2016) [[arXiv](https://arxiv.org/abs/1609.03499)] [[code](https://github.com/ibab/tensorflow-wavenet)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/wavenet.md)]
 * *Conditional Image Generation with PixelCNN Decoders* (Jun 2016) [[arXiv](https://arxiv.org/abs/1606.05328)] [[code](https://github.com/anantzoid/Conditional-PixelCNN-decoder)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/pixelcnn.md)]
 
-### List of things to read
+#### List of things to read
 * Elon Musk's Biography
 
 #### Blogs
