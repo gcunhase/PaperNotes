@@ -17,6 +17,10 @@ lsb_release -a
 
 * Select GPU id 0: ```sudo CUDA_VISIBLE_DEVICES=0 python script.py```
 
+### Server ssh error
+* *WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!*
+    * Remove that entry from known_hosts using the following command then try again:
+    ```ssh-keygen -R *ip_address_or_hostname*```
 
 ### [Login Loop Fix](https://askubuntu.com/questions/223501/ubuntu-gets-stuck-in-a-login-loop)
 * Log in shell (Ctrl+Alt+[F1 to F6]) and type:
