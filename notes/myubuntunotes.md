@@ -35,7 +35,7 @@ sudo reboot
 ```
 
 ### Installing Tensorflow (0.10.0)
-0. Tensorflow version outside of tensorflow directory (my computer and IBM server respectively):
+0. Tensorflow version outside of tensorflow directory (my computer and IBM's Minsky server respectively):
 
     ```
     python -c 'import tensorflow as tf; print(tf.__version__)'
