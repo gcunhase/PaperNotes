@@ -200,6 +200,7 @@ sudo reboot
    * Installing Tensorflow 1.2
         * Needs CUDA 8.0 and Cudnn 6?
         * In step 6, in *Build target with GPU Support using Bazel*, switch the last two commands with:
+        
             ```python
             cd /tmp/tensorflow-pkg/; wget https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.2.1-cp27-none-linux_x86_64.whl
             sudo pip install --ignore-installed --upgrade /tmp/tensorflow-pkg/tensorflow_gpu-1.2.1-cp27-none-linux_x86_64.whl
