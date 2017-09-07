@@ -10,7 +10,7 @@ TLDR; Novel architecture that augments the standard seq2seq attentional model in
     * Inability to deal with Out-Of-Vocabulary (OOV) words
     * Tend to repeat themselves
 * Model:
-    * Similar to Gu et al.'s CopyNet and Miao and Blunsom's Forced-Attention Sentence Compression, applied to short-text summarization.
+    * Similar to Gu et al.'s [CopyNet](https://arxiv.org/abs/1603.06393) and Miao and Blunsom's [Forced-Attention Sentence Compression](https://arxiv.org/abs/1609.07317), applied to short-text summarization.
     * Proposes novel variant of the coverage vector from Neural Machine Translation
 * Architecture:
     * Hybrid pointer-generator network: can copy words from the source text via *pointintg* and still *generate* words. Can be viewed as a balance between extractive and abstractive approaches.
