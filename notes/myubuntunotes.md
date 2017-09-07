@@ -194,9 +194,11 @@ sudo reboot
    * Good [tutorial](http://www.nvidia.com/object/gpu-accelerated-applications-tensorflow-installation.html)
    * All versions of Tensorflow's [source code](https://github.com/tensorflow/tensorflow/releases)
    * All versions of Tensorflow's install link:
+   
    ```
    curl -s https://storage.googleapis.com/tensorflow |xmllint --format - |grep whl
    ```
+   
    * Installing Tensorflow 1.2
         * Needs CUDA 8.0 and Cudnn 6?
         * In step 6, in *Build target with GPU Support using Bazel*, switch the last two commands with:
