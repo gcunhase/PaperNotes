@@ -200,7 +200,9 @@ sudo reboot
         ```
    
    * Installing Tensorflow 1.2
+   
         * Needs CUDA 8.0 and Cudnn 6?
+        
         * In step 6, in *Build target with GPU Support using Bazel*, switch the last two commands with:
         
             ```python
