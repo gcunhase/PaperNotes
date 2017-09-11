@@ -28,7 +28,7 @@ tasks.
 * Unsupervised
 * Audio and visual features: $L^{3}$-Net approach
   <p align="center">
-  <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/looklistenlearn_l3net.png" width="300" alt="$L^{3}$-Net architecture">
+  <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/looklistenlearn_l3net.png" width="200" alt="$L^{3}$-Net architecture">
   </p>
 
 * Dataset:
