@@ -1,11 +1,11 @@
 #### 2017-09
-* *Look, Listen and Learn* (May 2017) [[arXiv](https://arxiv.org/abs/1705.08168)] [[TwoMinutePapers](https://www.youtube.com/watch?v=mL3CzZcBJZU)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/looklistenlearn.md)]
+* *A Nested Attention Neural Hybrid Model for Grammatical Error Correction* (Jul 2017) [[arXiv](https://arxiv.org/abs/1707.02026)] 
+* *Neural Audio Synthesis of Musical Notes with WaveNet Autoencoders* (April 2017) [[arXiv](https://arxiv.org/abs/1704.01279)]
 * *Using Noise to Speed Up Video Classification with Recurrent Backpropagation* (IJCNN 2017) [[IEEEXplore](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7965843)]
+* *Look, Listen and Learn* (May 2017) [[arXiv](https://arxiv.org/abs/1705.08168)] [[TwoMinutePapers](https://www.youtube.com/watch?v=mL3CzZcBJZU)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/looklistenlearn.md)]
 * *Get To The Point: Summarization with Pointer-Generator Networks* (Apr 2017) [[arXiv](https://arxiv.org/abs/1704.04368)] [[code](https://github.com/abisee/pointer-generator)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/pointergennet.md)]
 
 #### 2017-08
-* *A Nested Attention Neural Hybrid Model for Grammatical Error Correction* (Jul 2017) [[arXiv](https://arxiv.org/abs/1707.02026)] 
-* *Neural Audio Synthesis of Musical Notes with WaveNet Autoencoders* (April 2017) [[arXiv](https://arxiv.org/abs/1704.01279)]
 * *Video Pixel Networks* (Oct 2016) [[arXiv](https://arxiv.org/abs/1610.00527)]  [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/vpn.md)]
 
 #### 2017-07
