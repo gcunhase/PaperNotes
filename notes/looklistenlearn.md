@@ -22,9 +22,14 @@ both modalities, as well as perform fine-grained recognition
 tasks.
 
 ### Key Points
-* Semantic Maps
+* Audio-vision correspondence (AVC) detector network
+  * Vision subnetwork + Audio subnetworks fused into fusion layers
+  * Extracts semantic maps
   * Show us which part of the image is responsible for the sounds that we hear.
-  * *Audio-vision correspondence* (AVC) detector network: Vision subnetwork + Audio subnetworks fused into fusion layers
+  <p align="center">
+  <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/looklistenlearn_avc.png" width="300" alt="AVC architecture">
+  </p>
+  
 * Unsupervised
 * Audio and visual features: $L^{3}$-Net approach
   <p align="center">
