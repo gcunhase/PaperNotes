@@ -29,3 +29,5 @@
 * [My LaTeX notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/mylatexnotes.md)
 * Reading *.hwp* online: [Hancom Inc.](https://www.netffice24.com/)
 * Markdown files preview: [Atom](https://atom.io/)
+* [Quiver](https://github.com/HappenApps/Quiver/wiki/Getting-Started): notebook built for programmers. On top of allowing the user to easily mix text, code, Markdown and LaTeX within one note, it also has a code editor, live preview of Markdown and LaTeX, and full-text search to find notes.
+
