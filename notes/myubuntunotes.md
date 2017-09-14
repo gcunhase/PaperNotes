@@ -224,4 +224,10 @@ sudo reboot
       sudo pip install --ignore-installed --upgrade /tmp/tensorflow-pkg/tensorflow_gpu-1.2.1-cp27-none-linux_x86_64.whl
       ```
             
-   
+### Installing [Keras](https://keras.io/)
+```sudo pip install keras```
+
+* For Seq2Seq models using keras: [link](https://github.com/farizrahman4u/seq2seq)
+* Other [keras examples](https://github.com/fchollet/keras)
+
+
