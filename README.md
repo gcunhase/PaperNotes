@@ -20,6 +20,7 @@
 * *Conditional Image Generation with PixelCNN Decoders* (Jun 2016) [[arXiv](https://arxiv.org/abs/1606.05328)] [[code](https://github.com/anantzoid/Conditional-PixelCNN-decoder)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/pixelcnn.md)]
 
 #### To Read
+* *SEGAN: Speech Enhancement Generative Adversarial Network* (Mar 2017) [[arXiv](https://arxiv.org/abs/1703.09452)]
 * *A Nested Attention Neural Hybrid Model for Grammatical Error Correction* (Jul 2017) [[arXiv](https://arxiv.org/abs/1707.02026)] 
 * *Neural Audio Synthesis of Musical Notes with WaveNet Autoencoders* (April 2017) [[arXiv](https://arxiv.org/abs/1704.01279)]
 * *Using Noise to Speed Up Video Classification with Recurrent Backpropagation* (IJCNN 2017) [[IEEEXplore](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7965843)]
