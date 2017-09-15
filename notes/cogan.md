@@ -8,16 +8,15 @@ TLDR; CoGAN learns a joint distribution of multi-domain images without any tuple
 <p align="center">
 <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/CoGAN.png" width="400" alt="CoGAN">
 </p>
+
 * Novelty: CoGAN can learn a joint distribution without tuples of corresponding images in the different domains in the training set.
+
 * Learns a joint distribution of multi-domain images by enforcing a simple weight-sharing constraint to the layers that are responsible for decoding abstract semantics
+
 * Unsupervised learning
 
 ### Notes / Questions
 * Z vector noise
-* Comment
-<!---
-* If we can find a way to apply CoGAN to language models, we can tackle translation problems. Sentence correction could be seen as a monolingual translation where the 2 different domains are the correct and wrong english.
--->
 
 ### Results
 * Applied to several joint distribution learning tasks:
