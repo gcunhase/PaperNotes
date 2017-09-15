@@ -14,8 +14,8 @@
 
 #### Before
 * *SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient* (Sep 2016) [[arXiv](https://arxiv.org/abs/1609.05473)] [[code1](https://github.com/codekansas/seqgan-text-tensorflow), [code2](https://github.com/LantaoYu/SeqGAN), [code3](https://github.com/ofirnachum/sequence_gan)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/seqgan.md)]
-* *Coupled Generative Adversarial Networks* (Jun 2016) [[arXiv](https://arxiv.org/abs/1606.07536)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/cogan.md)]
-* *Generative Adversarial Network* (Jun 2014) [[arXiv](https://arxiv.org/abs/1406.2661)] [[code](https://github.com/andrewliao11/CoGAN-tensorflow)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/gan.md)]
+* *Coupled Generative Adversarial Networks* (Jun 2016) [[arXiv](https://arxiv.org/abs/1606.07536)] [[code](https://github.com/andrewliao11/CoGAN-tensorflow)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/cogan.md)]
+* *Generative Adversarial Network* (Jun 2014) [[arXiv](https://arxiv.org/abs/1406.2661)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/gan.md)]
 * *WaveNet: A Generative Model for Raw Audio* (Sep 2016) [[arXiv](https://arxiv.org/abs/1609.03499)] [[code](https://github.com/ibab/tensorflow-wavenet)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/wavenet.md)]
 * *Conditional Image Generation with PixelCNN Decoders* (Jun 2016) [[arXiv](https://arxiv.org/abs/1606.05328)] [[code](https://github.com/anantzoid/Conditional-PixelCNN-decoder)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/pixelcnn.md)]
 
