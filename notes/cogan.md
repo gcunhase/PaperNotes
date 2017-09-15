@@ -23,6 +23,6 @@ TLDR; CoGAN learns a joint distribution of multi-domain images without any tuple
   - Learning a joint distribution of color and depth images
   - Learning a joint distribution of face images with different attributes
   
-* Checking andrewliao11's [code](https://github.com/andrewliao11/CoGAN-tensorflow)
+* Checking [andrewliao11's code](https://github.com/andrewliao11/CoGAN-tensorflow)
 
 
