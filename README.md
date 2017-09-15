@@ -36,4 +36,4 @@
 * Markdown files preview: [Atom](https://atom.io/), [preview here](http://markdown-here.com/)
 * [Quiver](https://github.com/HappenApps/Quiver/wiki/Getting-Started): notebook built for programmers. On top of allowing the user to easily mix text, code, Markdown and LaTeX within one note, it also has a code editor, live preview of Markdown and LaTeX, and full-text search to find notes.
 * Bitvise SFTP: copying to and from remote computer
-* Neural Artistic Style: [[code1](https://github.com/andersbll/neural_artistic_style), [code2](https://github.com/cysmith/neural-style-tf), [code3](https://github.com/anishathalye/neural-style), [code4](https://github.com/lengstrom/fast-style-transfer)] [Installation steps](http://blog.josephmisiti.com/making-neural-art)]
+* Neural Artistic Style: [[code1](https://github.com/andersbll/neural_artistic_style), [code2](https://github.com/cysmith/neural-style-tf), [code3](https://github.com/anishathalye/neural-style), [code4](https://github.com/lengstrom/fast-style-transfer)] [[Installation steps](http://blog.josephmisiti.com/making-neural-art)]
