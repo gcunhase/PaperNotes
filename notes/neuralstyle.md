@@ -17,7 +17,7 @@ TLDR;
  ```
  * Content + Style = Output
 <p align="center">
-<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/neuralstyle_content.jpg" width="300" alt="Content" vspace="20">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/neuralstyle_content.jpg" width="300" alt="Content" hspace="20">
  <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/neuralstyle_style.jpg" width="300" alt="Style">
 </p>
 
