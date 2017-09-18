@@ -16,6 +16,7 @@ TLDR;
 
     ```
     python neural_style.py --content <content file> --styles <style file> --output <output file> --network <pre-trained vgg network>
+    
     python neural_style.py --content examples/2-content.jpg --styles examples/2-style2.jpg --output examples/test.jpg --network imagenet-vgg-verydeep-19.mat
     ```
 
