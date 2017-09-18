@@ -153,7 +153,7 @@ sudo reboot
     sudo apt-get update -y 
     ``` 
 
-        * Once you install it start it, then go to advance and select "import all missing GPG keys"
+      * Once you install it start it, then go to advance and select "import all missing GPG keys"
 
 
 6. Installing Tensorflow
@@ -171,7 +171,7 @@ sudo reboot
        /usr/bin/gcc
        8.0
        /usr/local/cuda-8.0
-       5.1.10
+       5.1.10 or 6.0.21
        /usr/local/cuda-8.0
        Cuda compute capabilities, defaul: "3.5,5.2"
        ```
@@ -215,7 +215,7 @@ sudo reboot
    
    * Installing Tensorflow 1.2
    
-      * Needs CUDA 8.0 and Cudnn 6?
+      * Needs CUDA 8.0 and Cudnn 6 (6.0.21)
         
       * In step 6, in *Build target with GPU Support using Bazel*, switch the last two commands with:
         
