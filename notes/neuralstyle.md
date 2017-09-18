@@ -14,12 +14,11 @@ TLDR;
   
 * [code2](https://github.com/anishathalye/neural-style): anishathalye's neural-style
 
-    ```
-    python neural_style.py --content <content file> --styles <style file> --output <output file> --network <pre-trained vgg network>
-    
-    python neural_style.py --content examples/2-content.jpg --styles examples/2-style2.jpg --output examples/test.jpg --network imagenet-vgg-verydeep-19.mat
-    ```
-
+ ```
+  python neural_style.py --content <content file> --styles <style file> --output <output file> --network <pre-trained vgg network>
+  python neural_style.py --content examples/2-content.jpg --styles examples/2-style2.jpg --output examples/test.jpg --network imagenet-vgg-verydeep-19.mat
+ ```
+ 
 * [code3](https://github.com/cysmith/neural-style-tf), [code4](https://github.com/lengstrom/fast-style-transfer)
 
 
