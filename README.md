@@ -1,4 +1,5 @@
 #### 2017-09
+* *A Neural Algorithm of Artistic Style* [[arXiv](https://arxiv.org/abs/1508.06576)] [[code1](https://github.com/andersbll/neural_artistic_style), [code2](https://github.com/anishathalye/neural-style), [code3](https://github.com/cysmith/neural-style-tf), [code4](https://github.com/lengstrom/fast-style-transfer)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/neuralstyle.md)]
 * *Trainable Greedy Decoding for Neural Machine Translation* (Feb 2017) [[arXiv](https://arxiv.org/abs/1702.02429)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/greedydecoding.md)]
 * *Look, Listen and Learn* (May 2017) [[arXiv](https://arxiv.org/abs/1705.08168)] [[TwoMinutePapers](https://www.youtube.com/watch?v=mL3CzZcBJZU)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/looklistenlearn.md)]
 * *Get To The Point: Summarization with Pointer-Generator Networks* (Apr 2017) [[arXiv](https://arxiv.org/abs/1704.04368)] [[code](https://github.com/abisee/pointer-generator)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/pointergennet.md)]
@@ -37,11 +38,4 @@
 * Markdown files preview: [Atom](https://atom.io/), [preview here](http://markdown-here.com/)
 * [Quiver](https://github.com/HappenApps/Quiver/wiki/Getting-Started): notebook built for programmers. On top of allowing the user to easily mix text, code, Markdown and LaTeX within one note, it also has a code editor, live preview of Markdown and LaTeX, and full-text search to find notes.
 * Bitvise SFTP: copying to and from remote computer
-* Neural Artistic Style: [[code1](https://github.com/andersbll/neural_artistic_style), [code2](https://github.com/cysmith/neural-style-tf), [code3](https://github.com/anishathalye/neural-style), [code4](https://github.com/lengstrom/fast-style-transfer)] [[Installation steps](http://blog.josephmisiti.com/making-neural-art)]
-  * [code3](https://github.com/anishathalye/neural-style): 
-    ```
-    python neural_style.py --content <content file> --styles <style file> --output <output file> --network <pre-trained vgg network>
-    python neural_style.py --content examples/2-content.jpg --styles examples/2-style2.jpg --output examples/test.jpg --network imagenet-vgg-verydeep-19.mat
-    ```
-
 
