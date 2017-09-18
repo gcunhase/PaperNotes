@@ -15,6 +15,14 @@ TLDR;
   python neural_style.py --content <content file> --styles <style file> --output <output file> --network <pre-trained vgg network>
   python neural_style.py --content examples/2-content.jpg --styles examples/2-style2.jpg --output examples/test.jpg --network imagenet-vgg-verydeep-19.mat
  ```
+ * Content + Style = Output
+<p align="center">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/neuralstyle_content.jpg" width="300" alt="Content">
+ <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/neuralstyle_style.jpg" width="300" alt="Style">
+</p>
+ <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/neuralstyle_output.jpg" width="300" alt="Output">
+</p>
+
 
 * Code2: [andersbll's neural_artistic_style](https://github.com/andersbll/neural_artistic_style)
   * [Installation steps](http://blog.josephmisiti.com/making-neural-art)
