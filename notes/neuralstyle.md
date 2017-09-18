@@ -17,12 +17,16 @@ TLDR;
  ```
  * Content + Style = Output
 <p align="center">
-<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/neuralstyle_content.jpg" height="100" alt="Content">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/neuralstyle_content.jpg" height="150" alt="Content">
  <span style="vertical-align: middle;">+</span>
- <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/neuralstyle_style.jpg" height="100" alt="Style"> = 
- <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/neuralstyle_output.jpg" height="100" alt="Output">
+ <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/neuralstyle_style.jpg" height="150" alt="Style"> = 
+ <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/neuralstyle_output.jpg" height="150" alt="Output">
 </p>
 
+<div>
+    <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/neuralstyle_content.jpg" height="150" style="vertical-align: middle;"/>
+    <span style="vertical-align: middle;">Here is some text.</span>
+</div>
 
 * Code2: [andersbll's neural_artistic_style](https://github.com/andersbll/neural_artistic_style)
   * [Installation steps](http://blog.josephmisiti.com/making-neural-art)
