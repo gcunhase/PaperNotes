@@ -16,7 +16,7 @@ TLDR;
   python neural_style.py --content examples/2-content.jpg --styles examples/2-style2.jpg --output examples/test.jpg --network imagenet-vgg-verydeep-19.mat
  ```
  * Content + Style = Output
-<p align="center" valign="center">
+<p align="center">
 <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/neuralstyle_content.jpg" height="150" alt="Content"> +
  <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/neuralstyle_style.jpg" height="150" alt="Style"> = 
  <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/neuralstyle_output.jpg" height="150" alt="Output">
