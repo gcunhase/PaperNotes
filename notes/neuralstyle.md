@@ -9,10 +9,10 @@ TLDR;
 
 ### Results
 
-* [code1](https://github.com/andersbll/neural_artistic_style): andersbll's neural_artistic_style
+* Code1: [andersbll's neural_artistic_style](https://github.com/andersbll/neural_artistic_style)
   * [Installation steps](http://blog.josephmisiti.com/making-neural-art)
   
-* [code2](https://github.com/anishathalye/neural-style): anishathalye's neural-style
+* Code2: [anishathalye's neural-style](https://github.com/anishathalye/neural-style)
 
  ```
   python neural_style.py --content <content file> --styles <style file> --output <output file> --network <pre-trained vgg network>
