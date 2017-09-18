@@ -17,10 +17,17 @@ TLDR;
  ```
 
 <p align="center">
-<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/neuralstyle_content.jpg" height="150" alt="Content"> +
+ <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/neuralstyle_content.jpg" height="150" alt="Content"> +
  <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/neuralstyle_style.jpg" height="150" alt="Style"> = 
  <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/neuralstyle_output.jpg" height="150" alt="Output">
 </p>
+
+  * *--style-layer-weight-exp 0.05*
+<p align="center">
+ <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/neuralstyle_output2.jpg" height="150" alt="Output">
+</p>
+  
+
 
 * Code2: [andersbll's neural_artistic_style](https://github.com/andersbll/neural_artistic_style)
   * [Installation steps](http://blog.josephmisiti.com/making-neural-art)
