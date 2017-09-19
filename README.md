@@ -40,4 +40,4 @@
   * [Draw diagrams](http://support.typora.io/Draw-Diagrams-With-Markdown/), [live editor](https://mermaidjs.github.io/mermaid-live-editor)
 * [Quiver](https://github.com/HappenApps/Quiver/wiki/Getting-Started): notebook built for programmers. On top of allowing the user to easily mix text, code, Markdown and LaTeX within one note, it also has a code editor, live preview of Markdown and LaTeX, and full-text search to find notes.
 * Bitvise SFTP: copying to and from remote computer
-
+* Editing videos: Adobe Premiere Pro CC & Adobe Media Encoder CC
