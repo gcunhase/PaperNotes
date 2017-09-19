@@ -26,17 +26,5 @@ TLDR; Important notes related to Python
   * In case of error, check [link](https://notgnoshi.github.io/installing-numba-on-ubuntu/)
   * Examples to practice ```git clone git://github.com/numba/numba.git```
 
-* Numbapro needs python 3.5
+* [Intro to Python GPU programming with Numba](https://github.com/ContinuumIO/numbapro-examples/blob/master/webinars/2014_06_17/intro_to_gpu_python.ipynb)
 
-  ```
-    conda create -n py35 python=3.5 anaconda
-    source activate py35
-    #conda install -c menpo opencv3
-    conda install -c conda-forge numbapro
-    source deactivate
-  ```
-
-  * If error:
-    ```
-      conda clean --packages
-    ```
