@@ -4,10 +4,17 @@ TLDR; Important notes related to Python
 
 ### [How to CUDA Python](https://developer.nvidia.com/how-to-cuda-python)
 * Install CUDA and [Anaconda](https://repo.continuum.io/archive/)
+   * Python 3.6
+  ```
+    wget https://repo.continuum.io/archive/Anaconda3-4.4.0-Linux-x86_64.sh
+  ```
+
+   * Python 2.7
+
   ```
     wget https://repo.continuum.io/archive/Anaconda2-4.4.0-Linux-x86_64.sh
-    sudo chmod +x Anaconda2-4.4.0-Linux-x86_64.sh
-    ./Anaconda2-4.4.0-Linux-x86_64.sh
+    sudo chmod +x file.sh
+    ./file.sh
   ```
   
 * Close and open terminal, then install Accelerate package (includes Numba)
