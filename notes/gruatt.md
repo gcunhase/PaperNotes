@@ -30,3 +30,4 @@ Diagram source: https://www.lucidchart.com/documents/edit/087437f7-a9e1-41e5-878
 * NIST Chinese-English
 * Significant improvements
 * Analyses on attention weights and context vectors demonstrate the effectiveness of GAtt in improving the discrimination power of representations and handling the challenging issue of over-translation.
+* [Code](https://github.com/DeepLearnXMU/CAEncoder-NMT)
