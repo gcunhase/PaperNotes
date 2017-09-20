@@ -1,9 +1,11 @@
 ## [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576)
 Leon A. Gatys, Alexander S. Ecker and Matthias Bethge, Submitted on 26 Aug 2015
 
-TLDR; 
+TLDR; The authors introduce an artificial system based on a Deep Neural Network (namely CNN) that creates artistic images of high perceptual quality by combining the content of an image and the style of another.
 
 ### Key Points
+* Content representation: extracted in higher layers of the network
+* Style representation: a feature space originally designed to capture texture information is used, computes correlations between the different features in different layers of the CNN
 
 ### Notes / Questions
 
