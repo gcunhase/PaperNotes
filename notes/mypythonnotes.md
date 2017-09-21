@@ -2,6 +2,13 @@
 
 TLDR; Important notes related to Python
 
+### Timing a program
+```python
+from timeit import default_timer as timer
+start = timer()
+print("Program ran for: "+str((timer()-start)/60)+" minutes")
+```
+
 ### [How to CUDA Python](https://developer.nvidia.com/how-to-cuda-python)
 * Install CUDA and [Anaconda](https://repo.continuum.io/archive/)
    * Python 3.6
