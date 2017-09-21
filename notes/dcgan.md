@@ -10,6 +10,7 @@ TLDR; GAN model using a CNN as D and DCGAN as G.
 
 ### Notes / Questions
 * See these [slides](https://www.slideshare.net/enakai/dcgan-how-does-it-work)
+* Vector arithmetic for visual concepts: "smiling woman - neutral woman + neutral man = similing man"
 
 ### Results
 
