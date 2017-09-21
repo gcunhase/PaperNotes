@@ -7,8 +7,10 @@ TLDR; The authors introduce an artificial system based on a Deep Neural Network 
 * Model: CNN obtains feature representations from both images and the weights are combined to get the generated image
 * Content representation: extracted in higher layers of the network
 * Style representation: a feature space originally designed to capture texture information is used, computes correlations between the different features in different layers of the CNN
+* VGG-Network: "CNN that rivals human performance on a common visual object recognition benchmark task"
 
 ### Notes / Questions
+* "[...] used the feature space provided by the 16 convolutional and 5 pooling layers of the 19 layer VGGNetwork"
 
 ### Results
 
