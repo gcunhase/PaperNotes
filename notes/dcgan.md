@@ -1,12 +1,15 @@
 ## [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/abs/1511.06434)
 Alec Radford, Luke Metz and Soumith Chintala, Submitted on 19 Nov 2015
 
-TLDR; 
+TLDR; GAN model using a CNN as D and DCGAN as G.
 
 ### Key Points
-* DCGAN
+* DCGAN generates an image from random parameters
+* Opposite of CNN, which transforms an image to a class label (list of probabilities)
+* Model: CNN is used to classify authentic and fake images (DISCRIMINATOR) and DCGAN is trained to generate images classified as authentic by CNN (GENERATOR)
 
 ### Notes / Questions
+* See these [slides](https://www.slideshare.net/enakai/dcgan-how-does-it-work)
 
 ### Results
 
