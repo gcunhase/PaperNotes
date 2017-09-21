@@ -1,5 +1,5 @@
 #### 2017-09
-* *Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks* (Nov 2015) [[arXiv](https://arxiv.org/abs/1511.06434)] [[code](https://github.com/bstriner/keras-adversarial)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/dcgan.md)]
+* *Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks* (Nov 2015) [[arXiv](https://arxiv.org/abs/1511.06434)] [[code1](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/GAN/dcgan_mnist.py), [code2](https://github.com/jacobgil/keras-dcgan/blob/master/dcgan.py)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/dcgan.md)]
 * *A Neural Algorithm of Artistic Style* [[arXiv](https://arxiv.org/abs/1508.06576)] [[code1](https://github.com/anishathalye/neural-style), [code2](https://github.com/andersbll/neural_artistic_style), [code3](https://github.com/cysmith/neural-style-tf), [code4](https://github.com/lengstrom/fast-style-transfer)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/neuralstyle.md)]
 * *Trainable Greedy Decoding for Neural Machine Translation* (Feb 2017) [[arXiv](https://arxiv.org/abs/1702.02429)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/greedydecoding.md)]
 * *Look, Listen and Learn* (May 2017) [[arXiv](https://arxiv.org/abs/1705.08168)] [[TwoMinutePapers](https://www.youtube.com/watch?v=mL3CzZcBJZU)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/looklistenlearn.md)]
@@ -17,7 +17,7 @@
 #### Before
 * *SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient* (Sep 2016) [[arXiv](https://arxiv.org/abs/1609.05473)] [[code1](https://github.com/codekansas/seqgan-text-tensorflow), [code2](https://github.com/LantaoYu/SeqGAN), [code3](https://github.com/ofirnachum/sequence_gan)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/seqgan.md)]
 * *Coupled Generative Adversarial Networks* (Jun 2016) [[arXiv](https://arxiv.org/abs/1606.07536)] [[code](https://github.com/andrewliao11/CoGAN-tensorflow)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/cogan.md)]
-* *Generative Adversarial Network* (Jun 2014) [[arXiv](https://arxiv.org/abs/1406.2661)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/gan.md)]
+* *Generative Adversarial Network* (Jun 2014) [[arXiv](https://arxiv.org/abs/1406.2661)] [[code](https://github.com/bstriner/keras-adversarial)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/gan.md)]
 * *WaveNet: A Generative Model for Raw Audio* (Sep 2016) [[arXiv](https://arxiv.org/abs/1609.03499)] [[code](https://github.com/ibab/tensorflow-wavenet)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/wavenet.md)]
 * *Conditional Image Generation with PixelCNN Decoders* (Jun 2016) [[arXiv](https://arxiv.org/abs/1606.05328)] [[code](https://github.com/anantzoid/Conditional-PixelCNN-decoder)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/pixelcnn.md)]
 
