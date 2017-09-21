@@ -21,7 +21,5 @@ TLDR;
         <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/dcgan_mnist10000.png" width="150" alt="DCGAN 10,000" hspace="30">
       </p>
 
-* [keras-adversarial](https://github.com/bstriner/keras-adversarial): code is more complete (MNIST, CIFAR-10 and bidirectional models)
-
 * [DCGAN2](https://github.com/jacobgil/keras-dcgan/blob/master/dcgan.py)
 
