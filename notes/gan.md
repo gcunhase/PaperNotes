@@ -22,8 +22,14 @@ TLDR; GAN consists of a generative net G and a discriminative model D, both MLPs
 ### Results
 * Datasets: MNIST, The Toronto Face Database and CIFAR-10
 * [keras-adversarial](https://github.com/bstriner/keras-adversarial): MNIST, CIFAR-10, bidirectional models and AAE
-   * MNIST (*example_gan.py*)
+   * MNIST (*example_gan.py*): 58.7 minutes, 100 epochs
+   <p align="center">
+    <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/gan_epoch99.png" width="150" alt="GAN 100 epochs">
+   </p>
    
-   * MNIST Convolutional (*example_gan_convolutional.py*)
+   * MNIST Convolutional (*example_gan_convolutional.py*): minutes, 100 epochs
+   <p align="center">
+    <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/gan_conv_epoch99.png" width="150" alt="GAN Conv 100 epochs">
+   </p>   
    
    * CIFAR-10 (*example_gan_cifar.py*)
