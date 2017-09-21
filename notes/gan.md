@@ -16,3 +16,8 @@ TLDR; GAN consists of a generative net G and a discriminative model D, both MLPs
 * Z is the noise vector used to initilize G.
 * How to condition GAN in order to choose a desired Z?
   - Solution: MLP, VAE, Stacked Autoencoder
+
+### Results
+* [keras-adversarial](https://github.com/bstriner/keras-adversarial): MNIST, CIFAR-10, bidirectional models and AAE
+   * MNIST
+   * CIFAR-10
