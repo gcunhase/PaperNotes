@@ -1,4 +1,5 @@
 #### 2017-09
+* *Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks* (Nov 2015) [[arXiv](https://arxiv.org/abs/1511.06434)] [[code](https://github.com/bstriner/keras-adversarial)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/dcgan.md)]
 * *A Neural Algorithm of Artistic Style* [[arXiv](https://arxiv.org/abs/1508.06576)] [[code1](https://github.com/anishathalye/neural-style), [code2](https://github.com/andersbll/neural_artistic_style), [code3](https://github.com/cysmith/neural-style-tf), [code4](https://github.com/lengstrom/fast-style-transfer)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/neuralstyle.md)]
 * *Trainable Greedy Decoding for Neural Machine Translation* (Feb 2017) [[arXiv](https://arxiv.org/abs/1702.02429)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/greedydecoding.md)]
 * *Look, Listen and Learn* (May 2017) [[arXiv](https://arxiv.org/abs/1705.08168)] [[TwoMinutePapers](https://www.youtube.com/watch?v=mL3CzZcBJZU)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/looklistenlearn.md)]
