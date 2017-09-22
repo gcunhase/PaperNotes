@@ -9,6 +9,10 @@ start = timer()
 print("Program ran for: "+str((timer()-start)/60)+" minutes")
 ```
 
+### Installing pydub
+```pip install git+https://github.com/jiaaro/pydub.git@master```
+
+
 ### [How to CUDA Python](https://developer.nvidia.com/how-to-cuda-python)
 * Install CUDA and [Anaconda](https://repo.continuum.io/archive/)
    * Python 3.6
