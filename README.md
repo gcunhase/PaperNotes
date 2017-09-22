@@ -2,7 +2,6 @@
 * *Bitcoin: A Peer-to-Peer Electronic Cash System* (2008) [[bitcoin](https://bitcoin.org/en/bitcoin-paper)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/bitcoin.md)]
 * *Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks* (Nov 2015) [[arXiv](https://arxiv.org/abs/1511.06434)] [[code1](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/GAN/dcgan_mnist.py), [code2](https://github.com/jacobgil/keras-dcgan/blob/master/dcgan.py)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/dcgan.md)]
 * *A Neural Algorithm of Artistic Style* [[arXiv](https://arxiv.org/abs/1508.06576)] [[code1](https://github.com/anishathalye/neural-style), [code2](https://github.com/andersbll/neural_artistic_style), [code3](https://github.com/cysmith/neural-style-tf), [code4](https://github.com/lengstrom/fast-style-transfer)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/neuralstyle.md)]
-* *Trainable Greedy Decoding for Neural Machine Translation* (Feb 2017) [[arXiv](https://arxiv.org/abs/1702.02429)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/greedydecoding.md)]
 * *Look, Listen and Learn* (May 2017) [[arXiv](https://arxiv.org/abs/1705.08168)] [[TwoMinutePapers](https://www.youtube.com/watch?v=mL3CzZcBJZU)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/looklistenlearn.md)]
 * *Get To The Point: Summarization with Pointer-Generator Networks* (Apr 2017) [[arXiv](https://arxiv.org/abs/1704.04368)] [[code](https://github.com/abisee/pointer-generator)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/pointergennet.md)]
 
@@ -23,7 +22,7 @@
 * *Conditional Image Generation with PixelCNN Decoders* (Jun 2016) [[arXiv](https://arxiv.org/abs/1606.05328)] [[code](https://github.com/anantzoid/Conditional-PixelCNN-decoder)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/pixelcnn.md)]
 
 #### To Read
-* *SEGAN: Speech Enhancement Generative Adversarial Network* (Mar 2017) [[arXiv](https://arxiv.org/abs/1703.09452)]
+* *Trainable Greedy Decoding for Neural Machine Translation* (Feb 2017) [[arXiv](https://arxiv.org/abs/1702.02429)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/greedydecoding.md)]
 * *A Nested Attention Neural Hybrid Model for Grammatical Error Correction* (Jul 2017) [[arXiv](https://arxiv.org/abs/1707.02026)] 
 * *Neural Audio Synthesis of Musical Notes with WaveNet Autoencoders* (April 2017) [[arXiv](https://arxiv.org/abs/1704.01279)]
 * *Using Noise to Speed Up Video Classification with Recurrent Backpropagation* (IJCNN 2017) [[IEEEXplore](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7965843)]
