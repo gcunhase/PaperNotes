@@ -9,8 +9,12 @@ start = timer()
 print("Program ran for: "+str((timer()-start)/60)+" minutes")
 ```
 
-### Installing pydub
-```pip install git+https://github.com/jiaaro/pydub.git@master```
+### Installing pydub and tqdm
+```
+pip install git+https://github.com/jiaaro/pydub.git@master
+pip install -e git+https://github.com/tqdm/tqdm.git@master#egg=tqdm
+from tqdm import tqdm
+```
 
 
 ### [How to CUDA Python](https://developer.nvidia.com/how-to-cuda-python)
