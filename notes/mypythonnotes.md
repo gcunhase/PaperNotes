@@ -16,30 +16,22 @@ pip install -e git+https://github.com/tqdm/tqdm.git@master#egg=tqdm
 from tqdm import tqdm
 ```
 
+### [Using GPU with Tensorflow](https://github.com/gcunhase/PaperNotes/blob/master/notes/python_tf_gpu.py)
+<table>
+ <tr>
+   <td colspan="2" align="center"><b>powers</b> (secs)</td><td colspan="2" align="center"><b>matmul</b> (secs)</td>
+ </tr>
+ <tr>
+  <td align="center">CPU</td><td align="center">GPU</td><td align="center">CPU</td><td align="center">GPU</td>
+ </tr>
+ <tr>
+  <td align="center">1.04</td><td align="center">0.654</td><td align="center">0.40</td><td align="center">0.013</td>
+ </tr>
+</table>
 
-### [How to CUDA Python](https://developer.nvidia.com/how-to-cuda-python)
-* Install CUDA and [Anaconda](https://repo.continuum.io/archive/)
-   * Python 3.6
-  ```
-    wget https://repo.continuum.io/archive/Anaconda3-4.4.0-Linux-x86_64.sh
-  ```
 
-   * Python 2.7
-
-  ```
-    wget https://repo.continuum.io/archive/Anaconda2-4.4.0-Linux-x86_64.sh
-    sudo chmod +x file.sh
-    ./file.sh
-  ```
-  
-* Close and open terminal, then install Accelerate package (includes Numba)
-  ```
-    conda update conda
-    conda update --all
-    conda install accelerate
-  ```
-  * In case of error, check [link](https://notgnoshi.github.io/installing-numba-on-ubuntu/)
-  * Examples to practice ```git clone git://github.com/numba/numba.git```
-
+### [PyCUDA](https://developer.nvidia.com/how-to-cuda-python)
+* In case of error, check [link](https://notgnoshi.github.io/installing-numba-on-ubuntu/)
+* Examples to practice ```git clone git://github.com/numba/numba.git```
 * [Intro to Python GPU programming with Numba](https://github.com/ContinuumIO/numbapro-examples/blob/master/webinars/2014_06_17/intro_to_gpu_python.ipynb)
 
