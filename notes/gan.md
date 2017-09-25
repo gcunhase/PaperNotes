@@ -32,7 +32,7 @@ TLDR; GAN consists of a generative net G and a discriminative model D, both MLPs
     <td align="center">58.7 minutes, 100 epochs</td><td align="center">322 minutes, 100 epochs</td><td>minutes, 100 epochs</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/gan_epoch99.png" width="150" alt="GAN 100 epochs"></td><td align="center"><img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/gan_conv_epoch99.png" width="150" alt="GAN Conv 100 epochs"></td><td align="center"></td>
+    <td align="center"><img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/gan_epoch99.png" width="150" alt="GAN 100 epochs"></td><td align="center"><img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/gan_conv_epoch99.png" width="150" alt="GAN Conv 100 epochs"></td><td align="center"><img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/gan_cifar10_epoch2602.png" width="150" alt="GAN CIFAR-10 2603 epochs"></td>
   </tr>
 </table>
 
