@@ -18,9 +18,9 @@ from tqdm import tqdm
 
 ### [Anaconda](https://www.anaconda.com/download/)
 ```
-wget https://repo.continuum.io/archive/Anaconda2-4.4.0-Linux-x86.sh
-sudo chmod +x Anaconda2-4.4.0-Linux-x86.sh
-./Anaconda2-4.4.0-Linux-x86.sh
+wget https://repo.continuum.io/archive/Anaconda2-4.4.0-Linux-x86_64.sh
+sudo chmod +x Anaconda2-4.4.0-Linux-x86_64.sh
+./Anaconda2-4.4.0-Linux-x86_64.sh
 ```
 
 ### Using GPU
