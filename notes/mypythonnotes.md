@@ -67,7 +67,7 @@ reboot
 #### [With Tensorflow](https://github.com/gcunhase/PaperNotes/blob/master/notes/python_tf_gpu.py)
 <table>
  <tr>
-   <td colspan="2" align="center"><b>powers</b> (secs)</td><td colspan="2" align="center"><b>matmul</b> (secs)</td>
+   <td colspan="2" align="center"><b>powers</b> (secs)<p>n = 5,000,000</p></td><td colspan="2" align="center"><b>matmul</b> (secs)</td>
  </tr>
  <tr>
   <td align="center">CPU</td><td align="center">GPU</td><td align="center">CPU</td><td align="center">GPU</td>
