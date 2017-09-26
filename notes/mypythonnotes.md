@@ -23,6 +23,14 @@ sudo chmod +x Anaconda2-4.4.0-Linux-x86_64.sh
 ./Anaconda2-4.4.0-Linux-x86_64.sh
 ```
 
+* Environments (Example: create environment with Python 3 and list existing environments)
+```
+conda create --name my_env python=3
+source activate my_env
+source deactivate
+conda info --envs
+```
+
 ### Using GPU
 
 #### [PyTorch](http://pytorch.org/tutorials/beginner/pytorch_with_examples.html)
