@@ -16,9 +16,33 @@ pip install -e git+https://github.com/tqdm/tqdm.git@master#egg=tqdm
 from tqdm import tqdm
 ```
 
+### [Anaconda](https://www.anaconda.com/download/)
+```
+wget https://repo.continuum.io/archive/Anaconda2-4.4.0-Linux-x86.sh
+sudo chmod +x Anaconda2-4.4.0-Linux-x86.sh
+./Anaconda2-4.4.0-Linux-x86.sh
+```
+
 ### Using GPU
 
 #### [PyTorch](http://pytorch.org/tutorials/beginner/pytorch_with_examples.html)
+Basically same as numpy but with GPU compatibility.
+* Install dependencies
+```
+export CMAKE_PREFIX_PATH="$(dirname $(which conda))/../" # [anaconda root directory]
+
+# Install basic dependencies
+conda install numpy pyyaml mkl setuptools cmake gcc cffi
+
+# Add LAPACK support for the GPU
+conda install -c soumith magma-cuda80 # or magma-cuda75 if CUDA 7.5
+```
+
+* Install Torch
+```
+git clone --recursive https://github.com/pytorch/pytorch
+python setup.py install
+```
 
 #### [With Tensorflow](https://github.com/gcunhase/PaperNotes/blob/master/notes/python_tf_gpu.py)
 <table>
