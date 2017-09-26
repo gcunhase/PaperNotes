@@ -33,6 +33,7 @@
 
 #### Other notes
 * [My Ubuntu notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/myubuntunotes.md)
+* [My Mac notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/mymacnotes.md)
 * [My LaTeX notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/mylatexnotes.md)
 * [My Python notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/mypythonnotes.md)
 * Reading *.hwp* online: [Hancom Inc.](https://www.netffice24.com/)
