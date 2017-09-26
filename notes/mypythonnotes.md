@@ -61,7 +61,7 @@ reboot
 | 50 | 0.0034 | 2.28 |
 | 500 | 0.36 | 4.96 |
 | 5,000 | 31.78 | 28.16 |
-| 50,000 |  |  |
+| 50,000 | not enough mem | not enough mem |
 
 
 #### [With Tensorflow](https://github.com/gcunhase/PaperNotes/blob/master/notes/python_tf_gpu.py)
