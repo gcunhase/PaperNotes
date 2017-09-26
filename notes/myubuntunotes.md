@@ -89,7 +89,7 @@ sudo reboot
     ./nbody
     ```
 
-2. Install cuDNN v5.1 ([download](https://developer.nvidia.com/rdp/cudnn-download)) and copy cudnn.h to cuda/include and libcudnn* to cuda/lib64
+2. Install cuDNN v5.1 or 6.0.21 ([download](https://developer.nvidia.com/rdp/cudnn-download)) and copy cudnn.h to cuda/include and libcudnn* to cuda/lib64
   
     ```
     sudo cp cuda/include/cudnn.h /usr/local/cuda-8.0/include/
