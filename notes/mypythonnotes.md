@@ -21,6 +21,7 @@ from tqdm import tqdm
 wget https://repo.continuum.io/archive/Anaconda2-4.4.0-Linux-x86_64.sh
 sudo chmod +x Anaconda2-4.4.0-Linux-x86_64.sh
 ./Anaconda2-4.4.0-Linux-x86_64.sh
+conda install anaconda-navigator
 ```
 
 Environments (Example: create environment with Python 3 and list existing environments)
@@ -50,13 +51,14 @@ conda install -c soumith magma-cuda80 # or magma-cuda75 if CUDA 7.5
 ```
 git clone --recursive https://github.com/pytorch/pytorch
 python setup.py install
+reboot
 ```
 
 * Example powers
 
-| n | CPU (secs) | CPU (secs) |
+| n | CPU (secs) | GPU (secs) |
 |:--:|:--:|:--:|
-| 50 |  |  |
+| 50 | 0.0034 | 2.28 |
 | 500 |  |  |
 | 5,000 |  |  |
 | 50,000 |  |  |
