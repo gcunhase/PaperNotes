@@ -113,7 +113,7 @@ sudo reboot
   
     ```source ~/.bashrc```
 
-4. Install JDLK8, Git and other dependencies
+4. Install JDLK8, Git and other dependencies (NOT NECESSARY if you want to install most current version)
 
     ```sudo apt-get install -y python-numpy swig python-dev python-wheel python-pip libcurl3-dev libcupti-dev git```
 
@@ -125,7 +125,7 @@ sudo reboot
     sudo apt-get install oracle-java8-installer
     ```
 
-5. Install [Bazel](bazel.io/docs/install.html)
+5. Install [Bazel](bazel.io/docs/install.html) (NOT NECESSARY if you want to install most current version)
 
     * Add Bazel distribution URI as a package source (one time setup)
     ```
