@@ -52,6 +52,16 @@ git clone --recursive https://github.com/pytorch/pytorch
 python setup.py install
 ```
 
+* Example powers
+
+| n | CPU (secs) | CPU (secs) |
+|:--:|:--:|:--:|
+| 50 |  |  |
+| 500 |  |  |
+| 5,000 |  |  |
+| 50,000 |  |  |
+
+
 #### [With Tensorflow](https://github.com/gcunhase/PaperNotes/blob/master/notes/python_tf_gpu.py)
 <table>
  <tr>
