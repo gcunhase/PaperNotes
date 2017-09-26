@@ -16,7 +16,7 @@ pip install -e git+https://github.com/tqdm/tqdm.git@master#egg=tqdm
 from tqdm import tqdm
 ```
 
-### [Using GPU]
+### Using GPU
 
 #### [PyTorch](http://pytorch.org/tutorials/beginner/pytorch_with_examples.html)
 
