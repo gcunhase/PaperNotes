@@ -32,6 +32,15 @@ source deactivate
 conda info --envs
 ```
 
+### [Spark](https://spark.apache.org/examples.html) for faster code
+```
+pip install pyspark
+```
+
+* About: "Spark is built on the concept of *distributed datasets*, which contain arbitrary Java or Python objects. You create a dataset from external data, then apply parallel operations to it. The building block of the Spark API is its RDD API. In the RDD API, there are two types of operations: *transformations*, which define a new dataset based on previous ones, and *actions*, which kick off a job to execute on a cluster."
+
+* Example: [Scrapping wikidate with spark](https://github.com/n4group/tf-idf-python-spark-tutorial), [Other examples](https://github.com/apache/spark/tree/master/examples/src/main/python)
+
 ### Using GPU
 
 #### [PyTorch](http://pytorch.org/tutorials/beginner/pytorch_with_examples.html)
