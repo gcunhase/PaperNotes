@@ -10,3 +10,6 @@ TLDR; Important notes related to Mac
   sudo /Applications/Install\ OS\ X\ El\ Capitan.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume --applicationpath /Applications/Install\ OS\ X\ El\ Capitan.app
   ```
 
+### [How to Dualboot Mac and Windows](https://www.laptopmag.com/articles/dual-boot-windows-os-x-mac)
+
+
