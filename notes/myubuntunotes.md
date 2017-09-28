@@ -230,4 +230,7 @@ sudo reboot
 * For Seq2Seq models using keras: [link](https://github.com/farizrahman4u/seq2seq)
 * Other [keras examples](https://github.com/fchollet/keras)
 
-
+### [Installing tflearn](https://github.com/tflearn/tflearn) (Keras optimized for Tensorflow)
+```
+python setup.py install
+```
