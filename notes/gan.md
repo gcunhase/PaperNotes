@@ -21,7 +21,7 @@ TLDR; GAN consists of a generative net G and a discriminative model D, both MLPs
   
 ### Results
 * Datasets: MNIST, The Toronto Face Database and CIFAR-10
-* [keras-adversarial](https://github.com/bstriner/keras-adversarial): MNIST, CIFAR-10, bidirectional models and AAE
+* [bstriner's keras-adversarial](https://github.com/bstriner/keras-adversarial): MNIST, CIFAR-10, bidirectional models and AAE
 
 
 <table align="center"> 
