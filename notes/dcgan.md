@@ -27,3 +27,5 @@ TLDR; GAN model using a CNN as D and DCGAN as G.
 
 * [DCGAN2](https://github.com/jacobgil/keras-dcgan/blob/master/dcgan.py)
 
+* [carpedm20's dcgan-tensorflow](https://github.com/carpedm20/DCGAN-tensorflow)
+
