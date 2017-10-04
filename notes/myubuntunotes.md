@@ -10,6 +10,10 @@ lsb_release -a
 ### Find files
    ```find ~/ -type f -name [filename]```
 
+### Renaming multiple files
+Select all filenames starting with *''* and replace it with *'audio1_'*
+   ```rename 's/^/audio1_/' *.png```
+
 ### Tar
 * Compress
    ```tar -zcvf archive_name.tar.gz folder_to_compress```
