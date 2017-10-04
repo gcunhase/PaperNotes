@@ -49,7 +49,7 @@ TLDR; GAN model using a CNN as D and DCGAN as G.
   </tr>
   <tr>
     <td align="center"><i>train_00_0099</i></td><td align="center"><i>train_24_1067</i></td>
-    <td align="center"><i>train_00_0099</i></td><td align="center"><i>train__</i></td>
+    <td align="center"><i>train_00_0099</i></td><td align="center"><i>train_24_3139</i></td>
   </tr>
   <tr>
     <td align="center"><img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/dcgan_train_00_0099.png" width="150" alt="DCGAN train_00_0099"></td><td align="center"><img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/dcgan_train_24_1067.png" width="150" alt="DCGAN train_24_1067"></td>
