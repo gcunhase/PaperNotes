@@ -53,6 +53,6 @@ TLDR; GAN model using a CNN as D and DCGAN as G.
   </tr>
   <tr>
     <td align="center"><img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/dcgan_train_00_0099.png" width="150" alt="DCGAN train_00_0099"></td><td align="center"><img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/dcgan_train_24_1067.png" width="150" alt="DCGAN train_24_1067"></td>
-    <td align="center"><img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/dcgan_celebA_train_00_0099.png" width="150" alt="DCGAN train_00_0099"></td><td align="center"><img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/dcgan_celebA_train__.png" width="150" alt="DCGAN train__"></td>
+    <td align="center"><img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/dcgan_celebA_train_00_0099.png" width="150" alt="DCGAN train_00_0099"></td><td align="center"><img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/dcgan_celebA_train_24_3139.png" width="150" alt="DCGAN train_24_3139"></td>
   </tr>
 </table>
