@@ -29,3 +29,8 @@ TLDR; GAN model using a CNN as D and DCGAN as G.
 
 * [carpedm20's dcgan-tensorflow](https://github.com/carpedm20/DCGAN-tensorflow)
 
+```
+python download.py mnist
+python main.py --dataset mnist --input_height=28 --output_height=28 --train
+python main.py --dataset mnist --input_height=28 --output_height=28
+```
