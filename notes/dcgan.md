@@ -28,21 +28,31 @@ TLDR; GAN model using a CNN as D and DCGAN as G.
 * [DCGAN2](https://github.com/jacobgil/keras-dcgan/blob/master/dcgan.py)
 
 * [carpedm20's dcgan-tensorflow](https://github.com/carpedm20/DCGAN-tensorflow)
-
-  ```
-  python download.py mnist
-  python main.py --dataset mnist --input_height=28 --output_height=28 --train
-  python main.py --dataset mnist --input_height=28 --output_height=28
-  ```
+   * MNIST   
+    ```
+    python download.py mnist
+    python main.py --dataset mnist --input_height=28 --output_height=28 --train
+    python main.py --dataset mnist --input_height=28 --output_height=28
+    ```
+    
+   * CelebA 
+    ```
+    python download.py celebA
+    python main.py --dataset celebA --input_height=108 --train --crop
+    ```
+    
+   * Results
   
   <table align="center"> 
   <tr>
-    <td align="center" colspan="2"><b>MNIST</b></td>
+    <td align="center" colspan="2"><b>MNIST</b></td><td align="center" colspan="2"><b>CelebA</b></td>
   </tr>
   <tr>
     <td align="center"><i>train_00_0099</i></td><td align="center"><i>train_24_1067</i></td>
+    <td align="center"><i>train_00_0099</i></td><td align="center"><i>train__</i></td>
   </tr>
   <tr>
     <td align="center"><img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/dcgan_train_00_0099.png" width="150" alt="DCGAN train_00_0099"></td><td align="center"><img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/dcgan_train_24_1067.png" width="150" alt="DCGAN train_24_1067"></td>
+    <td align="center"><img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/dcgan_celebA_train_00_0099.png" width="150" alt="DCGAN train_00_0099"></td><td align="center"><img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/dcgan_celebA_train__.png" width="150" alt="DCGAN train__"></td>
   </tr>
 </table>
