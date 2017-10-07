@@ -27,6 +27,7 @@
 * *A Nested Attention Neural Hybrid Model for Grammatical Error Correction* (Jul 2017) [[arXiv](https://arxiv.org/abs/1707.02026)] 
 * *Neural Audio Synthesis of Musical Notes with WaveNet Autoencoders* (April 2017) [[arXiv](https://arxiv.org/abs/1704.01279)]
 * *Using Noise to Speed Up Video Classification with Recurrent Backpropagation* (IJCNN 2017) [[IEEEXplore](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7965843)]
+* *Learning to Discover Cross-Domain Relations with Generative Adversarial Networks* [[arXiv](https://arxiv.org/abs/1703.05192)] [[code](https://github.com/GunhoChoi/DiscoGAN-TF)]
 
 
 #### Blogs
