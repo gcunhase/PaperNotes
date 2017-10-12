@@ -12,4 +12,8 @@ TLDR; Important notes related to Mac
 
 ### [How to Dualboot Mac and Windows](https://www.laptopmag.com/articles/dual-boot-windows-os-x-mac)
 
+### [Installing Xcode, Homebrew, Git, RVM, Ruby & Rails on Mac OS X](https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/)
 
+```
+bash <(curl -s https://raw.githubusercontent.com/monfresh/laptop/master/laptop)
+```
