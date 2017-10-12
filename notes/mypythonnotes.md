@@ -92,3 +92,52 @@ reboot
 * Examples to practice ```git clone git://github.com/numba/numba.git```
 * [Intro to Python GPU programming with Numba](https://github.com/ContinuumIO/numbapro-examples/blob/master/webinars/2014_06_17/intro_to_gpu_python.ipynb)
 
+
+### [Running Python codes on Matlab](http://adared.ch/matpy/)
+* On Matlab, make it see Xcode: [first try](https://kr.mathworks.com/matlabcentral/answers/246507-why-can-t-mex-find-a-supported-compiler-in-matlab-r2015b-after-i-upgraded-to-xcode-7-0), if it doesn't work, [try this](https://bitbucket.org/d2d-development/d2d-software/issues/46/xcode-7-on-osx-with-matlab-r2015a-b). Add the following lines in all *.xml* files in */Applications/MATLAB_R2015b.app/bin/maci64/mexopts/*
+```
+<dirExists name="$$/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk" />
+<cmdReturns name="find $$ -name MacOSX10.13.sdk" />
+```
+
+* Install Python and check existence of file */System/Library/Frameworks/Python.framework/Headers/Python.h*
+```
+brew install python
+```
+  * Python is a framework on Mac OS X so you need to, 
+  ```
+  #include <Python/Python.h>
+  ```
+  
+* On Matlab, run:
+```
+mex -setup
+mex py.cpp -lpython
+```
+
+* Run
+  * Example 1
+```
+stmt = sprintf(['print(2)']);
+py('eval', stmt);
+```
+
+  * Example 2: SIP not working
+```
+[X,Y]=meshgrid(-10:0.1:10,-10:0.1:10);
+Z=sin(X)+cos(Y);
+py_export('X','Y','Z')
+stmt = sprintf(['import matplotlib\n' ...
+'matplotlib.use(''Qt4Agg'')\n' ...
+'import matplotlib.pyplot as plt\n' ...
+'from mpl_toolkits.mplot3d import axes3d\n' ...
+'f=plt.figure()\n' ...
+'ax=f.gca(projection=''3d'')\n' ...
+'cset=ax.plot_surface(X,Y,Z)\n' ...
+'ax.clabel(cset,fontsize=9,inline=1)\n' ...
+'plt.show()']);
+py('eval', stmt);
+```
+
+
+
