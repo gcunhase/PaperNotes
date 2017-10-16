@@ -237,7 +237,11 @@ sudo reboot
       python2 -c 'import tensorflow as tf; print(tf.__version__)'
       source deactivate
       ```
-
+      * Python 3.5
+      ```
+      sudo wget https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.0.1-cp35-cp35m-linux_x86_64.whl
+      sudo pip3 install --ignore-installed --upgrade tensorflow_gpu-1.0.1-cp35-cp35m-linux_x86_64.whl
+      ```
 
 ### Installing [Keras](https://keras.io/)
 ```sudo pip install keras```
