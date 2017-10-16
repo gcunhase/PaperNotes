@@ -139,5 +139,13 @@ stmt = sprintf(['import matplotlib\n' ...
 py('eval', stmt);
 ```
 
-
+### From Python2.7 to 3.5
+* *TypeError: object of type 'zip' has no len()*
+   * "In Python 2 using shuffle after zip works, because zip returns a list, whilst in Python 3 it returns an iterator.
+   * [Solution](https://stackoverflow.com/questions/18048310/len-error-for-zipping-in-python), use list() to convert to a list:
+    ```
+    combined = list(zip(question, answer))
+    random.shuffle(combined)
+    ```
+    
 
