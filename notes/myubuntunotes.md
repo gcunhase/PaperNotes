@@ -228,7 +228,17 @@ sudo reboot
       cd /tmp/tensorflow-pkg/; wget https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.2.1-cp27-none-linux_x86_64.whl
       sudo pip install --ignore-installed --upgrade /tmp/tensorflow-pkg/tensorflow_gpu-1.2.1-cp27-none-linux_x86_64.whl
       ```
-            
+
+   * Installing Tensorflow 1.0.1 (Ceslea Server)
+      ```python
+      source activate gwena_tf-1.0.1_env
+      cd /tmp/tensorflow-pkg/; wget https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.0.1-cp27-none-linux_x86_64.whl
+      sudo pip install --ignore-installed --upgrade tensorflow_gpu-1.0.1-cp27-none-linux_x86_64.whl
+      python2 -c 'import tensorflow as tf; print(tf.__version__)'
+      source deactivate
+      ```
+
+
 ### Installing [Keras](https://keras.io/)
 ```sudo pip install keras```
 
