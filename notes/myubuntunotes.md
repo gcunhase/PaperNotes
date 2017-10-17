@@ -22,6 +22,12 @@ Select all filenames starting with *''* and replace it with *'audio1_'*. *^* ind
 * Extract
    ```tar -zxvf archive_name.tar.gz```
 
+### How to unrar and combine multiple RAR files in Ubuntu
+```
+sudo apt-get install rar unrar
+unrar x -e file.part1.rar
+```
+
 ### Recording a log file
 * Type the following to store all input and output in the terminal in *screen.log*: ```script screen.log```
 
