@@ -1,3 +1,6 @@
+### 2017-10
+* *C-RNN-GAN: Continuous recurrent neural networks with adversarial training* (Nov 2016) [[arXiv](https://arxiv.org/abs/1611.09904)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/crnngan.md)]
+
 #### 2017-09
 * *Bitcoin: A Peer-to-Peer Electronic Cash System* (2008) [[bitcoin](https://bitcoin.org/en/bitcoin-paper)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/bitcoin.md)]
 * *Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks* (Nov 2015) [[arXiv](https://arxiv.org/abs/1511.06434)] [[code1](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/GAN/dcgan_mnist.py), [code2](https://github.com/jacobgil/keras-dcgan/blob/master/dcgan.py)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/dcgan.md)]
