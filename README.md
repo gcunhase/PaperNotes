@@ -1,5 +1,5 @@
 #### 2017-10
-* *C-RNN-GAN: Continuous recurrent neural networks with adversarial training* (Nov 2016) [[arXiv](https://arxiv.org/abs/1611.09904)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/crnngan.md)]
+* *C-RNN-GAN: Continuous recurrent neural networks with adversarial training* (Nov 2016) [[arXiv](https://arxiv.org/abs/1611.09904)] [[code](https://github.com/olofmogren/c-rnn-gan)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/crnngan.md)]
 
 #### 2017-09
 * *Bitcoin: A Peer-to-Peer Electronic Cash System* (2008) [[bitcoin](https://bitcoin.org/en/bitcoin-paper)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/bitcoin.md)]
