@@ -1,4 +1,4 @@
-### 2017-10
+#### 2017-10
 * *C-RNN-GAN: Continuous recurrent neural networks with adversarial training* (Nov 2016) [[arXiv](https://arxiv.org/abs/1611.09904)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/crnngan.md)]
 
 #### 2017-09
