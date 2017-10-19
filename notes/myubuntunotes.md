@@ -107,6 +107,11 @@ sudo reboot
     sudo cp cuda/lib64/libcudnn* /usr/local/cuda-8.0/lib64/
     sudo chmod a+r /usr/local/cuda-8.0/include/cudnn.h /usr/local/cuda-8.0/lib64/libcudnn*
     ```
+    
+    * *libcudnn5.so not found error*
+    ```
+    sudo ldconfig /usr/local/cuda-8.0/lib64
+    ```
 
 3. Edit bash file
 
