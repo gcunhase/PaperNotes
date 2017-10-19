@@ -30,7 +30,8 @@ TLDR; GAN that works on continuous sequential data, training done on a collectio
       * Run ```python music_data_utils.py [name of folder to save data]```
        
    3. Run code
+      * Change in [*tf.split*](https://stackoverflow.com/questions/41842440/tensorflow-input-split-dim-of-split-op-has-type-float32-that-does-not-matc)
    ```
-   python rnn_gan.py --datadir=data --traindir=train
+   python rnn_gan.py --datadir data --traindir train
    ```
  
