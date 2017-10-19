@@ -19,21 +19,17 @@ TLDR; GAN that works on continuous sequential data, training done on a collectio
 * Dataset: 3697 MIDI files from 160 different composers of classical music.
 * [Code](https://github.com/olofmogren/c-rnn-gan)
    1. Install [python-midi](https://github.com/vishnubob/python-midi)
-   2. Install ```sudo -H pip install python-midi```
-   3. Download data
-      * In *music_data_utils.py*
-      ```python
-      ...
-      sources['classical']['mendelssohn']  = ['http://www.midiworld.com/mendelssohn.htm'] #sources['classical']['mendelssohn']  = ['http://www.midiworld.com/mendelssohn.htm','http://www.classicalmidi.co.uk/mend.htm']
-      ...
-      def main():
-         ...
-         dl = MusicDataLoader(datadir=filename, select_validation_percentage=0.0, select_test_percentage=0.0)
-         ...
-      ```
+   ```
+   sudo -H pip install python-midi
+   ```
+   2. Download data
+      * In *music_data_utils.py*:
+         * A few sources that are giving error (not found or multiple choice): delete them or surround *response = urllib2.urlopen(url)* with try and catch and ignore those files.
+         * Modify *datadir=filename* instead of *datadir=None* in *main()*.
+         * New [*music_data_utils.py*]() file is attached.
       * Run ```python music_data_utils.py [name of folder to save data]```
        
-   4. Run code
+   3. Run code
    ```
    python rnn_gan.py --datadir=data --traindir=train
    ```
