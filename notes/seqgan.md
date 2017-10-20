@@ -21,6 +21,7 @@ TLDR; SeqGAN's goal is to solve GAN's limitation of being unable to generate seq
 * Approximation of approximation: Monte Carlo is used to predict the score/loss and discrete tokens are being approximated to real-valued ones.
 * Is there a better way to introduce Sequence to GAN without all those approximations?
 * Do the authors use char-LSTM? If so, would our result improve is we use word-LSTM or just further the approximations?
+* [dennybritz's notes](https://github.com/dennybritz/deeplearning-papernotes/blob/master/notes/seq-gan.md)
 
 ### Results
 #### Code1: [seqgan-text-tensorflow](https://github.com/codekansas/seqgan-text-tensorflow), samples n=100
