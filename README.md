@@ -1,4 +1,5 @@
 #### 2017-10
+* *MidiNet: A Convolutional Generative Adversarial Network for Symbolic-domain Music Generation* [[arXiv](https://arxiv.org/abs/1703.10847)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/midinet.md)]
 * *C-RNN-GAN: Continuous recurrent neural networks with adversarial training* (Nov 2016) [[arXiv](https://arxiv.org/abs/1611.09904)] [[code](https://github.com/olofmogren/c-rnn-gan)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/crnngan.md)]
 
 #### 2017-09
