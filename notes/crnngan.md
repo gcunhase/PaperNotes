@@ -32,6 +32,7 @@ TLDR; GAN that works on continuous sequential data, training done on a collectio
    3. Run code
       * Change in [*tf.split*](https://stackoverflow.com/questions/41842440/tensorflow-input-split-dim-of-split-op-has-type-float32-that-does-not-matc)
       * From TensorFlow 1.0 onwards, tf.concat() takes the arguments values and axis. Replacing concat_dim with axis will fix the problem.
+      * tf.pack -> tf.stack
    ```
    python rnn_gan.py --datadir data --traindir train
    ```
