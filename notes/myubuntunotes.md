@@ -9,6 +9,7 @@ lsb_release -a
 
 ### Find files
    ```find ~/ -type f -name [filename]```
+   
    ```locate [folderName]```
 
 ### Renaming multiple files
