@@ -9,6 +9,7 @@ lsb_release -a
 
 ### Find files
    ```find ~/ -type f -name [filename]```
+   ```locate [folderName]```
 
 ### Renaming multiple files
 Select all filenames starting with *''* and replace it with *'audio1_'*. *^* indicates the beginning of the string.
