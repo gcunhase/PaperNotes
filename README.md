@@ -1,5 +1,5 @@
 #### 2017-11
-
+* *Dynamic Routing Between Capsules* [[arXiv](https://arxiv.org/abs/1710.09829)] [[Siraj Raval](https://www.youtube.com/watch?v=VKoLGnq15RM)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/capsulenet.md)]
 
 #### 2017-10
 * *MidiNet: A Convolutional Generative Adversarial Network for Symbolic-domain Music Generation* [[arXiv](https://arxiv.org/abs/1703.10847)] [[code](https://github.com/RichardYang40148/MidiNet)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/midinet.md)]
@@ -28,7 +28,6 @@
 * *Conditional Image Generation with PixelCNN Decoders* (Jun 2016) [[arXiv](https://arxiv.org/abs/1606.05328)] [[code](https://github.com/anantzoid/Conditional-PixelCNN-decoder)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/pixelcnn.md)]
 
 #### To Read
-* *Dynamic Routing Between Capsules* [[arXiv](https://arxiv.org/abs/1710.09829)] [[Siraj Raval](https://www.youtube.com/watch?v=VKoLGnq15RM)]
 * *Improving Neural Machine Translation with Conditional Sequence Generative Adversarial Nets* (Mar 2017) [[arXiv](https://arxiv.org/abs/1703.04887)] [[code](https://github.com/ngohoanhkhoa/GAN-NMT)]
 * *Adversarial Neural Machine Translation* (April 2017) [[arXiv](https://arxiv.org/abs/1704.06933)]
 * *Trainable Greedy Decoding for Neural Machine Translation* (Feb 2017) [[arXiv](https://arxiv.org/abs/1702.02429)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/greedydecoding.md)]
