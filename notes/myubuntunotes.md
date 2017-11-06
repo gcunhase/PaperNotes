@@ -266,3 +266,30 @@ sudo reboot
 ```
 python setup.py install
 ```
+
+### Setting up Desktop lab computer
+* Edit Ethernet Connection
+   * 155.230.104.188, 255.255.255.0, 155.230.104.1
+   * DNS: 155.230.10.2
+   * Search domains: 155.230.12.4
+
+* Install Google Chrome, [NoMachine](https://www.nomachine.com) and setup ssh
+   * Initial commands, NoMachine for Linux DEB amd64
+   ```
+   sudo apt-get -f install
+   sudo apt-get install dpkg
+   sudo dpkg -i google-chrome-stable_current.deb
+   sudo dpkg -i nomachine.deb
+   ```
+   * NoMachine Server Status: *change port to 8900* and restart server
+   * Desktop Sharing Preferences: *Allow other users to view your desktop* (necessary?)
+   * Enable *ssh* connection in Remote Desktop
+   ```
+   sudo apt-get update
+   sudo apt-get install ssh
+   sudo ufw allow 22
+   ```
+   
+* [Matlab](http://p30download.com/fa/entry/978/), pwd: *www.p30download.com*
+
+
