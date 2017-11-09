@@ -292,4 +292,8 @@ python setup.py install
    
 * [Matlab](http://p30download.com/fa/entry/978/), pwd: *www.p30download.com*
 
+* Scientific Python
+```
+sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
+```
 
