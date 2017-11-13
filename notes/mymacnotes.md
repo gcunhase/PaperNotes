@@ -37,3 +37,8 @@ diskutil eject /dev/disk2
 ```
 bash <(curl -s https://raw.githubusercontent.com/monfresh/laptop/master/laptop)
 ```
+
+### Matlab
+* [2016b](http://www.mactorrents.org/matlab-r2016b-9-1-0/)
+
+
