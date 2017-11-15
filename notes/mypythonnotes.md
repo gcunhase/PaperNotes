@@ -92,6 +92,16 @@ reboot
 * Examples to practice ```git clone git://github.com/numba/numba.git```
 * [Intro to Python GPU programming with Numba](https://github.com/ContinuumIO/numbapro-examples/blob/master/webinars/2014_06_17/intro_to_gpu_python.ipynb)
 
+### Running Python on Matlab in Ubuntu
+```
+[own_path, ~, ~] = fileparts(mfilename('../LSTM-Neural-Network-for-Time-Series-Prediction/'));
+module_path = fullfile(own_path, '..');
+python_path = py.sys.path;
+if count(python_path, module_path) == 0
+    insert(python_path, int32(0), module_path);
+end
+py.helloworld.main();
+```
 
 ### [Running Python codes on Matlab](http://adared.ch/matpy/)
 * On Matlab, make it see Xcode: [first try](https://kr.mathworks.com/matlabcentral/answers/246507-why-can-t-mex-find-a-supported-compiler-in-matlab-r2015b-after-i-upgraded-to-xcode-7-0), if it doesn't work, [try this](https://bitbucket.org/d2d-development/d2d-software/issues/46/xcode-7-on-osx-with-matlab-r2015a-b). Add the following lines in all *.xml* files in */Applications/MATLAB_R2015b.app/bin/maci64/mexopts/*
