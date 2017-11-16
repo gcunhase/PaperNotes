@@ -289,7 +289,10 @@ python setup.py install
    sudo apt-get install ssh
    sudo ufw allow 22
    ```
-   
+   * Install VLC
+   ```
+   sudo apt-get install vlc browser-plugin-vlc
+   ```
 * [Matlab](http://p30download.com/fa/entry/978/), pwd: *www.p30download.com*
 
 * Scientific Python
