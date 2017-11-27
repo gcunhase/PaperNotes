@@ -22,7 +22,9 @@ to defraud people by *stealing back his payments*, or using it to *generate new 
 
 ### Other important notes
 * Satoshi Nakamoto is a pseudonym: person or group?
-* 2009: Nakamoto put the concept to test
-* 2011: Nakamoto vanished
-    * Hypothesis 1: "Let bitcoin grow without him"
-    * Hypothesis 2: "Saw bitcoin taking off and wanted to keep his privacy"
+* Timeline
+    * 2008 - Publishes paper
+    * 2009 - Nakamoto put the concept to test
+    * 2011 - Nakamoto vanished
+        * Hypothesis 1: "Let bitcoin grow without him"
+        * Hypothesis 2: "Saw bitcoin taking off and wanted to keep his privacy"
