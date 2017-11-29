@@ -7,3 +7,17 @@ TLDR; Important notes related to LaTeX
 \usepackage{lineno}
 \linenumbers
 ```
+
+### [Balance last page in two columns paper](http://latex.org/forum/viewtopic.php?t=4226)
+```
+\documentclass{article}
+\usepackage{balance}
+ 
+\begin{document}
+blah blah
+ 
+\bibliographystyle{mystyle}
+\balance
+\bibliography{references}
+\end{document}
+```
