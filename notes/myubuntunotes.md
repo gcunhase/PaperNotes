@@ -30,6 +30,11 @@ sudo apt-get install rar unrar
 unrar x -e file.part1.rar
 ```
 
+### Convert all images to tiff
+```
+for f in *.png; do convert "$f" "${f%%.*}.tiff"; done
+```
+
 ### Recording a log file
 * Type the following to store all input and output in the terminal in *screen.log*: ```script screen.log```
 
