@@ -1,5 +1,5 @@
 #### 2017-12
-* *Distill Journal* [[distill.pub](distill.pub)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/distill.md)]
+* *Distill Journal* [[distill.pub](https://distill.pub/)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/distill.md)]
 
 #### 2017-11
 * *How to Construct Deep Recurrent Neural Networks* [[arXiv](https://arxiv.org/abs/1312.6026)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/deeprnn.md)]
