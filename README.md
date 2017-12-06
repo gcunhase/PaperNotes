@@ -1,5 +1,4 @@
 #### 2017-12
-* *Distill Journal* [[distill.pub](https://distill.pub/)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/distill.md)]
 
 #### 2017-11
 * *How to Construct Deep Recurrent Neural Networks* [[arXiv](https://arxiv.org/abs/1312.6026)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/deeprnn.md)]
@@ -42,8 +41,9 @@
 * *Learning to Discover Cross-Domain Relations with Generative Adversarial Networks* [[arXiv](https://arxiv.org/abs/1703.05192)] [[code](https://github.com/GunhoChoi/DiscoGAN-TF)]
 
 
-#### Blogs
+#### Blogs/Journals
 * [DeepMind](https://deepmind.com/blog/)
+* [Distill Journal](https://distill.pub/): Online journal that doesn't limit your work to a pdf, it allows the reader to have a more interactive experience
 
 #### Other notes
 * [My Ubuntu notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/myubuntunotes.md)
