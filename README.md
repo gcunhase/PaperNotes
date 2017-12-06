@@ -1,3 +1,6 @@
+#### 2017-12
+* *Distill Journal* [[distill.pub](distill.pub)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/distill.md)]
+
 #### 2017-11
 * *How to Construct Deep Recurrent Neural Networks* [[arXiv](https://arxiv.org/abs/1312.6026)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/deeprnn.md)]
 * *Dynamic Routing Between Capsules* [[arXiv](https://arxiv.org/abs/1710.09829)] [[Siraj Raval](https://www.youtube.com/watch?v=VKoLGnq15RM)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/capsulenet.md)]
