@@ -165,4 +165,6 @@ tensorboard --logdir=path/to/log-or-train-directory
 ```
 On local machine, go to http://127.0.0.1:16006 to access the remote TensorBoard
 
+### Tensorboard on Tensorflow on local machine
 
+http://0.0.0.0:6006/#scalars
