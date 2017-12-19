@@ -28,3 +28,5 @@ to defraud people by *stealing back his payments*, or using it to *generate new 
     * 2011 - Nakamoto vanished
         * Hypothesis 1: "Let bitcoin grow without him"
         * Hypothesis 2: "Saw bitcoin taking off and wanted to keep his privacy"
+
+* [Good explanation on youtube](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
