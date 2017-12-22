@@ -22,7 +22,7 @@ TLDR; Neural network architecture for speech synthesis directly from text.
 ### Results
 * Model achieves a mean opinion score (MOS) of 4.53 comparable to a MOS of 4.58 for professionally recorded speech.
 * Conclusion: the use of a compact acoustic intermediate representation enables significant simplification of the WaveNet architecture.
-* Problems:
+* [Problems](https://research.googleblog.com/2017/12/tacotron-2-generating-human-like-speech.html?m=1):
   * System has difficulties pronouncing complex words (such as “decorum” and “merlot”)
   * In extreme cases it can even randomly generate strange noises
   * System cannot yet generate audio in realtime
