@@ -1,4 +1,5 @@
 #### 2017-12
+* *Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram Predictions* [[arXiv](https://arxiv.org/abs/1712.05884)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/tacotron2.md)]
 
 #### 2017-11
 * *How to Construct Deep Recurrent Neural Networks* [[arXiv](https://arxiv.org/abs/1312.6026)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/deeprnn.md)]
