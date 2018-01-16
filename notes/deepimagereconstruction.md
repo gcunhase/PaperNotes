@@ -11,7 +11,7 @@ TLDR; Deep image reconstruction model used to reconstruct perceptual and mental 
 
 
 ### Notes / Questions
-* 
+* https://singularityhub.com/2018/01/14/this-neural-network-built-by-japanese-researchers-can-read-minds/#sm.0002u7l49h5kex210be2d9xch1crk
 
 ### Results
 * 
