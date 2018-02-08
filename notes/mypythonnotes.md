@@ -16,6 +16,25 @@ pip install -e git+https://github.com/tqdm/tqdm.git@master#egg=tqdm
 from tqdm import tqdm
 ```
 
+### [PyCharm](https://itsfoss.com/install-pycharm-ubuntu/)
+* PyCharm Pro version is now available in Ubuntu Software Center in Ubuntu 16.04. So you can just install it from there.
+* If not available,
+  ```
+  sudo add-apt-repository ppa:mystic-mirage/pycharm
+  sudo apt-get update
+  ```
+
+    * To download the community edition of PyCharm:
+    ```
+    sudo apt-get install pycharm-community
+    ```
+
+    * To download the professional edition of PyCharm:
+    ```
+    sudo apt-get install pycharm
+    ```
+   
+    
 ### [Anaconda](https://www.anaconda.com/download/)
 ```
 wget https://repo.continuum.io/archive/Anaconda2-4.4.0-Linux-x86_64.sh
