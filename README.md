@@ -62,3 +62,8 @@
 * Bitvise SFTP: copying to and from remote computer
 * Editing videos: Adobe Premiere Pro CC & Adobe Media Encoder CC
 * Filezilla to download files from server, PyCharm IDE to edit them
+  ```
+  sudo add-apt-repository ppa:n-muench/programs-ppa
+  sudo apt-get update
+  sudo apt-get install filezilla
+  ```
