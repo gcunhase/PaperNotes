@@ -177,13 +177,19 @@ py('eval', stmt);
     random.shuffle(combined)
     ```
     
-### Tensorboard on Tensorflow [on server](https://stackoverflow.com/questions/37987839/how-can-i-run-tensorboard-on-a-remote-server)
-```
-ssh -L 16006:127.0.0.1:6006 olivier@my_server_ip
-tensorboard --logdir=path/to/log-or-train-directory
-```
-On local machine, go to http://127.0.0.1:16006 to access the remote TensorBoard
+### Tensorboard on Tensorflow
 
-### Tensorboard on Tensorflow on local machine
+* [On server](https://stackoverflow.com/questions/37987839/how-can-i-run-tensorboard-on-a-remote-server)
+  ```
+  ssh -L 16006:127.0.0.1:6006 olivier@my_server_ip
+  tensorboard --logdir=path/to/log-or-train-directory
+  ```
+  On local machine, go to http://127.0.0.1:16006 to access the remote TensorBoard
 
-http://0.0.0.0:6006/#scalars
+* On server (already sshed)
+  ```
+  tensorboard --port=8900 --logdir=path/to/log-or-train-directory
+  ```
+  On local machine: https://ip_address:port (port = 8900, 9000)
+
+* On local machine: http://0.0.0.0:6006/#scalars
