@@ -39,6 +39,11 @@
 * *Conditional Image Generation with PixelCNN Decoders* (Jun 2016) [[arXiv](https://arxiv.org/abs/1606.05328)] [[code](https://github.com/anantzoid/Conditional-PixelCNN-decoder)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/pixelcnn.md)]
 
 #### To Read
+* *StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation* [[arXiv](https://arxiv.org/abs/1711.09020)] [[code](https://github.com/yunjey/StarGAN)] [[video](https://www.youtube.com/watch?v=EYjdLppmERE)] [[reddit](https://www.reddit.com/r/MachineLearning/comments/7fro3g/r_stargan_unified_generative_adversarial_networks/)]
+* *Automatic Music Highlight Extraction using Convolutional Recurrent Attention Networks* [[arXiv](https://arxiv.org/abs/1712.05901)]
+* *Highrisk Prediction from Electronic Medical Records via Deep Attention Networks
+* [[arXiv](https://arxiv.org/abs/1712.00010)]
+* *NSML: A Machine Learning Platform That Enables You to Focus on Your Models* [[arXiv](https://arxiv.org/abs/1712.05902)] [[website](https://research.clova.ai/nsml-alpha)]
 * *Stacked Convolutional and Recurrent Neural Networks for Music Emotion Recognition* [[arXiv](https://arxiv.org/abs/1706.02292)]
 * *Improving Neural Machine Translation with Conditional Sequence Generative Adversarial Nets* (Mar 2017) [[arXiv](https://arxiv.org/abs/1703.04887)] [[code](https://github.com/ngohoanhkhoa/GAN-NMT)]
 * *Adversarial Neural Machine Translation* (April 2017) [[arXiv](https://arxiv.org/abs/1704.06933)]
