@@ -40,6 +40,7 @@
 
 #### To Read
 * *Blockchain and Artificial Intelligence* [[arXiv](https://arxiv.org/abs/1802.04451)]
+* *DataBright: Towards a Global Exchange for Decentralized Data Ownership and Trusted Computation* [[arXiv](https://arxiv.org/abs/1802.04780)]
 * *StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation* [[arXiv](https://arxiv.org/abs/1711.09020)] [[code](https://github.com/yunjey/StarGAN)] [[video](https://www.youtube.com/watch?v=EYjdLppmERE)] [[reddit](https://www.reddit.com/r/MachineLearning/comments/7fro3g/r_stargan_unified_generative_adversarial_networks/)]
 * *Automatic Music Highlight Extraction using Convolutional Recurrent Attention Networks* [[arXiv](https://arxiv.org/abs/1712.05901)]
 * *Highrisk Prediction from Electronic Medical Records via Deep Attention Networks
