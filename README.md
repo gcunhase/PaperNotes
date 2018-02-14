@@ -39,6 +39,7 @@
 * *Conditional Image Generation with PixelCNN Decoders* (Jun 2016) [[arXiv](https://arxiv.org/abs/1606.05328)] [[code](https://github.com/anantzoid/Conditional-PixelCNN-decoder)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/pixelcnn.md)]
 
 #### To Read
+* *Blockchain and Artificial Intelligence* [[arXiv](https://arxiv.org/abs/1802.04451)]
 * *StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation* [[arXiv](https://arxiv.org/abs/1711.09020)] [[code](https://github.com/yunjey/StarGAN)] [[video](https://www.youtube.com/watch?v=EYjdLppmERE)] [[reddit](https://www.reddit.com/r/MachineLearning/comments/7fro3g/r_stargan_unified_generative_adversarial_networks/)]
 * *Automatic Music Highlight Extraction using Convolutional Recurrent Attention Networks* [[arXiv](https://arxiv.org/abs/1712.05901)]
 * *Highrisk Prediction from Electronic Medical Records via Deep Attention Networks
