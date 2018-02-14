@@ -1,19 +1,19 @@
 #### 2018-02
-* *Coupled generative adversarial stacked Auto-encoder: CoGASA* [[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0893608018300029)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/cogasa.md)]
-* *Song From PI: A Musically Plausible Network for Pop Music Generation* [[arXiv](https://arxiv.org/abs/1611.03477)] [[website](https://www.cs.toronto.edu/songfrompi/)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/songFromPI.md)]
+* *Coupled generative adversarial stacked Auto-encoder: CoGASA* (April 2018) [[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0893608018300029)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/cogasa.md)]
+* *Song From PI: A Musically Plausible Network for Pop Music Generation* (Nov 2016) [[arXiv](https://arxiv.org/abs/1611.03477)] [[website](https://www.cs.toronto.edu/songfrompi/)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/songFromPI.md)]
 
 #### 2018-01
-* *Deep image reconstruction from human brain activity* [[bioRxiv](https://www.biorxiv.org/content/biorxiv/early/2017/12/30/240317.full.pdf)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/deepimagereconstruction.md)]
+* *Deep image reconstruction from human brain activity* (28 2017) [[bioRxiv](https://www.biorxiv.org/content/biorxiv/early/2017/12/30/240317.full.pdf)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/deepimagereconstruction.md)]
 
 #### 2017-12
-* *Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram Predictions* [[arXiv](https://arxiv.org/abs/1712.05884)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/tacotron2.md)]
+* *Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram Predictions* (Dec 2017) [[arXiv](https://arxiv.org/abs/1712.05884)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/tacotron2.md)]
 
 #### 2017-11
-* *How to Construct Deep Recurrent Neural Networks* [[arXiv](https://arxiv.org/abs/1312.6026)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/deeprnn.md)]
-* *Dynamic Routing Between Capsules* [[arXiv](https://arxiv.org/abs/1710.09829)] [[Siraj Raval](https://www.youtube.com/watch?v=VKoLGnq15RM)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/capsulenet.md)]
+* *How to Construct Deep Recurrent Neural Networks* (Dec 2013) [[arXiv](https://arxiv.org/abs/1312.6026)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/deeprnn.md)]
+* *Dynamic Routing Between Capsules* (Oct 2017) [[arXiv](https://arxiv.org/abs/1710.09829)] [[Siraj Raval](https://www.youtube.com/watch?v=VKoLGnq15RM)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/capsulenet.md)]
 
 #### 2017-10
-* *MidiNet: A Convolutional Generative Adversarial Network for Symbolic-domain Music Generation* [[arXiv](https://arxiv.org/abs/1703.10847)] [[code](https://github.com/RichardYang40148/MidiNet)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/midinet.md)]
+* *MidiNet: A Convolutional Generative Adversarial Network for Symbolic-domain Music Generation* (Mar 2017) [[arXiv](https://arxiv.org/abs/1703.10847)] [[code](https://github.com/RichardYang40148/MidiNet)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/midinet.md)]
 * *C-RNN-GAN: Continuous recurrent neural networks with adversarial training* (Nov 2016) [[arXiv](https://arxiv.org/abs/1611.09904)] [[code](https://github.com/olofmogren/c-rnn-gan)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/crnngan.md)]
 
 #### 2017-09
