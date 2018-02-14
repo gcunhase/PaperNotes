@@ -3,7 +3,7 @@
 * *Song From PI: A Musically Plausible Network for Pop Music Generation* (Nov 2016) [[arXiv](https://arxiv.org/abs/1611.03477)] [[website](https://www.cs.toronto.edu/songfrompi/)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/songFromPI.md)]
 
 #### 2018-01
-* *Deep image reconstruction from human brain activity* (28 2017) [[bioRxiv](https://www.biorxiv.org/content/biorxiv/early/2017/12/30/240317.full.pdf)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/deepimagereconstruction.md)]
+* *Deep image reconstruction from human brain activity* (Dec 2017) [[bioRxiv](https://www.biorxiv.org/content/biorxiv/early/2017/12/30/240317.full.pdf)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/deepimagereconstruction.md)]
 
 #### 2017-12
 * *Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram Predictions* (Dec 2017) [[arXiv](https://arxiv.org/abs/1712.05884)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/tacotron2.md)]
