@@ -39,6 +39,7 @@
 * *Conditional Image Generation with PixelCNN Decoders* (Jun 2016) [[arXiv](https://arxiv.org/abs/1606.05328)] [[code](https://github.com/anantzoid/Conditional-PixelCNN-decoder)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/pixelcnn.md)]
 
 #### To Read
+* *Mastering the game of Go without human knowledge* (April 2017) [AlphaGo Zero] [[Nature Journal](https://www.nature.com/articles/nature24270)] [[deepmind](https://deepmind.com/blog/alphago-zero-learning-scratch/)] [[notes]()]
 * *Blockchain and Artificial Intelligence* [[arXiv](https://arxiv.org/abs/1802.04451)]
 * *DataBright: Towards a Global Exchange for Decentralized Data Ownership and Trusted Computation* [[arXiv](https://arxiv.org/abs/1802.04780)]
 * *StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation* [[arXiv](https://arxiv.org/abs/1711.09020)] [[code](https://github.com/yunjey/StarGAN)] [[video](https://www.youtube.com/watch?v=EYjdLppmERE)] [[reddit](https://www.reddit.com/r/MachineLearning/comments/7fro3g/r_stargan_unified_generative_adversarial_networks/)]
