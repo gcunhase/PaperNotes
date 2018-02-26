@@ -1,5 +1,6 @@
 #### 2018-02
-* *Coupled generative adversarial stacked Auto-encoder: CoGASA* (April 2018) [[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0893608018300029)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/cogasa.md)]
+* *Fast learning method for convolutional neural networks using
+extreme learning machine and its application to lane detection* (Dec 2016) [[Neural Networks](http://fcv2011.ulsan.ac.kr/files/announcement/601/1-s2.0-S0893608016301885-main.pdf)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/elcnn.md)]
 * *Song From PI: A Musically Plausible Network for Pop Music Generation* (Nov 2016) [[arXiv](https://arxiv.org/abs/1611.03477)] [[website](https://www.cs.toronto.edu/songfrompi/)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/songFromPI.md)]
 
 #### 2018-01
@@ -39,6 +40,7 @@
 * *Conditional Image Generation with PixelCNN Decoders* (Jun 2016) [[arXiv](https://arxiv.org/abs/1606.05328)] [[code](https://github.com/anantzoid/Conditional-PixelCNN-decoder)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/pixelcnn.md)]
 
 #### To Read
+* *Coupled generative adversarial stacked Auto-encoder: CoGASA* (April 2018) [[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0893608018300029)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/cogasa.md)]
 * *Mastering the game of Go without human knowledge* (April 2017) [AlphaGo Zero] [[Nature Journal](https://www.nature.com/articles/nature24270)] [[deepmind](https://deepmind.com/blog/alphago-zero-learning-scratch/)] [[notes]()]
 * *Blockchain and Artificial Intelligence* [[arXiv](https://arxiv.org/abs/1802.04451)]
 * *DataBright: Towards a Global Exchange for Decentralized Data Ownership and Trusted Computation* [[arXiv](https://arxiv.org/abs/1802.04780)]
