@@ -1,6 +1,6 @@
 #### 2018-02
-* *Fast learning method for convolutional neural networks using
-extreme learning machine and its application to lane detection* (Dec 2016) [[Neural Networks](http://fcv2011.ulsan.ac.kr/files/announcement/601/1-s2.0-S0893608016301885-main.pdf)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/elcnn.md)]
+* *Fast learning method for convolutional neural networks using extreme learning machine and its application to lane detection* (Dec 2016) [[Neural Networks](http://fcv2011.ulsan.ac.kr/files/announcement/601/1-s2.0-S0893608016301885-main.pdf)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/elcnn.md)]
+* *What are Extreme Learning Machines? Filling the Gap Between Frank Rosenblatt’s Dream and John von Neumann’s Puzzle* [[Springer's Cognitive Computation](http://www.ntu.edu.sg/home/egbhuang/pdf/ELM-Rosenblatt-Neumann.pdf)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/elm.md)]
 * *Song From PI: A Musically Plausible Network for Pop Music Generation* (Nov 2016) [[arXiv](https://arxiv.org/abs/1611.03477)] [[website](https://www.cs.toronto.edu/songfrompi/)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/songFromPI.md)]
 
 #### 2018-01
