@@ -2,6 +2,16 @@
 
 TLDR; Important notes related to Python
 
+### Good practice
+1. [Proper structure](https://airbrake.io/blog/python/python-best-practices)
+    * *root*: License, README, setupy.py, requirements.txt
+    * */module*: Module Code (*root* for just 1 file)
+    * */docs*: Documentation
+    * */tests*: Tests
+
+2. [Naming](https://gist.github.com/sloria/7001839#naming)
+
+
 ### Timing a program
 ```python
 from timeit import default_timer as timer
