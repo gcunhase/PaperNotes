@@ -181,7 +181,7 @@ sudo reboot
 
 6. Installing Tensorflow
 
-    * First try running: ```pip install tensorflow-gpu``` (**THIS MIGHT BE THE ONLY NECESSARY THING**)
+    * First try running: ```pip install --upgrade tensorflow-gpu``` (**THIS MIGHT BE THE ONLY NECESSARY THING**)
 
     * Copy files downloaded using the git command to ```/usr/local/cuda-8.0/```
   
