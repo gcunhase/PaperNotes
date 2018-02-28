@@ -65,6 +65,14 @@
 
 #### Other notes
 * [My Ubuntu notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/myubuntunotes.md)
+    * Podcasts: [gPodder](https://gpodder.github.io/)
+    ```
+      git clone https://github.com/gpodder/gpodder.git
+      cd gpodder
+      python3 tools/localdepends.py
+      python3 tools/create-desktop-icon.py
+      bin/gpodder
+    ```
 * [My Mac notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/mymacnotes.md)
 * [My LaTeX notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/mylatexnotes.md)
 * [My Python notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/mypythonnotes.md)
