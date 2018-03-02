@@ -76,6 +76,7 @@
 * [My Mac notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/mymacnotes.md)
 * [My LaTeX notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/mylatexnotes.md)
 * [My Python notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/mypythonnotes.md)
+* [My Git notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/mygitnotes.md)
 * Reading *.hwp* online: [Hancom Inc.](https://www.netffice24.com/)
 * Markdown
   * Markdown files preview: [Atom](https://atom.io/), [preview here](http://markdown-here.com/)
