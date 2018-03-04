@@ -7,6 +7,27 @@ TLDR; Important notes related to Ubuntu
 lsb_release -a
 ```
 
+### Failure to fetch apt-get update
+1. Add *nameserver 8.8.8.8* and *nameserver 8.8.4.4* to */etc/resolv.conf*:
+```bash
+sudo nano /etc/resolv.conf
+>> nameserver 8.8.8.8
+>> nameserver 8.8.4.4
+
+sudo nano /etc/network/interfaces
+>> dns-nameservers 8.8.8.8 8.8.4.4
+```
+
+2. [Problem: Ubuntu version discontinued support](https://stackoverflow.com/questions/30316812/ubuntu-apt-get-unable-to-fetch-packages)
+  ```
+  sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup
+  sudo nano /etc/apt/sources.list
+  ```
+  * Rename all the instances of **us.archive** or **archive** in
+    *http://**us.archive**.ubuntu.com/ubuntu/* to *http://**old-releases**.ubuntu.com/ubuntu/*
+  * Also do the same for the *http://**security**.ubuntu.com/ubuntu/dists/saucy-security/universe/binary-i386/Packages*
+  * Run *sudo apt-get update*
+
 ### Find files
    ```find ~/ -type f -name [filename]```
    
