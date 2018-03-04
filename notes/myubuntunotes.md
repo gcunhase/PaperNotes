@@ -28,6 +28,13 @@ sudo nano /etc/network/interfaces
   * Also do the same for the *http://**security**.ubuntu.com/ubuntu/dists/saucy-security/universe/binary-i386/Packages*
   * Run *sudo apt-get update*
 
+3. Dist-upgrade
+```bash
+sudo apt-get dist-upgrade
+```
+
+4. [Update package list](https://askubuntu.com/questions/378558/unable-to-locate-package-while-trying-to-install-packages-with-apt/158783)
+
 ### Find files
    ```find ~/ -type f -name [filename]```
    
