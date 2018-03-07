@@ -11,6 +11,7 @@ TLDR; Important notes related to Python
 
 2. [Naming](https://gist.github.com/sloria/7001839#naming)
 
+3. [Google Style Python Docstrings](http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
 
 ### Timing a program
 ```python
