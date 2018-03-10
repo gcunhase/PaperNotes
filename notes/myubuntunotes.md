@@ -40,6 +40,11 @@ sudo apt-get dist-upgrade
    
    ```locate [folderName]```
 
+### Print lines of file
+```
+tail -n +[first line] [file name] | head -n [number of lines]
+```
+
 ### Renaming multiple files
 Select all filenames starting with *''* and replace it with *'audio1_'*. *^* indicates the beginning of the string.
 
