@@ -2,6 +2,9 @@
 
 TLDR; Important notes related to Python
 
+### TextBlob
+* [Github source](http://textblob.readthedocs.io/en/dev/index.html)
+
 ### Good practice
 1. [Proper structure](https://airbrake.io/blog/python/python-best-practices)
     * *root*: License, README, setupy.py, requirements.txt
