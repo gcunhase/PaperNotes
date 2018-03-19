@@ -10,7 +10,7 @@ TLDR; Important notes related to Mac
   diskutil unmountDisk disk3
   diskutil eject disk3
   ```
-* [In case of *Volume timed out while waiting to eject*](https://apple.stackexchange.com/questions/235309/external-drive-does-not-mount-after-plug-off-without-eject) error:
+* In case of [*Volume timed out while waiting to eject*](https://apple.stackexchange.com/questions/235309/external-drive-does-not-mount-after-plug-off-without-eject) error:
   ```
   diskutil unmountDisk disk3
   sudo pkill -f fsck
