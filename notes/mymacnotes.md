@@ -2,6 +2,21 @@
 
 TLDR; Important notes related to Mac
 
+### [Mac not recognizing external hard drive](https://appletoolbox.com/2017/03/mac-macbook-doesnt-recognize-external-drives-troubleshooting-tips/)
+* Run the following commands, unplug and plug drive back again
+  ```
+  diskutil list
+  diskutil info disk3
+  diskutil unmountDisk disk3
+  diskutil eject disk3
+  ```
+* [In case of *Volume timed out while waiting to eject*](https://apple.stackexchange.com/questions/235309/external-drive-does-not-mount-after-plug-off-without-eject) error:
+  ```
+  diskutil unmountDisk disk3
+  sudo pkill -f fsck
+  diskutil eject disk3
+  ```
+
 ### [Create Ubuntu live USB with MacOS](https://computers.tutsplus.com/tutorials/how-to-create-a-bootable-ubuntu-usb-drive-for-pc-on-a-mac--cms-21187)
 1. [Download Ubuntu](https://www.ubuntu.com/download/desktop)
 2. Convert *.iso* to *.img*/*.dmg* file
