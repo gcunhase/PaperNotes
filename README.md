@@ -40,6 +40,9 @@
 * *Conditional Image Generation with PixelCNN Decoders* (Jun 2016) [[arXiv](https://arxiv.org/abs/1606.05328)] [[code](https://github.com/anantzoid/Conditional-PixelCNN-decoder)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/pixelcnn.md)]
 
 #### To Read
+* *What Level of Quality can Neural Machine Translation Attain on Literary Text?* [[arXiv](https://arxiv.org/abs/1801.04962)]
+* *A Multilayer Convolutional Encoder-Decoder Neural Network for Grammatical Error Correction* [[arXiv](https://arxiv.org/abs/1801.08831)] [[code](https://github.com/nusnlp/mlconvgec2018)]
+* *Improving Neural Machine Translation with Conditional Sequence Generative Adversarial Nets* [[arXiv](https://arxiv.org/abs/1703.04887)]
 * *Fast learning method for convolutional neural networks using extreme learning machine and its application to lane detection* (Dec 2016) [[Neural Networks](http://fcv2011.ulsan.ac.kr/files/announcement/601/1-s2.0-S0893608016301885-main.pdf)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/elcnn.md)]
 * *What are Extreme Learning Machines? Filling the Gap Between Frank Rosenblatt’s Dream and John von Neumann’s Puzzle* [[Springer's Cognitive Computation](http://www.ntu.edu.sg/home/egbhuang/pdf/ELM-Rosenblatt-Neumann.pdf)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/elm.md)]
 * *Coupled generative adversarial stacked Auto-encoder: CoGASA* (April 2018) [[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0893608018300029)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/cogasa.md)]
@@ -48,8 +51,7 @@
 * *DataBright: Towards a Global Exchange for Decentralized Data Ownership and Trusted Computation* [[arXiv](https://arxiv.org/abs/1802.04780)]
 * *StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation* [[arXiv](https://arxiv.org/abs/1711.09020)] [[code](https://github.com/yunjey/StarGAN)] [[video](https://www.youtube.com/watch?v=EYjdLppmERE)] [[reddit](https://www.reddit.com/r/MachineLearning/comments/7fro3g/r_stargan_unified_generative_adversarial_networks/)]
 * *Automatic Music Highlight Extraction using Convolutional Recurrent Attention Networks* [[arXiv](https://arxiv.org/abs/1712.05901)]
-* *Highrisk Prediction from Electronic Medical Records via Deep Attention Networks
-* [[arXiv](https://arxiv.org/abs/1712.00010)]
+* *Highrisk Prediction from Electronic Medical Records via Deep Attention Networks* [[arXiv](https://arxiv.org/abs/1712.00010)]
 * *NSML: A Machine Learning Platform That Enables You to Focus on Your Models* [[arXiv](https://arxiv.org/abs/1712.05902)] [[website](https://research.clova.ai/nsml-alpha)]
 * *Stacked Convolutional and Recurrent Neural Networks for Music Emotion Recognition* [[arXiv](https://arxiv.org/abs/1706.02292)]
 * *Improving Neural Machine Translation with Conditional Sequence Generative Adversarial Nets* (Mar 2017) [[arXiv](https://arxiv.org/abs/1703.04887)] [[code](https://github.com/ngohoanhkhoa/GAN-NMT)]
