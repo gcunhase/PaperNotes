@@ -76,9 +76,15 @@ pip install pyspark
 
 ### Using GPU
 
-#### [PyTorch](http://pytorch.org/tutorials/beginner/pytorch_with_examples.html)
+#### [PyTorch](http://pytorch.org/)
 Basically same as numpy but with GPU compatibility.
-* Install dependencies
+1. Pip install
+```
+sudo pip install http://download.pytorch.org/whl/cu91/torch-0.3.1-cp27-cp27mu-linux_x86_64.whl
+sudo pip install torchvision 
+```
+
+2. [Install dependencies](http://pytorch.org/tutorials/beginner/pytorch_with_examples.html)
 ```
 export CMAKE_PREFIX_PATH="$(dirname $(which conda))/../" # [anaconda root directory]
 
@@ -89,12 +95,12 @@ conda install numpy pyyaml mkl setuptools cmake gcc cffi
 conda install -c soumith magma-cuda80 # or magma-cuda75 if CUDA 7.5
 ```
 
-* Install Torch
-```
-git clone --recursive https://github.com/pytorch/pytorch
-python setup.py install
-reboot
-```
+   * Install Torch
+   ```
+   git clone --recursive https://github.com/pytorch/pytorch
+   python setup.py install
+   reboot
+   ```
 
 * Example powers
 
