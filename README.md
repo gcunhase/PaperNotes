@@ -1,4 +1,5 @@
 #### 2018-03
+* *What Level of Quality can Neural Machine Translation Attain on Literary Text?* [[arXiv](https://arxiv.org/abs/1801.04962)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/mtLitText.md)]
 
 #### 2018-02
 * *Song From PI: A Musically Plausible Network for Pop Music Generation* (Nov 2016) [[arXiv](https://arxiv.org/abs/1611.03477)] [[website](https://www.cs.toronto.edu/songfrompi/)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/songFromPI.md)]
@@ -40,7 +41,6 @@
 * *Conditional Image Generation with PixelCNN Decoders* (Jun 2016) [[arXiv](https://arxiv.org/abs/1606.05328)] [[code](https://github.com/anantzoid/Conditional-PixelCNN-decoder)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/pixelcnn.md)]
 
 #### To Read
-* *What Level of Quality can Neural Machine Translation Attain on Literary Text?* [[arXiv](https://arxiv.org/abs/1801.04962)]
 * *A Multilayer Convolutional Encoder-Decoder Neural Network for Grammatical Error Correction* [[arXiv](https://arxiv.org/abs/1801.08831)] [[code](https://github.com/nusnlp/mlconvgec2018)]
 * *Improving Neural Machine Translation with Conditional Sequence Generative Adversarial Nets* [[arXiv](https://arxiv.org/abs/1703.04887)]
 * *Fast learning method for convolutional neural networks using extreme learning machine and its application to lane detection* (Dec 2016) [[Neural Networks](http://fcv2011.ulsan.ac.kr/files/announcement/601/1-s2.0-S0893608016301885-main.pdf)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/elcnn.md)]
