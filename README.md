@@ -1,3 +1,6 @@
+#### 2018-04
+* *Neural Speed Reading via Skim-RNN* [[arXiv](https://arxiv.org/abs/1711.02085)] [[code](https://github.com/schelotto/Neural_Speed_Reading_via_Skim-RNN_PyTorch)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/skimRNN.md)]
+
 #### 2018-03
 * *What Level of Quality can Neural Machine Translation Attain on Literary Text?* [[arXiv](https://arxiv.org/abs/1801.04962)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/mtLitText.md)]
 
