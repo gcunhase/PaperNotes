@@ -2,6 +2,8 @@
 
 TLDR; Important notes related to Python
 
+### [How to submit package to PyPI](http://peterdowns.com/posts/first-time-with-pypi.html)
+
 ### TextBlob
 * [Github source](http://textblob.readthedocs.io/en/dev/index.html)
 
