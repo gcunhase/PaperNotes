@@ -5,6 +5,10 @@ TLDR; Important notes related to Python
 ### [How to submit package to PyPI](http://peterdowns.com/posts/first-time-with-pypi.html)
 
 ### [Pipenv and Virtual Environments](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
+```
+cd my_project_folder
+virtualenv my_project
+```
 
 ### TextBlob
 * [Github source](http://textblob.readthedocs.io/en/dev/index.html)
