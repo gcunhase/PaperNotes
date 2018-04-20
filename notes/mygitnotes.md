@@ -6,3 +6,7 @@ TLDR; Important notes related to Git
   ```
   find . -name "*.pyc" -exec git rm -f "{}" \;
   ```
+### Remove folder from git
+  ```
+  git rm -r --cached myFolder
+  ```
