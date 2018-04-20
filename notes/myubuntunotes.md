@@ -208,7 +208,15 @@ sudo reboot
     sudo chmod +x bazel-0.5.2-installer-linux-x86_64.sh
     sudo ./bazel-0.5.2-installer-linux-x86_64.sh
     ```
-
+    * [Install Bazel 0.11.0](https://gist.github.com/kmhofmann/e368a2ebba05f807fa1a90b3bf9a1e03) for Tensorflow 1.7.0 and add a PATH entry to .bashrc, or just export it in current shell:
+    ```
+    mkdir bazel && cd bazel
+    wget https://github.com/bazelbuild/bazel/releases/download/0.11.0/bazel-0.11.0-dist.zip
+    unzip bazel-0.11.0-dist.zip
+    bash ./compile.sh
+    export PATH=`pwd`/output:$PATH
+    ```
+      
     * [Check installation](http://askubuntu.com/questions/87415/how-can-i-find-out-if-a-specific-program-is-installed)
     ```
     sudo bazel version
