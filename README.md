@@ -1,3 +1,6 @@
+#### 2018-05
+* *Adversarial Autoencoders* [[link](https://blog.paperspace.com/adversarial-autoencoders-with-pytorch/)]
+
 #### 2018-04
 * *Neural Speed Reading via Skim-RNN* [[arXiv](https://arxiv.org/abs/1711.02085)] [[code](https://github.com/schelotto/Neural_Speed_Reading_via_Skim-RNN_PyTorch)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/skimRNN.md)]
 
