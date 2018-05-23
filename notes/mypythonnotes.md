@@ -10,6 +10,27 @@ cd my_project_folder
 virtualenv my_project
 ```
 
+### [Shuffle two numpy arrays in unison](https://stackoverflow.com/questions/23289547/shuffle-two-list-at-once-with-same-order/23289591)
+```
+import random
+
+a = ['a', 'b', 'c']
+b = [1, 2, 3]
+
+c = list(zip(a, b))
+
+random.shuffle(c)
+
+a, b = zip(*c)
+
+print a
+print b
+
+[OUTPUT]
+['a', 'c', 'b']
+[1, 3, 2]
+```
+
 ### TextBlob
 * [Github source](http://textblob.readthedocs.io/en/dev/index.html)
 
