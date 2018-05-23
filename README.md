@@ -87,6 +87,7 @@
 * [My LaTeX notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/mylatexnotes.md)
 * [My Python notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/mypythonnotes.md)
 * [My Git notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/mygitnotes.md)
+* [My Inkspace notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/myinkspacenotes.md)
 * Online learning: [Treehouse](https://teamtreehouse.com), Udacity, Udemy
 * Reading *.hwp* online: [Hancom Inc.](https://www.netffice24.com/)
 * Markdown
