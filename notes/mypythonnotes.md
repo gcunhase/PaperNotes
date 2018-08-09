@@ -112,6 +112,10 @@ Basically same as numpy but with GPU compatibility.
 sudo pip install http://download.pytorch.org/whl/cu91/torch-0.3.1-cp27-cp27mu-linux_x86_64.whl
 sudo pip install torchvision 
 ```
+   * Pip install for CUDA 8.0, Python 3.5. [List of all available versions](http://download.pytorch.org/whl/cu80/torch-0.4.0-cp36-cp36m-linux_x86_64.whl).
+   ```
+   pip install http://download.pytorch.org/whl/cu80/torch-0.4.0-cp35-cp35m-linux_x86_64.whl
+   ```
 
 2. [Install dependencies](http://pytorch.org/tutorials/beginner/pytorch_with_examples.html)
 ```
