@@ -19,6 +19,7 @@ TLDR;
 <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/rawmusicgeneration_model.png" width="400" alt="Model">
 </p>
 
+* Quantisation models: VQ-QAE vs AMAE
 <p align="center">
 <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/rawmusicgeneration_quantisationModel.png" width="400" alt="Quantisation models">
 </p>
