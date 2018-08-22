@@ -1,3 +1,6 @@
+#### 2018-08
+* *The challenge of realistic music generation: modelling raw audio at scale* (Jun 2018) [[arXiv](https://arxiv.org/abs/1806.10474)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/rawmusicgeneration.md)]
+
 #### 2018-05
 * *Adversarial Autoencoders* [[link](https://blog.paperspace.com/adversarial-autoencoders-with-pytorch/)]
 
