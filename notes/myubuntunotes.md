@@ -7,6 +7,38 @@ TLDR; Important notes related to Ubuntu
 lsb_release -a
 ```
 
+### Set up VNC server
+1. Install
+  ```
+  apt-get install vnc4server lsof
+  vncserver -kill :1
+  sudo add-apt-repository ppa:gnome3-team/gnome3
+  sudo apt-get update && sudo apt-get install gnome-shell ubuntu-gnome-desktop
+  ```
+
+2. Edit *~/.vnc/xstartup* with:
+  ```
+  [ -x /etc/vnc/xstartup ] && exec /etc/vnc/xstartup
+  [ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
+  xsetroot -solid grey
+  vncconfig -iconic &
+  x-terminal-emulator -geometry 80x24+10+10 -ls -title "$VNCDESKTOP Desktop" &
+  x-window-manager &
+
+  gnome-panel &
+  gnome-settings-daemon &
+  metacity &
+  nautilus &
+  ```
+  
+3. Start
+  ```
+  lsof -i :PORT
+  vncserver -geometry 1920x1080 :4000
+  ```
+
+4. Install VNC Client on your local computer and connect with IP:PORT
+
 ### Failure to fetch apt-get update
 1. Add *nameserver 8.8.8.8* and *nameserver 8.8.4.4* to */etc/resolv.conf*:
 ```bash
