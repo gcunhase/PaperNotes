@@ -12,7 +12,8 @@ TLDR; End-to-end learning model for speech synthesis where the input X is the sp
   * *Conditional* SampleRNN: "Each vocoder feature frame is added as an extra input to the corresponding state in the top tier", allowing "the module to use the past audio samples and vocoder feature frames to generate the current audio samples."
   * End-to-end learning: "eliminates the need for expert linguistic knowledge"  
 
-* Limitation: uses spectrogram as input, not text, thus needing another network or technique to predict the input in case user only has written text input.
+* Limitation:
+  * Uses **spectrogram as input**, not text, thus needing another network or technique to predict the input in case user only has written text input.
 
 ### Notes / Questions
 * Goals in speech synthesis: intelligibility (clarity of audio) and naturalness (other information not directly captured by intelligibility)
