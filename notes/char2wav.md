@@ -1,7 +1,7 @@
 ## [Char2Wav: End-to-End Speech Synthesis](https://openreview.net/forum?id=B1VWyySKx)
 Jose Sotelo, Yoshua Bengio, et al., Submitted on 18 Feb 2017 (ICLR Workshop 2017) 
 
-TLDR; End-to-end learning model for speech synthesis where the input X is the text or phoneme sequence to be generated and the ouput Y is a sequence of acoustic features.
+TLDR; End-to-end learning model for speech synthesis where the input X is the spectrogram of the text or phoneme sequence to be generated and the ouput Y is a sequence of acoustic features.
 
 ### Key Points
 * Model stages:
@@ -11,6 +11,8 @@ TLDR; End-to-end learning model for speech synthesis where the input X is the te
 * Novelty:
   * *Conditional* SampleRNN: "Each vocoder feature frame is added as an extra input to the corresponding state in the top tier", allowing "the module to use the past audio samples and vocoder feature frames to generate the current audio samples."
   * End-to-end learning: "eliminates the need for expert linguistic knowledge"  
+
+* Limitation: uses spectrogram as input, not text, thus needing another network or technique to predict the input in case user only has written text input.
 
 ### Notes / Questions
 * Goals in speech synthesis: intelligibility (clarity of audio) and naturalness (other information not directly captured by intelligibility)
