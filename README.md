@@ -1,5 +1,8 @@
+#### 2018-09
+* *FFTNet: a Real-Time Speaker-Dependent Neural Vocoder* (April 2018, ICASSP) [[paper](http://gfx.cs.princeton.edu/pubs/Jin_2018_FAR/)] [[code]()] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/fftnet.md)]
+
 #### 2018-08
-* *Efficient Neural Audio Synthesis* (June 2018, ICML) [[arXiv](https://arxiv.org/abs/1802.08435)] [[code](https://github.com/fatchord/WaveRNN)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/wavernn.md)]
+* *Efficient Neural Audio Synthesis* (WaveRNN) (June 2018, ICML) [[arXiv](https://arxiv.org/abs/1802.08435)] [[code](https://github.com/fatchord/WaveRNN)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/wavernn.md)]
 * *Char2Wav: End-to-End Speech Synthesis* (ICLR Workshop 2017) [[OpenReview](https://openreview.net/forum?id=B1VWyySKx)] [[code](https://github.com/sotelo/parrot)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/char2wav.md)]
 * *The challenge of realistic music generation: modelling raw audio at scale* (Jun 2018) [[arXiv](https://arxiv.org/abs/1806.10474)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/rawmusicgeneration.md)]
 
