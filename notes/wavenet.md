@@ -4,14 +4,21 @@ Aaron van den Oord et al., Submitted on 12 Sep 2016
 TLDR; Deep neural network for generating raw audio waveforms.
 
 ### Key Points
-* Model: fully probabilistic and autoregressive, with the predictive distribution for each audio sample conditioned on all previous ones
+* Model
+  * Fully probabilistic and autoregressive, with the predictive distribution for each audio sample conditioned on all previous ones
+  * "WaveNet is constructed by stacking a series of 1-D Dilated Convolutional Neural Network layers with exponentially increasing dilation factors for each subsequent layers. At each layer, a gated activation structure is used."
 * Dilated Causal Convolution: large receptive fields
+  * "WaveNet downsamples audio via dilated convolution in a process that resembles wavelet analysis" [1]
+* Auxiliary conditions: sequence of phonemes and fundamental frequencies (F0)
 * Applications: text-to-speech (TTS), music generation
   * Can be conditioned on speaker's identity:style associated with each speaker
   * Generates novel and often highly realistic musical fragments
 * Natural sounding in English and Mandarin
 * 8-bit quantization, 16k
-
+* Drawbacks [1]
+  * Requires substantial training corpus (roughly 30 hours)
+  * Audio synthesis is slow (40 minutes to produce a second of audio)
+  * Result contains audible noise
 
 ### Notes / Questions
 * Prediction/inferencing
@@ -22,3 +29,5 @@ TLDR; Deep neural network for generating raw audio waveforms.
   * Training wise, some people [reported](https://github.com/ibab/tensorflow-wavenet/issues/193) okay results after a week of training (500K steps) on TitanXP
   * NSynth (WaveNet-based autoencoder for synthesizing audio): about 10 days to train on 32 K40 GPUs (worth 72k or 5k USD on Google Cloud)
 
+### Sources
+[1] FFTNet paper [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/fftnet.md)]
