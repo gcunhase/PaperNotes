@@ -9,6 +9,7 @@ TLDR; Deep neural network for generating raw audio waveforms.
   * "WaveNet is constructed by stacking a series of 1-D Dilated Convolutional Neural Network layers with exponentially increasing dilation factors for each subsequent layers. At each layer, a gated activation structure is used." [1]
 * Dilated Causal Convolution: large receptive fields
   * "WaveNet downsamples audio via dilated convolution in a process that resembles wavelet analysis" [1]
+  * Wavelet: each step filtering is followed by down-sampling
 * Auxiliary conditions: sequence of phonemes and fundamental frequencies (F0)
 * Applications: text-to-speech (TTS), music generation
   * Can be conditioned on speaker's identity:style associated with each speaker
