@@ -6,7 +6,7 @@ TLDR; Deep neural network for generating raw audio waveforms.
 ### Key Points
 * Model
   * Fully probabilistic and autoregressive, with the predictive distribution for each audio sample conditioned on all previous ones
-  * "WaveNet is constructed by stacking a series of 1-D Dilated Convolutional Neural Network layers with exponentially increasing dilation factors for each subsequent layers. At each layer, a gated activation structure is used."
+  * "WaveNet is constructed by stacking a series of 1-D Dilated Convolutional Neural Network layers with exponentially increasing dilation factors for each subsequent layers. At each layer, a gated activation structure is used." [1]
 * Dilated Causal Convolution: large receptive fields
   * "WaveNet downsamples audio via dilated convolution in a process that resembles wavelet analysis" [1]
 * Auxiliary conditions: sequence of phonemes and fundamental frequencies (F0)
