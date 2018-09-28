@@ -2,7 +2,7 @@
 Soroush Mehri, Yoshua Bengio, et al., Submitted on 22 Dec 2016 (v1), last revised 11 Feb 2017 (v2)
 ICLR 2017
 
-TLDR; Music generation with SampleRNN, network with 2 RNNs (frame-level) and 1 MLP (sample-level)
+TLDR; Music generation with SampleRNN, network with 2 RNNs (frame-level) and 1 MLP (sample-level).
 
 ### Key Points
 * Sample-level memory-less MLP + 2 frame-level modules of stateful RNNs
