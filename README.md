@@ -1,4 +1,5 @@
 #### 2018-09
+* *SampleRNN: An Unconditional End-to-End Neural Audio Generation Model* (Feb 2017, ICLR) [[arXiv](https://arxiv.org/abs/1612.07837)] [[code](https://github.com/soroushmehr/sampleRNN_ICLR2017), [pytorch](https://github.com/deepsound-project/samplernn-pytorch)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/samplernn.md)]
 * *FFTNet: a Real-Time Speaker-Dependent Neural Vocoder* (April 2018, ICASSP) [[paper](http://gfx.cs.princeton.edu/pubs/Jin_2018_FAR/)] [[code]()] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/fftnet.md)]
 
 #### 2018-08
