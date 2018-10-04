@@ -19,3 +19,9 @@ curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.s
 ```
 java -jar bfg.jar --delelte-folders data
 ```
+
+### Helping open source projects
+* [CodeMontage](http://www.codemontage.com/): open source, social good projects that benefit organizations making a difference in the world.
+* [CodeTriage](https://www.codetriage.com/): get one issue from your favorite repo per day to help you dig deeper, learn more, and stay involved with the code you rely on.
+* [issuehub.io](http://issuehub.io/): Contribute to Open Source. Search issue labels to find the right project for you!
+* [Pull Request Roulette](http://www.pullrequestroulette.com/): Find open source pull requests that need a reviewer before merging.
