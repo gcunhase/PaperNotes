@@ -81,6 +81,7 @@
 #### Blogs/Journals
 * [DeepMind](https://deepmind.com/blog/)
 * [Distill Journal](https://distill.pub/): Online journal that doesn't limit your work to a pdf, it allows the reader to have a more interactive experience
+* AI: [Kaggle](www.kaggle.com) and [Numerai](https://numer.ai/homepage)
 
 #### Other notes
 * [My Ubuntu notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/myubuntunotes.md)
