@@ -39,6 +39,21 @@ lsb_release -a
 
 4. Install VNC Client on your local computer and connect with IP:PORT
 
+### Fix *cannot detect display running* / *connect to physical display* error
+1. [Solution](https://www.nomachine.com/fr/FR10N03221): in case of GNOME desktop, add the following key to */etc/gdm/custom.conf*:
+```
+WaylandEnable=false
+```
+2. and restart gdm and nxserver with
+```
+systemctl restart gdm
+sudo /usr/NX/bin/nxserver –restart
+```
+3. Restart system
+```
+sudo reboot now
+```
+
 ### Failure to fetch apt-get update
 1. Add *nameserver 8.8.8.8* and *nameserver 8.8.4.4* to */etc/resolv.conf*:
 ```bash
