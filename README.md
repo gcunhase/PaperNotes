@@ -1,4 +1,5 @@
 #### 2018-11
+* *Using sparse semantic embeddings learned from multimodal text and image data to model human conceptual knowledge* (Nov 2018) [[arXiv](https://arxiv.org/abs/1809.02534)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/contextualembedding.md)]
 * *DialogueRNN: An Attentive RNN for Emotion Detection in Conversations* (Nov 2018, AAAI) [[arXiv](https://arxiv.org/abs/1811.00405)] [[code](https://github.com/senticnet/conv-emotion)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/dialoguernn.md)]
 
 #### 2018-09
