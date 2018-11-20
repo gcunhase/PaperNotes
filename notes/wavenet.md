@@ -1,7 +1,7 @@
 ## [WaveNet: A Generative Model for Raw Audio](https://arxiv.org/abs/1609.03499)
 Aaron van den Oord et al., Submitted on 12 Sep 2016
 
-TLDR; Deep neural network for generating raw audio waveforms.
+TLDR; Deep neural network for generating raw audio waveforms, one step at a time, using dilated CNN layers in recurrent style.
 
 ### Key Points
 * Model
