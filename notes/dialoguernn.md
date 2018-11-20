@@ -1,5 +1,5 @@
 ## [DialogueRNN: An Attentive RNN for Emotion Detection in Conversations](https://arxiv.org/abs/1811.00405)
-Navonil Majumder et al., Submitted on 1 Nov 2018
+Navonil Majumder et al., 14 Nov 2018 version
 
 TLDR; Emotion detection in dyadic conversations modeling speaker, context and emotion separately in a model using 3 task-specific GRUs.
 
