@@ -26,3 +26,14 @@ java -jar bfg.jar --delelte-folders data
 * [issuehub.io](http://issuehub.io/): Contribute to Open Source. Search issue labels to find the right project for you!
 * [Open Source Friday](https://opensourcefriday.com/)
 * [Pull Request Roulette](http://www.pullrequestroulette.com/): Find open source pull requests that need a reviewer before merging.
+
+### Personal Website
+* [Jekyll](https://jekyllrb.com/docs/): "simple, blog-aware, static site generator for personal, project, or organization sites"
+```
+sudo apt-get install ruby ruby-dev build-essential
+echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+echo 'export GEM_HOME=$HOME/gems' >> ~/.bashrc
+echo 'export PATH=$HOME/gems/bin:$PATH' >> ~/.bashrc
+source ~/.bashrc
+gem install jekyll bundler
+```
