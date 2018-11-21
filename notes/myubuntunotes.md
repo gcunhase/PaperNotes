@@ -374,9 +374,6 @@ python setup.py install
 
 ### Setting up Desktop lab computer
 * Edit Ethernet Connection
-   * 155.230.104.188, 255.255.255.0, 155.230.104.1
-   * DNS: 155.230.10.2
-   * Search domains: 155.230.12.4
 
 * Install Google Chrome, [NoMachine](https://www.nomachine.com) and setup ssh
    * Initial commands, NoMachine for Linux DEB amd64
@@ -398,7 +395,6 @@ python setup.py install
    ```
    sudo apt-get install vlc browser-plugin-vlc
    ```
-* [Matlab](http://p30download.com/fa/entry/978/), pwd: *www.p30download.com*
 
 * Scientific Python
 ```
