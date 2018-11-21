@@ -7,19 +7,21 @@ TLDR; Important notes related to Ubuntu
 lsb_release -a
 ```
 
-### Set up VNC server
-1. Install
+### [Set up VNC server](https://hackernoon.com/installation-of-vnc-server-on-ubuntu-1cf035370bd3)
+
+1. Install and choose *gdm3*
   ```
+  sudo apt-get install --no-install-recommends ubuntu-desktop gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal gnome-core
   apt-get install vnc4server lsof
   vncserver -kill :1
   sudo add-apt-repository ppa:gnome3-team/gnome3
   sudo apt-get update && sudo apt-get install gnome-shell ubuntu-gnome-desktop
+  [ -x /etc/vnc/xstartup ] && exec /etc/vnc/xstartup
+  [ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
   ```
 
 2. Edit *~/.vnc/xstartup* with:
   ```
-  [ -x /etc/vnc/xstartup ] && exec /etc/vnc/xstartup
-  [ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
   xsetroot -solid grey
   vncconfig -iconic &
   x-terminal-emulator -geometry 80x24+10+10 -ls -title "$VNCDESKTOP Desktop" &
@@ -34,10 +36,28 @@ lsb_release -a
 3. Start
   ```
   lsof -i :PORT
+  vncserver -geometry 1920x1080 :1
   vncserver -geometry 1920x1080 :4000
   ```
 
-4. Install VNC Client on your local computer and connect with IP:PORT
+4. To check VNC server
+  ```
+  netstat -tulpn
+  ```
+
+5. Install VNC Client on your local computer and connect with IP:PORT
+
+6. Configure firewall (if firewall rules are active)
+  ```
+  # To check firewall rules
+  sudo  ufw status verbose
+  # allow SSH
+  sudo ufw allow OpenSSH
+  # allowing single port 5901 port
+  sudo ufw allow 5901/tcp
+  # To allow series of port 5901 - 5910, follow
+  sudo ufw allow 5901:5910/tcp
+  ```
 
 ### Fix *cannot detect display running* / *connect to physical display* error
 1. [Solution](https://www.nomachine.com/fr/FR10N03221): in case of GNOME desktop, add the following key to */etc/gdm/custom.conf*:
