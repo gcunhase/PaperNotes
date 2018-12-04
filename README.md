@@ -1,8 +1,11 @@
+#### 2018-12
+* *CARTA: How Language Evolves* (2015, Symposia) [[media link](https://carta.anthropogeny.org/events/how-language-evolves)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/carta_languageevolution.md)]
+
 #### 2018-11
-* *Read + Verify: Machine Reading Comprehension with Unanswerable Questions* (Aug 2018) [[arXiv](https://arxiv.org/abs/1808.05759)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/readverify.md)]
+* *Read + Verify: Machine Reading Comprehension with Unanswerable Questions* (Aug 2018, AAAI 2019, Microsoft) [[arXiv](https://arxiv.org/abs/1808.05759)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/readverify.md)]
 * *Learning to Discriminate Noises for Incorporating External Information in Neural Machine Translation* (Oct 2018) [[arXiv](https://arxiv.org/abs/1810.10317)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/noisesexternalinfo.md)]
 * *Using sparse semantic embeddings learned from multimodal text and image data to model human conceptual knowledge* (Nov 2018) [[arXiv](https://arxiv.org/abs/1809.02534)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/contextualembedding.md)]
-* *DialogueRNN: An Attentive RNN for Emotion Detection in Conversations* (Nov 2018, AAAI) [[arXiv](https://arxiv.org/abs/1811.00405)] [[code](https://github.com/senticnet/conv-emotion)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/dialoguernn.md)]
+* *DialogueRNN: An Attentive RNN for Emotion Detection in Conversations* (Nov 2018, AAAI) [[arXiv](https://arxiv.org/abs/1811.00405)] [[code](https://github.com/senticnet/conv-emotion)] [[ppt](https://github.com/gcunhase/PaperNotes/blob/master/presentations/JournalClub-DialogueRNN-Nov21st2018.pptx)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/dialoguernn.md)]
 
 #### 2018-09
 * *SampleRNN: An Unconditional End-to-End Neural Audio Generation Model* (Feb 2017, ICLR) [[arXiv](https://arxiv.org/abs/1612.07837)] [[code](https://github.com/soroushmehr/sampleRNN_ICLR2017), [pytorch](https://github.com/deepsound-project/samplernn-pytorch)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/samplernn.md)]
