@@ -1,4 +1,5 @@
 #### 2018-12
+* *Don't Underestimate the Benefits of Being Misunderstood* (2017) [[WebMIT](http://web.mit.edu/futrell/www/papers/gibson2017dont.pdf)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/benefitsmisunderstood.md)]
 * *CARTA: How Language Evolves* (2015, Symposia) [[media link](https://carta.anthropogeny.org/events/how-language-evolves)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/carta_languageevolution.md)]
 
 #### 2018-11
