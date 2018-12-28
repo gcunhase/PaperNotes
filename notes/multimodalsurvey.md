@@ -16,12 +16,12 @@ TLDR; Survey paper for research in the field of Multimodal Machine Learning, dee
     3. Vocal signals: sounds and para-verbal information (prosody and vocal expressions)
 * 5 core technical challenges: representation (heterogeneity of the data), translation, alignment, fusion, and co-learning
 <p align="center">
-<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/multimodal_scheme.png" width="400" alt="Multimodal Scheme">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/multimodal_scheme.png" width="300" alt="Multimodal Scheme">
 </p>
 
 ### Applications: A Historical Perspective
 <p align="center">
-<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/multimodal_applications.png" width="400" alt="Multimodal Applications">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/multimodal_applications.png" width="500" alt="Multimodal Applications">
 </p>
 
 * The McGurk effect
