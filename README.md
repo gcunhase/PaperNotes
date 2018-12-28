@@ -1,4 +1,5 @@
 #### 2018-12
+* *Multimodal Machine Learning: A Survey and Taxonomy* (Aug 2017) [[arXiv](https://arxiv.org/abs/1705.09406)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/multimodalsurvey.md)]
 * *Recent Trends in Deep Learning Based Natural Language Processing* (Oct 2018) [[arXiv](https://arxiv.org/abs/1708.02709)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/recenttrendsnlp.md)]
 * *Don't Underestimate the Benefits of Being Misunderstood* (2017) [[WebMIT](http://web.mit.edu/futrell/www/papers/gibson2017dont.pdf)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/benefitsmisunderstood.md)]
 * *CARTA: How Language Evolves* (2015, Symposia) [[media link](https://carta.anthropogeny.org/events/how-language-evolves)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/carta_languageevolution.md)]
