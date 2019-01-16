@@ -150,7 +150,7 @@ TLDR; Survey paper for research in the field of Multimodal Machine Learning, dee
 * Multimodal representation and fusion are interlaced in Neural Networks, division isn't as clear
 
 <p align="center">
-<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/multimodal_fusion.png" width="500" alt="Fusion">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/multimodal_fusion.png" width="300" alt="Fusion">
 </p>
 
 * Model-agnostic
@@ -187,7 +187,7 @@ TLDR; Survey paper for research in the field of Multimodal Machine Learning, dee
 * Example: relevant with limited resources such as annotated data
 
 <p align="center">
-<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/multimodal_colearning.png" width="500" alt="Co-learning">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/multimodal_colearning.png" width="300" alt="Co-learning">
 </p>
 
 * Parallel data
