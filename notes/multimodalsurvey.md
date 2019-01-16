@@ -7,6 +7,7 @@ TLDR; Survey paper for research in the field of Multimodal Machine Learning, dee
 * Modality: "refers to the way in which something happens or is experienced"
 * Multimodal Research: "it includes multiple such modalities"
 * Taxonomy: scheme of classification
+* AVSR: Audio-Visual Speech Recognition
 
 ### Key Points
 * Authors **propose** new vocabulary (taxonomy) for multimodality research and extensive survey
@@ -142,13 +143,71 @@ TLDR; Survey paper for research in the field of Multimodal Machine Learning, dee
     * Multiple possible alignments, not all elements in one modality have correspondences in another
     
 ### 4. Fusion
-* Fuse "information from two or more modalities to perform a prediction"
+* Fuse/integrate "information from two or more modalities to perform a prediction": class (classification) or continuous value (regression)
 * Example: predicting spoken words in audio-visual speech recognition
+* Benefits: robust predictions, robust to missing data, captures complementary information
+* Fusion category: "multimodal integration is performed at the later prediction stages, with the goal of predicting outcome measures"
+* Multimodal representation and fusion are interlaced in Neural Networks, division isn't as clear
+
+<p align="center">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/multimodal_fusion.png" width="500" alt="Fusion">
+</p>
+
+* Model-agnostic
+    * Independent from ML method
+    * Early: feature-based
+        * "integrates features immediately after they are extracted" (concatenation)
+        * Pos: training of single model
+    * Late: decision-based
+        * "performs integration after each of the modalities has made a decision" (classification, regression)
+        * Pos: robust to missing data, allows for training when no parallel data is available
+        * Neg: ignores low level interaction between modalities
+    * Hybrid: "combines outputs from early fusion and individual unimodal predictors"
+* Model-based
+    * Addresses fusion in their construction
+    * Kernel-based methods
+        * MKL (extension of SVM for multimodalities), better fusion of heterogeneous data
+        * Neg: "reliance on training data (support vectors) during test time" -> slow inference, large memory footprint
+    * Graphical models (shallow)
+        * Generative: models joint probability
+        * Discriminative: models conditional probability
+        * Pos: interpretability, can "easily exploit spatial and temporal structure of the data"
+    * Neural networks
+        * Information fusion: joint hidden layer
+        * [Multi-view LSTM (MV-LSTM)](https://pdfs.semanticscholar.org/24e8/2815ff0a27fac7c69157fa602d5dbc0198e7.pdf) (no code?)
+        * Pos: learn from large data, end-to-end training, "able to learn complex decision boundaries that other approaches struggle with"
+        * Neg: lack of interpretability, large training dataset
 
 ### 5. Co-learning
 * "Transfer knowledge between modalities, their representation, and their predictive models"
+* "Aiding the modeling of a (resource poor) modality by exploiting knowledge from another (resource rich) modality"
+* Limited/poor resources can mean: lack of annotated data, noisy input, or unreliable labels
+* Helper modality is used only during training
+* Task independent: "could be used to create better fusion, translation, and alignment models"
 * Example: relevant with limited resources such as annotated data
 
-### Notes / Questions
+<p align="center">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/multimodal_colearning.png" width="500" alt="Co-learning">
+</p>
 
-### Results
+* Parallel data
+    * Modalities are from the same dataset
+    * "Require training datasets where the observations from one modality are directly linked to the observations from other modalities"
+    * Co-learning:
+        * Creates more labeled training samples when there's few labeled samples
+        * Neg: "can lead to biased training samples resulting in overfitting"
+    * Transfer learning:
+        * Deep Boltzmann machines, Multimodal autoencoders
+* Non-parallel data
+    * Modalities are from different datasets, "no overlapping instances, overlap in general categories or concepts"
+    * Transfer leaning
+    * Conceptual grounding
+        * Learning semantic meanings on language +additional modalities (vision, sound, smell...)
+        * Overlapping with alignment
+        * Does not always improve performance, only use when it makes sense
+    * Zero shot learning (ZSL)
+        * "Recognize a concept without having explicitly seen any examples of it"
+        * Ex: find a cat in an image without ever having presented labeled images of cats to the model
+* Hybrid data
+    * Pivot dataset/modality: "Instances or concepts are bridged by a third modality or a dataset"
+    * [Bridge Correlational Neural Network](https://arxiv.org/pdf/1510.03519.pdf)
