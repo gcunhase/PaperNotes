@@ -1,5 +1,7 @@
-#### 2018-12
+#### 2019-01
 * *Multimodal Machine Learning: A Survey and Taxonomy* (Aug 2017) [[arXiv](https://arxiv.org/abs/1705.09406)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/multimodalsurvey.md)]
+
+#### 2018-12
 * *Recent Trends in Deep Learning Based Natural Language Processing* (Oct 2018) [[arXiv](https://arxiv.org/abs/1708.02709)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/recenttrendsnlp.md)]
 * *Don't Underestimate the Benefits of Being Misunderstood* (2017) [[WebMIT](http://web.mit.edu/futrell/www/papers/gibson2017dont.pdf)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/benefitsmisunderstood.md)]
 * *CARTA: How Language Evolves* (2015, Symposia) [[media link](https://carta.anthropogeny.org/events/how-language-evolves)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/carta_languageevolution.md)]
@@ -68,6 +70,13 @@
 * *Conditional Image Generation with PixelCNN Decoders* (Jun 2016) [[arXiv](https://arxiv.org/abs/1606.05328)] [[code](https://github.com/anantzoid/Conditional-PixelCNN-decoder)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/pixelcnn.md)]
 
 #### To Read
+* *TCN* [[arXiv](https://arxiv.org/abs/1803.01271)]
+* *ELMo* [[arXiv](https://arxiv.org/abs/1802.05365)]
+* *A Comparative Study of Rule Extraction for Recurrent Neural Networks* (Jan 2018) [[arXiv](https://arxiv.org/abs/1801.05420)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/ruleextractionrnn.md)]
+* *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding* (Oct 2018) [[arXiv](https://arxiv.org/abs/1810.04805)] [[tensorflow code](http://goo.gl/language/bert)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/bert.md)]
+* *Attention Is All You Need* (Dec 2017, NIPS 2017, Google Brain) [[arXiv](https://arxiv.org/abs/1706.03762)] [[guide](http://nlp.seas.harvard.edu/2018/04/03/attention.html)] [[tensor2tensor](https://github.com/tensorflow/tensor2tensor)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/attentionisallyouneed.md)]
+* *Super SloMo: High Quality Estimation of Multiple Intermediate Frames for Video Interpolation* [[arXiv](http://arxiv.org/abs/1712.00080)] [[code](https://github.com/avinashpaliwal/Super-SloMo?fbclid=IwAR10dPAipRpIIiDAgu57W2ShmZVEoAzNYrCzyC77m)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/superslomo.md)]
+
 * *A Multilayer Convolutional Encoder-Decoder Neural Network for Grammatical Error Correction* [[arXiv](https://arxiv.org/abs/1801.08831)] [[code](https://github.com/nusnlp/mlconvgec2018)]
 * *Improving Neural Machine Translation with Conditional Sequence Generative Adversarial Nets* [[arXiv](https://arxiv.org/abs/1703.04887)]
 * *Fast learning method for convolutional neural networks using extreme learning machine and its application to lane detection* (Dec 2016) [[Neural Networks](http://fcv2011.ulsan.ac.kr/files/announcement/601/1-s2.0-S0893608016301885-main.pdf)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/elcnn.md)]

@@ -9,36 +9,138 @@ TLDR; Survey paper for research in the field of Multimodal Machine Learning, dee
 * Taxonomy: scheme of classification
 
 ### Key Points
-* Necessary for AI to better understand the world around us
-* Paper focuses on 3 modalities:
+* Authors **propose** new vocabulary (taxonomy) for multimodality research and extensive survey
+* **Motivation**: necessary for AI to better understand the world around us
+* **Paper focuses** on 3 modalities:
     1. Natural language: written or spoken
     2. Visual signals: images or videos
     3. Vocal signals: sounds and para-verbal information (prosody and vocal expressions)
-* 5 core technical challenges: representation (heterogeneity of the data), translation, alignment, fusion, and co-learning
+* **5 core technical challenges**: representation (heterogeneity of the data), translation, alignment, fusion, and co-learning
 <p align="center">
 <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/multimodal_scheme.png" width="300" alt="Multimodal Scheme">
 </p>
 
 ### Applications: A Historical Perspective
+* The McGurk effect
+    * [Hearing lips and seeing voices](https://www.nature.com/articles/264746a0): *"When human subjects heard the syllable /ba-ba/ while watching the lips of a person saying /ga-ga/, they perceived a third sound: /da-da/."*
+    * Motivated researchers in the speech community to extend their approaches with visual information
 <p align="center">
 <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/multimodal_applications.png" width="500" alt="Multimodal Applications">
 </p>
 
-* The McGurk effect
-    * [Hearing lips and seeing voices](https://www.nature.com/articles/264746a0): *"When human subjects heard the syllable /ba-ba/ while watching the lips of a person saying /ga-ga/, they perceived a third sound: /da-da/."*
-    * Motivated researchers in the speech community to extend their approaches with visual information
-
 ### 1. Multimodal Representations
 * Learning how to represent and summarize heterogeneous (multimodal) data
+* "A multimodal representation is a representation of data using information from multiple such entities."
+* Challenges: combining heterogeneous data, different levels of noise, and missing data.
+* Properties for good representation:
+    * Bengio: "smoothness, temporal and spatial coherence, sparsity, and natural clustering amongst others"
+    * Srivastava and Salakhutdinov: "*similarity in the representation space* should reflect the similarity of the corresponding concepts, the representation should be *easy to obtain* even in the absence of some modalities, and finally, it should be possible to *fill-in missing modalities* given the observed ones"
+* Multimodal representations used to be a simple concatenation of unimodal ones
+<p align="center">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/multimodal_representation.png" width="500" alt="Multimodal Representations">
+</p>
+
+* Joint representations:
+    * "combine the unimodal signals into the same representation space"
+    * same dimensions -> x_m = f(x_1, ..., x_n)
+    * Simplest case: early fusion, or concatenation of individual modality features
+    * Neural Networks:
+        * Advantages: superior performance, able to re-train the representations in an unsupervised manner
+        * Disadvantages: not able to naturally handle missing data
+    * Probabilistic graphical models: use of latent random variables
+        * Deep Boltzmann machines: no need for supervised data for training, enabling the use of unlabeled data
+        * "Multimodal DBMs are capable of learning joint representations from multiple modalities by merging two or more undirected graphs using a binary layer of hidden units on top of them."
+        * Generative nature, allowing for missing data handling or to generate samples of one modality in the presence of the other one
+        * Disadvantage: difficult to train - "high computational cost, and the need to use approximate variational training methods" (see Multimodal Learning with DBM, NIPS 2012, Srivastava and Salakhutdinov)
+    * Sequential representation:
+        * Able to represent sequences of variable length (sentences, videos, audio streams)
+        * Hidden state of RNN at time *t* can be seen as a summarization of the sequence up to that timestep
+* Coordinated representations:
+    * Mostly limited to 2 modalities
+    * "process unimodal signals separately, but enforce certain similarity constraints on them"
+    * "learn separate representations for each modality but coordinate them through a constraint"
+    * f(x_1) ~ g(x_2) -> "each modality has a corresponding projection function"
+    * Examples: "minimizing cosine distance, maximizing correlation, and enforcing a partial order between the resulting spaces"
+    * Enforces similarity between representations
+        * *DeViSE: A deep visual-semantic embedding model* (Frome at al., NIPS, 2013)
+        * *Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models* (Kiros et al., 2014)
+        * *Jointly Modeling Embedding and Translation to Bridge Video and Language* (Pan at al., CVPR, 2016)
+    * Enforces additional constraints between the modality representations
+        * Cross-modal hashing: same object in different modalities has to have the same has code
+            * *Deep Visual-Semantic Hashing for Cross-Modal Retrieval* (Cao et al., KDD, 2016)
+            * *Learning Deep Structure-Preserving Image-Text Embeddings* (Wang et al., CVPR, 2016)
+        * Cross-modal retrieval:
+            * *Canonical correlation analysis; An overview with application to learning methods* (Hardoon et al., Tech. Rep., 2003)
+            * [*Audiovisual synchronization and fusion using canonical correlation analysis*](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4351913) (Sargin et al., IEEE Trans. Multimedia, 2007)
+            * [*Deep canonical correlation analysis*](http://ttic.uchicago.edu/~klivescu/papers/andrew_icml2013.pdf) (Andrew et al., ICML, 2013) [[Pytorch Code](https://github.com/Michaelvll/DeepCCA)]
+            * [*Bridging Languages through Images with Deep Partial Canonical Correlation Analysis*](https://github.com/Michaelvll/DeepCCA) (Rotman et al., ACL, 2018) [[Pytorch Code](https://github.com/rotmanguy/DPCCA)]
+            * *On deep multiview representation learning* (Wang et al., ICML, 2015)
+            * [*Deep Canonically Correlated LSTM*](https://arxiv.org/pdf/1801.05407.pdf) (Mallinar and Rosset, arXiv, 2018)
 
 ### 2. Translation
 * Translation (mapping) from one modality to another, subjective relationships
 * Example: there are many ways to describe an image, and no correct way
+<p align="center">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/multimodal_translation.png" width="500" alt="Translation">
+</p>
 
+* Example-based:
+    * Uses dictionary
+    * Retrieval-based
+        * Direct use of retrieved translation
+        * Unimodal: "finds the closest instances in the dictionary in the space of the source", "similarity in unimodal space does not always imply a good translation"
+        * Intermediate semantic space: coordinated representation
+        * Limitations: large model, slow inference (alleviated by hashing optimization), unrealistic to expect a perfect translation to pre-exist in dictionary for every scenario
+    * Combination-based:
+        * Combines retrieved translations and outputs the final one
+        * "Able to construct more complex structures"
+        * Hand crafted or based on heuristics
+        * Limitation: "only able to perform translation in one direction, while semantic space retrieval-based models are able to perform it both ways"
+* Generative
+    * Construct model able to produce novel translation
+    * Understands the source modality and generates an appropriate signal
+    * Large space of possible correct answers, difficult to evaluate
+    * Grammar-based
+        * Simplifies task but enforcing a grammar constraint
+        * Advantage: "more likely to generate syntactically or logically correct target instances"
+        * Limitation: no creativity
+    * Encoder-decoder
+        * Encodes source modality into a vectorial representation and decodes it into the new modality
+        * "beneficial to pre-train a decoder LSTM for image captioning before fine-tuning it to video description" (Venugopalan et al.)
+        * Limitation: large training dataset, doubts whether the network memorizing or learning the data
+    * Continuous generation
+        * "Generates the target modality continuously based on a stream of source modality inputs"
+        * "Suited for translating between temporal sequences"
+        * Sequence translation, produces output at every timestep
+        * Challenge of data: temporal consistency between modalities
+        * Being substituted by encoder-decoder approaches
+* Difficult to evaluate: human evaluation
+    * Likert scale
+        * Naturalness, MOS (speech synthesis)
+        * Realism (visual speech synthesis)
+        * Grammatical and semantic correctness, relevance, order, detail (media description)
+    * Preference studies: compare 2 or more samples and ask which the user prefers
+    * Time consuming, costly, and care when preparing and conducting surveys to avoid biases (language fluency, age, gender, culture)
+    
 ### 3. Alignment
 * "Identify the direct relations between (sub)elements from two or more different modalities"
-* Example: align the steps in a recipe to a cooking video
-
+* Example: align the steps in a recipe to a cooking video, align movie with script, or find the parts of an image corresponding to its caption
+* Explicit
+    * Explicitly aligning sub-components
+    * Example: recipe-video example
+    * Unsupervised (doesn't require any direct alignment labels): DTW, deep canonical time warping (deep CCA+DTW), HMM 
+    * Weakly supervised (rely on labeled aligned instances): [aligning movies+books](https://arxiv.org/pdf/1506.06724.pdf)
+* Implicit
+    * Intermediate step for another task
+    * Example: "image retrieval based on text description can include an alignment step between words and image regions"
+    * Can be used to improve translation, otherwise "it ends up putting a lot of weight on the encoder module" to summarize the data in a single vectorial representation.
+    * Graphical models: require manual construction for mapping (traning data and human expertise)
+    * Neural network models: attention ([hierarchical](https://arxiv.org/abs/1606.00061), [stacked](https://arxiv.org/abs/1511.02274), [episodic memory](https://arxiv.org/abs/1603.01417)), [dot product similarity measure](https://cs.stanford.edu/people/karpathy/cvpr2015.pdf) (extracts latent alignment).
+* Difficulties: 
+    * Few datasets with explicitly annotated alignments
+    * Difficult to design similarity metrics between modalities
+    * Multiple possible alignments, not all elements in one modality have correspondences in another
+    
 ### 4. Fusion
 * Fuse "information from two or more modalities to perform a prediction"
 * Example: predicting spoken words in audio-visual speech recognition
