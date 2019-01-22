@@ -1,20 +1,22 @@
-## Notes on Attention in NLP
+## My Notes on Attention in NLP
 
 TLDR; My notes on Attention in NLP 
 
 ### Main Key Points
+* Originally used for visual imaging (90s)
+* Became trendy in 2014: Google Mind released paper for [RNN+attention](https://papers.nips.cc/paper/5542-recurrent-models-of-visual-attention.pdf) in image classification and Bahdanau used attention for [MT](https://arxiv.org/abs/1409.0473)
 * Weight is used to indicate the importance of each word
 * (Encoded vector) + (Context based on the attention weights) are used to compute a different embedding to be given to a decoder
-* [Attention model](https://arxiv.org/abs/1409.0473) [2,5]
+* [Attention model](https://arxiv.org/abs/1409.0473) [6,5]
 <p align="center">
-<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/attention_model.png" width="200" alt="Attention Model" hspace="20">
-<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/attention_model_distill.png" width="300" alt="Attention Model">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/attention_model.png" width="350" alt="Attention Model" hspace="20">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/attention_model_distill.png" width="350" alt="Attention Model">
 </p>
 
 ### Further Explanation
 * What problem does Attention solve?
     * Long term memorization: seq2seq encodes all the information into a fixed-length vector, so the longer the sentence, the more difficult it is to obtain an acceptable embedding.
-    * Better interpretability
+    * Better interpretability: scores help visualize what's learned
 
 * Structure: Encoder - (Attention - Decoder)
     * Regular RNN encoder-decoder: "decoder’s hidden state is computed with a context vector, the previous output and the previous hidden state." [3]
@@ -24,7 +26,7 @@ TLDR; My notes on Attention in NLP
     * "Each decoder output word $y_t$ depends on a weighted combination of all the input states, not just the last state." [2]
     * Weights are computed by an alignment model (such as MLP) [3]
     * "if $\alpha_{3,2}$ is a large number, [...] the decoder pays a lot of attention to the second state in the source sentence while producing the third word of the target sentence." [2]
-    * Attention weights $\alpha$: should sum to 1 and are trained end-to-end for each timestep [1]
+    * Attention weights $\alpha$: **softmax**, should sum to 1 and are trained end-to-end for each timestep [1]
 
 * Alternative interpretation: "attention mechanism is simply giving the network access to its *internal memory*, which is the hidden state of the encoder." [2]
 
@@ -52,3 +54,4 @@ TLDR; My notes on Attention in NLP
 * [3] [Attention in NLP](https://medium.com/@joealato/attention-in-nlp-734c6fa9d983) by Kate Loginova (Jun 2018): covers attention, self-attention, two-way attention, key-value-predict models and hierarchical attention.
 * [4] [Attention in Neural Networks](https://www.youtube.com/watch?v=W2rWgXJBZhU) by CodeEmporium (Mar 2018)
 * [5] [Attention and Augmented Recurrent Neural Networks](https://distill.pub/2016/augmented-rnns/) by Olah & Carter, Google Brain, Distill (2016): interactive visualization
+* [6] [Understanding and Applying Self-Attention for NLP](https://www.youtube.com/watch?v=OYygPG4d9H0) by Ivan Bilan (PyData Berlin, Aug 2018)

@@ -1,4 +1,5 @@
 #### 2019-01
+* *Attention Is All You Need* (Dec 2017, NIPS 2017, Google Brain) [[arXiv](https://arxiv.org/abs/1706.03762)] [[guide](http://nlp.seas.harvard.edu/2018/04/03/attention.html)] [[tensor2tensor](https://github.com/tensorflow/tensor2tensor)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/attentionisallyouneed.md)]
 * My Notes on Attention in NLP [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/attention.md)]
 * *How AI can save our humanity* by Kai-Fu Lee [[TEDTalk](https://www.youtube.com/watch?v=ajGgd9Ld-Wc)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/ted_aisavehumanity.md)]
 * *Multimodal Machine Learning: A Survey and Taxonomy* (Aug 2017, PAMI 2018) [[arXiv](https://arxiv.org/abs/1705.09406)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/multimodalsurvey.md)]
@@ -77,7 +78,6 @@
 * *A Comparative Study of Rule Extraction for Recurrent Neural Networks* (Jan 2018) [[arXiv](https://arxiv.org/abs/1801.05420)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/ruleextractionrnn.md)]
 * *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding* (Oct 2018) [[arXiv](https://arxiv.org/abs/1810.04805)] [[tensorflow code](http://goo.gl/language/bert)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/bert.md)]
 * *Super SloMo: High Quality Estimation of Multiple Intermediate Frames for Video Interpolation* [[arXiv](http://arxiv.org/abs/1712.00080)] [[code](https://github.com/avinashpaliwal/Super-SloMo?fbclid=IwAR10dPAipRpIIiDAgu57W2ShmZVEoAzNYrCzyC77m)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/superslomo.md)]
-* *Attention Is All You Need* (Dec 2017, NIPS 2017, Google Brain) [[arXiv](https://arxiv.org/abs/1706.03762)] [[guide](http://nlp.seas.harvard.edu/2018/04/03/attention.html)] [[tensor2tensor](https://github.com/tensorflow/tensor2tensor)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/attentionisallyouneed.md)]
 
 * *A Multilayer Convolutional Encoder-Decoder Neural Network for Grammatical Error Correction* [[arXiv](https://arxiv.org/abs/1801.08831)] [[code](https://github.com/nusnlp/mlconvgec2018)]
 * *Improving Neural Machine Translation with Conditional Sequence Generative Adversarial Nets* [[arXiv](https://arxiv.org/abs/1703.04887)]
