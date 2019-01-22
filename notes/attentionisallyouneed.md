@@ -54,21 +54,21 @@ TLDR; It's possible to do sequence translation solely with attention.
         * Single attention performed $h$ times: spliced single-attention
         * Allows the model to learn important information over different embeddings at different positions     
         <p align="center">
-        <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/selfattention_encoder.png" height="250" alt="Multi-head attention"  hspace="20">
+        <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/selfattention_multihead.png" height="250" alt="Multi-head attention"  hspace="20">
         </p>
           
     * Encoder:
         * Builds (key, value) pairs
         * K, V and Q comes from the output of the previous layer    
         <p align="center">
-        <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/selfattention_multihead.png" height="100" alt="Encoder attention"  hspace="20">
+        <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/selfattention_encoder.png" height="80" alt="Encoder attention"  hspace="20">
         </p>
     
     * Decoder
         * Builds queries
         * Masked attention: "Self-attention layers in the decoder allow each position in the decoder to attend to all positions in the decoder up to and including that position." 
         <p align="center">
-        <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/selfattention_maskeddecoder.png" height="100" alt="Masked decoder attention"  hspace="20">
+        <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/selfattention_maskeddecoder.png" height="80" alt="Masked decoder attention"  hspace="20">
         </p>
         
         * Has an extra multi-head attention layer to combine the source sentence (V, K) with the target sentence produced so far (Q)
@@ -77,7 +77,7 @@ TLDR; It's possible to do sequence translation solely with attention.
             * Q: comes from the previous decoder layer
             * V, K: come from the output of the encoder
             <p align="center">
-            <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/selfattention_encoder-decoder.png" height="100" alt="Masked decoder attention"  hspace="20">
+            <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/selfattention_encoder-decoder.png" height="80" alt="Masked decoder attention"  hspace="20">
             </p>
         
     * Add and norm: add information from residual connection and perform layer normalization
