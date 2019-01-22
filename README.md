@@ -76,7 +76,6 @@
 * *TCN* [[arXiv](https://arxiv.org/abs/1803.01271)]
 * *ELMo* [[arXiv](https://arxiv.org/abs/1802.05365)]
 * *A Comparative Study of Rule Extraction for Recurrent Neural Networks* (Jan 2018) [[arXiv](https://arxiv.org/abs/1801.05420)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/ruleextractionrnn.md)]
-* *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding* (Oct 2018) [[arXiv](https://arxiv.org/abs/1810.04805)] [[tensorflow code](http://goo.gl/language/bert)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/bert.md)]
 * *Super SloMo: High Quality Estimation of Multiple Intermediate Frames for Video Interpolation* [[arXiv](http://arxiv.org/abs/1712.00080)] [[code](https://github.com/avinashpaliwal/Super-SloMo?fbclid=IwAR10dPAipRpIIiDAgu57W2ShmZVEoAzNYrCzyC77m)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/superslomo.md)]
 
 * *A Multilayer Convolutional Encoder-Decoder Neural Network for Grammatical Error Correction* [[arXiv](https://arxiv.org/abs/1801.08831)] [[code](https://github.com/nusnlp/mlconvgec2018)]

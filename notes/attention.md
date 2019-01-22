@@ -9,7 +9,7 @@ TLDR; My notes on Attention in NLP
 * (Encoded vector) + (Context based on the attention weights) are used to compute a different embedding to be given to a decoder
 * [Attention model](https://arxiv.org/abs/1409.0473) [6,5]
 <p align="center">
-<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/attention_model.png" width="350" alt="Attention Model" hspace="20">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/attention_model.png" width="450" alt="Attention Model" hspace="20">
 <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/attention_model_distill.png" width="350" alt="Attention Model">
 </p>
 

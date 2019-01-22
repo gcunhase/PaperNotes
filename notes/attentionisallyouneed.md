@@ -51,10 +51,11 @@ TLDR; It's possible to do sequence translation solely with attention.
         </p>
 
     * Multi-head attention
-        * Single attention performed $h$ times: spliced single-attention
+        * Single attention performed $h$ times: produces $h$ different Q, K, V matrices
+        * Additional weights matrix for output $W^O$ trained jointly with the model
         * Allows the model to learn important information over different embeddings at different positions     
         <p align="center">
-        <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/selfattention_multihead.png" height="250" alt="Multi-head attention"  hspace="20">
+        <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/selfattention_multihead.png" height="200" alt="Multi-head attention"  hspace="20">
         </p>
           
     * Encoder:
@@ -90,7 +91,7 @@ TLDR; It's possible to do sequence translation solely with attention.
         * Start training with lr 0 and increase it gradually over 4,000 epochs and then start decaying it
         * Trained over 300,000 epochs
     * Don't start from scratch
-        * [tensor2tensor](https://github.com/tensorflow/tensor2tensor), [Tensorflow](https://gist.github.com/tokestermw/eaa08f0637343ce55b022d9c5c73b872)
+        * [tensor2tensor](https://github.com/tensorflow/tensor2tensor), [tensor2tensor intro](https://colab.research.google.com/github/tensorflow/tensor2tensor/blob/master/tensor2tensor/notebooks/hello_t2t.ipynb), [Tensorflow](https://gist.github.com/tokestermw/eaa08f0637343ce55b022d9c5c73b872)
         * [PyTorch](https://github.com/jadore801120/attention-is-all-you-need-pytorch)
 
 * Relation Extraction with Self-Attention Encoder [3] [[arXiv](https://arxiv.org/pdf/1807.03052.pdf)]
@@ -111,3 +112,4 @@ TLDR; It's possible to do sequence translation solely with attention.
 * [3] [Understanding and Applying Self-Attention for NLP](https://www.youtube.com/watch?v=OYygPG4d9H0) by Ivan Bilan (PyData Berlin, Aug 2018): images obtained here
 * [4] [Self-Attention Mechanisms in Natural Language Processing](https://dzone.com/articles/self-attention-mechanisms-in-natural-language-proc) by Leona Zhang (Sep 2018)
 * [5] [Attention is All You Need](https://www.youtube.com/watch?v=iDulhoQ2pro) by Yannic Kilcher (Nov 2017): good explanation about scaled dot-product attention
+* [6] [The Illustrated Transformer Blog](http://jalammar.github.io/illustrated-transformer/): more details on multi-head
