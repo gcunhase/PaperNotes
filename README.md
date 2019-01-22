@@ -1,5 +1,5 @@
 #### 2019-01
-* *Attention Is All You Need* (Dec 2017, NIPS 2017, Google Brain) [[arXiv](https://arxiv.org/abs/1706.03762)] [[guide](http://nlp.seas.harvard.edu/2018/04/03/attention.html)] [[tensor2tensor](https://github.com/tensorflow/tensor2tensor)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/attentionisallyouneed.md)]
+* *Attention Is All You Need* (Dec 2017, NIPS 2017, Google Brain) [[arXiv](https://arxiv.org/abs/1706.03762)] [[Harvard Blog](http://nlp.seas.harvard.edu/2018/04/03/attention.html)] [[tensor2tensor](https://github.com/tensorflow/tensor2tensor)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/attentionisallyouneed.md)]
 * My Notes on Attention in NLP [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/attention.md)]
 * *How AI can save our humanity* by Kai-Fu Lee [[TEDTalk](https://www.youtube.com/watch?v=ajGgd9Ld-Wc)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/ted_aisavehumanity.md)]
 * *Multimodal Machine Learning: A Survey and Taxonomy* (Aug 2017, PAMI 2018) [[arXiv](https://arxiv.org/abs/1705.09406)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/multimodalsurvey.md)]

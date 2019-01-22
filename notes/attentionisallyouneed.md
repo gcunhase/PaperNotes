@@ -16,7 +16,7 @@ TLDR; It's possible to do sequence translation solely with attention.
     
     * Positional encoding
         * Responsible for the sequence encoding
-        * If you use typical positional embedding techniques, the maximum length of the sentence is fixed/limited
+        * If you use typical positional embedding techniques (each position of the sentence has a specific vector), the maximum length of the sentence is fixed/limited
         * But if you do *encoding based on waves (sin and cos)* there's no limit to that length
         <p align="center">
         <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/selfattention_sinecos.png" width="400" alt="Sine and cos encoding">
@@ -47,28 +47,38 @@ TLDR; It's possible to do sequence translation solely with attention.
         <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/selfattention_singleattention2.png" height="200" alt="Single attention">
         </p>        
         <p align="center">
-        <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/selfattention_singleattention3.png" width="350" alt="Single attention"">
+        <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/selfattention_singleattention3.png" width="450" alt="Single attention"">
         </p>
 
     * Multi-head attention
         * Single attention performed $h$ times: spliced single-attention
         * Allows the model to learn important information over different embeddings at different positions     
         <p align="center">
-        <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/selfattention_multihead.png" width="350" alt="Multi-head attention"  hspace="20">
+        <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/selfattention_encoder.png" height="250" alt="Multi-head attention"  hspace="20">
         </p>
           
     * Encoder:
         * Builds (key, value) pairs
-        * K, V and Q comes from the output of the previous layer
+        * K, V and Q comes from the output of the previous layer    
+        <p align="center">
+        <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/selfattention_multihead.png" height="100" alt="Encoder attention"  hspace="20">
+        </p>
     
     * Decoder
         * Builds queries
-        * Masked attention: "Self-attention layers in the decoder allow each position in the decoder to attend to all positions in the decoder up to and including that position."
+        * Masked attention: "Self-attention layers in the decoder allow each position in the decoder to attend to all positions in the decoder up to and including that position." 
+        <p align="center">
+        <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/selfattention_maskeddecoder.png" height="100" alt="Masked decoder attention"  hspace="20">
+        </p>
+        
         * Has an extra multi-head attention layer to combine the source sentence (V, K) with the target sentence produced so far (Q)
             * Uses $z$ vector to generate output, one element at a time
             * Combines the source sentence (V, K) with the target sentence produced so far (Q)
             * Q: comes from the previous decoder layer
             * V, K: come from the output of the encoder
+            <p align="center">
+            <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/selfattention_encoder-decoder.png" height="100" alt="Masked decoder attention"  hspace="20">
+            </p>
         
     * Add and norm: add information from residual connection and perform layer normalization
     * Position-wise feed forward network: two linear transformations (convolution with kernel size 1) + ReLU activation in between
@@ -97,7 +107,7 @@ TLDR; It's possible to do sequence translation solely with attention.
 
 ### References
 * [1] [The Annotated Transformer Guide](http://nlp.seas.harvard.edu/2018/04/03/attention.html): with code explanation, sine and cos curves figure
-* [2] [Attention is all you need attentional neural network models](https://www.youtube.com/watch?v=rBCqOTEfxvg) by Lukasz Kaiser (Co-author of original paper, PiSchool, Oct 2017)
+* [2] [Attention is all you need attentional neural network models](https://www.youtube.com/watch?v=rBCqOTEfxvg) by Lukasz Kaiser (Co-author of original paper, PiSchool, Oct 2017): [presentation](https://drive.google.com/file/d/0B8BcJC1Y8XqobGNBYVpteDdFOWc/view) + questions
 * [3] [Understanding and Applying Self-Attention for NLP](https://www.youtube.com/watch?v=OYygPG4d9H0) by Ivan Bilan (PyData Berlin, Aug 2018): images obtained here
 * [4] [Self-Attention Mechanisms in Natural Language Processing](https://dzone.com/articles/self-attention-mechanisms-in-natural-language-proc) by Leona Zhang (Sep 2018)
 * [5] [Attention is All You Need](https://www.youtube.com/watch?v=iDulhoQ2pro) by Yannic Kilcher (Nov 2017): good explanation about scaled dot-product attention
