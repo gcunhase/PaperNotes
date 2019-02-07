@@ -1,3 +1,6 @@
+#### 2019-02
+* *Why Self-Attention? A Targeted Evaluation of Neural Machine Translation Architectures* [[arXiv](http://arxiv.org/abs/1808.08946)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/whyselfattention.md)]
+
 #### 2019-01
 * *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding* (Oct 2018) [[arXiv](https://arxiv.org/abs/1810.04805)] [[Tensorflow](http://goo.gl/language/bert), [PyTorch](https://github.com/huggingface/pytorch-pretrained-BERT)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/bert.md)]
 * *Attention Is All You Need* (Dec 2017, NIPS 2017, Google Brain) [[arXiv](https://arxiv.org/abs/1706.03762)] [[Harvard Blog](http://nlp.seas.harvard.edu/2018/04/03/attention.html)] [[tensor2tensor](https://github.com/tensorflow/tensor2tensor)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/attentionisallyouneed.md)]
@@ -77,7 +80,9 @@
 * *A Comparative Study of Rule Extraction for Recurrent Neural Networks* (Jan 2018) [[arXiv](https://arxiv.org/abs/1801.05420)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/ruleextractionrnn.md)]
 * *Super SloMo: High Quality Estimation of Multiple Intermediate Frames for Video Interpolation* [[arXiv](http://arxiv.org/abs/1712.00080)] [[code](https://github.com/avinashpaliwal/Super-SloMo?fbclid=IwAR10dPAipRpIIiDAgu57W2ShmZVEoAzNYrCzyC77m)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/superslomo.md)]
 * *TCN* [[arXiv](https://arxiv.org/abs/1803.01271)]
-* *ELMo* [[arXiv](https://arxiv.org/abs/1802.05365)]
+* *ELMo* [[arXiv](https://arxiv.org/abs/1802.05365)] 
+* *Scaling Neural Machine Translation* (Sep 2018, Facebook AI Research) [[arXiv](https://arxiv.org/abs/1806.00187)] [[PyTorch](https://github.com/pytorch/fairseq)]
+* *Pay Less Attention with Lightweight and Dynamic Convolutions* (Sep 2018, ICLR 2019, Facebook AI Research) [[OpenReview](https://openreview.net/forum?id=SkVhlh09tX)] [[PyTorch](https://github.com/pytorch/fairseq)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/lessattention.md)]
 
 * *A Multilayer Convolutional Encoder-Decoder Neural Network for Grammatical Error Correction* [[arXiv](https://arxiv.org/abs/1801.08831)] [[code](https://github.com/nusnlp/mlconvgec2018)]
 * *Improving Neural Machine Translation with Conditional Sequence Generative Adversarial Nets* [[arXiv](https://arxiv.org/abs/1703.04887)]
@@ -102,6 +107,7 @@
 
 
 #### Blogs/Journals/Books
+* [Browse SoTA](https://paperswithcode.com/sota)
 * [DeepMind](https://deepmind.com/blog/)
 * [Distill Journal](https://distill.pub/): Online journal that doesn't limit your work to a pdf, it allows the reader to have a more interactive experience
 * AI: [Kaggle](www.kaggle.com) and [Numerai](https://numer.ai/homepage)
