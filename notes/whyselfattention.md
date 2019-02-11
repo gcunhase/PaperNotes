@@ -1,7 +1,7 @@
 ## [Why Self-Attention? A Targeted Evaluation of Neural Machine Translation Architectures](http://arxiv.org/abs/1808.08946)
-Gongbo Tang et al., Nov 2018 version
+Gongbo Tang et al., Nov 2018 version, EMNLP 2018
 
-TLDR; Survey paper comparing RNNs, CNNs and Self-attention models in encoder-decoder format for MT tasks, specifically subject-verb agreement (long-range dependencies) and word sense disambiguation (semantic features). Their conclusion is that Transformers are strong feature extractors and that the number of heads in the transformer affects their ability to model long-range dependency, but they do not outperform RNN in this aspect.
+TLDR; Survey paper comparing RNNs, CNNs and Self-attention (new SoTA in MT with Transformer) models in encoder-decoder format for MT tasks, specifically subject-verb agreement (long-range dependencies) and word sense disambiguation (semantic features). Their conclusion is that Transformers are strong feature extractors and that the number of heads in the transformer affects their ability to model long-range dependency, but they do not outperform RNN in this aspect.
 
 ### Contributions
 * Empirically testing of long-range dependency strength with subject-verb agreement task -> no evidence that Transformers or CNNs are better than RNNs in this regard
@@ -10,20 +10,21 @@ TLDR; Survey paper comparing RNNs, CNNs and Self-attention models in encoder-dec
 
 ### Key Points
 * Paper motivation:
-    * BLEU (Conventional evaluation metric)
+    * Transformer achieved SoTA in many MT tasks according to BLEU score.
+    * But is BLEU score that reliable?
     * Coarse-grained, not refined
     * "Offers no insight as to which aspects of translation are improved by different architectures"    
     * "Does not correlate well with the targeted evaluation of long-range distance interactions." -> "due to the locality of BLEU, which only measures on the level of n- grams"
     
 * Statement: CNNs and self-attention models outperformed RNNs in NMT tasks
 
-* Hypothesis 1:
+* Hypothesis 1 (transformer authors):
     * CNNs and self-attention networks are better than RNNs at modeling **long-range dependency** due to shorter connecting path between co-dependent elements
     * Based on theoretical argument, not empirically tested (this paper aims to test it)
     * Task used for testing: **subject-verb agreement**
     * Conclusion: self-attentional networks and CNNs do not outperform RNNs
 
-* Hypothesis 2:
+* Hypothesis 2 (paper authors):
     * CNNs and self-attention networks are able to better "**extract semantic features** from the source text"
     * Task used for testing: **word sense disambiguation** (WSD, semantic feature extraction is required)
     * Conclusion: self-attention >> RNNs and CNNs
@@ -56,7 +57,7 @@ TLDR; Survey paper comparing RNNs, CNNs and Self-attention models in encoder-dec
     * Training data: [WMT'17](http://www.statmt.org/wmt17/translation-task.html)
     * Validation set: *newstest2013*
     * Test set: *newstest2014* and *newstest2017*
-    * Eval: [Sacre-BLEU](https://arxiv.org/abs/1804.08771)
+    * Eval: [Sacre-BLEU](https://arxiv.org/abs/1804.08771) (WMT18)
     
 * Doesn't compare with *fairseq*, but uses pre-trained model trained with *fairseq* in the post-publication experiments section
     
@@ -68,3 +69,5 @@ TLDR; Survey paper comparing RNNs, CNNs and Self-attention models in encoder-dec
 * TransRNN (Transformer encoder + RNN decoder)
     * Chen et al. (2018): TransRNN outperforms a pure Transformer -> Transformer is better at encoding features and RNN is better at conditional language modeling
     * This paper: WSD task -> TransRNN outperforms RNNS2S but not pure Transformer, indicating that "WSD is not only done in the encoder, but that the decoder also affects WSD performance"
+
+* P.S.: WikiText-103 (dataset with longer-term dependencies), CNN/DailyMail (long input and output sentences)

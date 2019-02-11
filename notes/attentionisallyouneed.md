@@ -142,9 +142,9 @@ TLDR; It's possible to do sequence translation solely with attention.
 * [PyTorch](https://github.com/jadore801120/attention-is-all-you-need-pytorch)
 
 ### References
-* [1] [The Annotated Transformer Guide](http://nlp.seas.harvard.edu/2018/04/03/attention.html): with code explanation, sine and cos curves figure
+* [1] [The Annotated Transformer Guide](http://nlp.seas.harvard.edu/2018/04/03/attention.html): with code explanation, sine and cosine curves figure
 * [2] [Attention is all you need attentional neural network models](https://www.youtube.com/watch?v=rBCqOTEfxvg) by Lukasz Kaiser (Co-author of original paper, PiSchool, Oct 2017): [presentation](https://drive.google.com/file/d/0B8BcJC1Y8XqobGNBYVpteDdFOWc/view) + questions
 * [3] [Understanding and Applying Self-Attention for NLP](https://www.youtube.com/watch?v=OYygPG4d9H0) by Ivan Bilan (PyData Berlin, Aug 2018): images obtained here
-* [4] [Self-Attention Mechanisms in Natural Language Processing](https://dzone.com/articles/self-attention-mechanisms-in-natural-language-proc) by Leona Zhang (Sep 2018)
+* [4] [Self-Attention Mechanisms in Natural Language Processing](https://dzone.com/articles/self-attention-mechanisms-in-natural-language-proc) by Leona Zhang (Sep 2018): attention vs scaled dot-product attention
 * [5] [Attention is All You Need](https://www.youtube.com/watch?v=iDulhoQ2pro) by Yannic Kilcher (Nov 2017): good explanation about scaled dot-product attention
-* [6] [The Illustrated Transformer Blog](http://jalammar.github.io/illustrated-transformer/) by Jay Alammar (June 2018): more details on multi-head
+* **[6]** [The Illustrated Transformer Blog](http://jalammar.github.io/illustrated-transformer/) by Jay Alammar (June 2018): more details on multi-head, how (K, Q, V) vectors are obtained, and differences between encoder and decoder

@@ -1,5 +1,5 @@
 #### 2019-02
-* *Why Self-Attention? A Targeted Evaluation of Neural Machine Translation Architectures* [[arXiv](http://arxiv.org/abs/1808.08946)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/whyselfattention.md)]
+* *Why Self-Attention? A Targeted Evaluation of Neural Machine Translation Architectures* (Nov 2018, EMNLP 2018) [[arXiv](http://arxiv.org/abs/1808.08946)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/whyselfattention.md)]
 
 #### 2019-01
 * *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding* (Oct 2018) [[arXiv](https://arxiv.org/abs/1810.04805)] [[Tensorflow](http://goo.gl/language/bert), [PyTorch](https://github.com/huggingface/pytorch-pretrained-BERT)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/bert.md)]
