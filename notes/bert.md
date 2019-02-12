@@ -14,7 +14,7 @@ TLDR; Bidirectional transformer
     * Based on [Google's Transformer](https://github.com/gcunhase/PaperNotes/blob/master/notes/attentionisallyouneed.md)
     * Authors demonstrate gains in performance by *pre-training* the model with general data (i.e. Wiki data) followed by additional *training on specific data* (i.e. movie reviews) and then followed by a discriminative *fine-tuning on a specific task* (i.e. sentiment analysis on movie reviews)
 <p align="center">
-<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/bert_architecture.png" width="500" alt="BERT"">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/bert_architecture.png" width="500" alt="BERT">
 </p>
 
 * Pre-training tasks

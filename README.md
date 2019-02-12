@@ -3,7 +3,7 @@
 
 #### 2019-01
 * *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding* (Oct 2018) [[arXiv](https://arxiv.org/abs/1810.04805)] [[Tensorflow](http://goo.gl/language/bert), [PyTorch](https://github.com/huggingface/pytorch-pretrained-BERT)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/bert.md)]
-* *Attention Is All You Need* (Dec 2017, NIPS 2017, Google Brain) [[arXiv](https://arxiv.org/abs/1706.03762)] [[Harvard Blog](http://nlp.seas.harvard.edu/2018/04/03/attention.html)] [[tensor2tensor](https://github.com/tensorflow/tensor2tensor)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/attentionisallyouneed.md)]
+* *Attention Is All You Need* (Dec 2017, NIPS 2017, Google Brain) [[arXiv](https://arxiv.org/abs/1706.03762)] [[Harvard Blog](http://nlp.seas.harvard.edu/2018/04/03/attention.html)] [[tensor2tensor](https://github.com/tensorflow/tensor2tensor)] [[ppt](https://github.com/gcunhase/PaperNotes/blob/master/presentations/JournalClub-Transformer-Jan23_2019.pptx)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/attentionisallyouneed.md)]
 * My Notes on Attention in NLP [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/attention.md)]
 * *How AI can save our humanity* by Kai-Fu Lee [[TEDTalk](https://www.youtube.com/watch?v=ajGgd9Ld-Wc)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/ted_aisavehumanity.md)]
 * *Multimodal Machine Learning: A Survey and Taxonomy* (Aug 2017, PAMI 2018) [[arXiv](https://arxiv.org/abs/1705.09406)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/multimodalsurvey.md)]
@@ -17,7 +17,7 @@
 * *Read + Verify: Machine Reading Comprehension with Unanswerable Questions* (Aug 2018, AAAI 2019, Microsoft) [[arXiv](https://arxiv.org/abs/1808.05759)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/readverify.md)]
 * *Learning to Discriminate Noises for Incorporating External Information in Neural Machine Translation* (Oct 2018) [[arXiv](https://arxiv.org/abs/1810.10317)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/noisesexternalinfo.md)]
 * *Using sparse semantic embeddings learned from multimodal text and image data to model human conceptual knowledge* (Nov 2018) [[arXiv](https://arxiv.org/abs/1809.02534)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/contextualembedding.md)]
-* *DialogueRNN: An Attentive RNN for Emotion Detection in Conversations* (Nov 2018, AAAI) [[arXiv](https://arxiv.org/abs/1811.00405)] [[code](https://github.com/senticnet/conv-emotion)] [[ppt](https://github.com/gcunhase/PaperNotes/blob/master/presentations/JournalClub-DialogueRNN-Nov21st2018.pptx)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/dialoguernn.md)]
+* *DialogueRNN: An Attentive RNN for Emotion Detection in Conversations* (Nov 2018, AAAI) [[arXiv](https://arxiv.org/abs/1811.00405)] [[code](https://github.com/senticnet/conv-emotion)] [[ppt](https://github.com/gcunhase/PaperNotes/blob/master/presentations/JournalClub-DialogueRNN-Nov21_2018.pptx)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/dialoguernn.md)]
 
 #### 2018-09
 * *SampleRNN: An Unconditional End-to-End Neural Audio Generation Model* (Feb 2017, ICLR) [[arXiv](https://arxiv.org/abs/1612.07837)] [[code](https://github.com/soroushmehr/sampleRNN_ICLR2017), [pytorch](https://github.com/deepsound-project/samplernn-pytorch)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/samplernn.md)]
