@@ -20,6 +20,13 @@ TLDR; Trained bidirectional transformer encoder, with the main appeal being that
 <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/bert_architecture.png" width="500" alt="BERT">
 </p>
 
+* Training on specific tasks: [5]
+    1. Semi-supervised learning: BERT learns huge dataset (Wikipedia for example)
+    2. Supervised training on specific task (fine-tuning): i.e. text classification (BERT+FFN+Softmax)
+<p align="center">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/bert_training_steps.png" width="600" alt="BERT train steps">
+</p>
+
 * Pre-training tasks
     * Masked Language Model (MLM):
         * Uses the output of the masked words position to predict the masked word [5]
@@ -36,11 +43,11 @@ TLDR; Trained bidirectional transformer encoder, with the main appeal being that
         
 * BERT used for different tasks
 <p align="center">
-<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/bert_tasks.png" width="350" alt="BERT tasks">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/bert_tasks.png" width="400" alt="BERT tasks">
 </p>
 
 ### Notes / Questions
-* *[CLS]*: first input token, stands for Classification
+* [CLS]: first input token, stands for Classification
 
 * Downstream tasks: "supervised-learning tasks that utilize a pre-trained model or component"
 
@@ -49,13 +56,6 @@ TLDR; Trained bidirectional transformer encoder, with the main appeal being that
     * *SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing*: [paper](https://arxiv.org/abs/1808.06226), [code](https://github.com/google/sentencepiece)
 
 * BERT uses WordPiece (chunks of words) as tokens rather than words
-
-* Training on specific tasks: [5]
-    1. Semi-supervised learning: BERT learns huge dataset (Wikipedia for example)
-    2. Supervised training on specific task (fine-tuning): i.e. text classification (BERT+FFN+Softmax)
-<p align="center">
-<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/bert_training_steps.png" width="700" alt="BERT train steps">
-</p>
      
 * Original transformer: 6 encoder layers, 512 hidden units in FNN, and 8 attention heads
    
