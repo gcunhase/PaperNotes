@@ -1,5 +1,6 @@
 #### 2019-02
-* "NLP's ImageNet moment has arrived" (Jul 2018) [[Blog](http://ruder.io/nlp-imagenet/)]
+* *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding* (Oct 2018, Google AI Language) [[arXiv](https://arxiv.org/abs/1810.04805)] [[Tensorflow](http://goo.gl/language/bert), [PyTorch](https://github.com/huggingface/pytorch-pretrained-BERT)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/bert.md)]
+* "NLP's ImageNet moment has arrived" (Jul 2018) [[Blog](http://ruder.io/nlp-imagenet/)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/nlp_imagenet.md)]
 * *Why Self-Attention? A Targeted Evaluation of Neural Machine Translation Architectures* (Nov 2018, EMNLP 2018) [[arXiv](http://arxiv.org/abs/1808.08946)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/whyselfattention.md)]
 
 #### 2019-01
@@ -80,12 +81,11 @@
 * *A Comparative Study of Rule Extraction for Recurrent Neural Networks* (Jan 2018) [[arXiv](https://arxiv.org/abs/1801.05420)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/ruleextractionrnn.md)]
 * *Super SloMo: High Quality Estimation of Multiple Intermediate Frames for Video Interpolation* [[arXiv](http://arxiv.org/abs/1712.00080)] [[code](https://github.com/avinashpaliwal/Super-SloMo?fbclid=IwAR10dPAipRpIIiDAgu57W2ShmZVEoAzNYrCzyC77m)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/superslomo.md)]
 * *TCN* [[arXiv](https://arxiv.org/abs/1803.01271)]
-* *ELMo* [[arXiv](https://arxiv.org/abs/1802.05365)] 
 * *Scaling Neural Machine Translation* (Sep 2018, Facebook AI Research) [[arXiv](https://arxiv.org/abs/1806.00187)] [[PyTorch](https://github.com/pytorch/fairseq)]
 * *Pay Less Attention with Lightweight and Dynamic Convolutions* (Sep 2018, ICLR 2019, Facebook AI Research) [[OpenReview](https://openreview.net/forum?id=SkVhlh09tX)] [[PyTorch](https://github.com/pytorch/fairseq)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/lessattention.md)]
 * *Multi-Task Deep Neural Networks for Natural Language Understanding* (Jan 2019, Microsoft) [[arXiv](https://arxiv.org/abs/1901.11504)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/mtdnn.md)]
 * *GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding* (Sep 2018) [[arXiv](https://arxiv.org/abs/1804.07461)] [[Benchmark](https://gluebenchmark.com/)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/glue.md)]
-* *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding* (Oct 2018, Google AI Language) [[arXiv](https://arxiv.org/abs/1810.04805)] [[Tensorflow](http://goo.gl/language/bert), [PyTorch](https://github.com/huggingface/pytorch-pretrained-BERT)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/bert.md)]
+* *ELMo: Deep contextualized word representations* (NAACL 2018, Allen Institute) [[arXiv](https://arxiv.org/abs/1802.05365)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/elmo.md)]
 
 * *A Multilayer Convolutional Encoder-Decoder Neural Network for Grammatical Error Correction* [[arXiv](https://arxiv.org/abs/1801.08831)] [[code](https://github.com/nusnlp/mlconvgec2018)]
 * *Improving Neural Machine Translation with Conditional Sequence Generative Adversarial Nets* [[arXiv](https://arxiv.org/abs/1703.04887)]
