@@ -36,7 +36,7 @@ TLDR; Trained bidirectional transformer encoder, with the main appeal being that
         
 * BERT used for different tasks
 <p align="center">
-<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/bert_tasks.png" width="400" alt="BERT tasks">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/bert_tasks.png" width="350" alt="BERT tasks">
 </p>
 
 ### Notes / Questions
@@ -54,7 +54,7 @@ TLDR; Trained bidirectional transformer encoder, with the main appeal being that
     1. Semi-supervised learning: BERT learns huge dataset (Wikipedia for example)
     2. Supervised training on specific task (fine-tuning): i.e. text classification (BERT+FFN+Softmax)
 <p align="center">
-<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/bert_train_steps.png" width="700" alt="BERT train steps">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/bert_training_steps.png" width="700" alt="BERT train steps">
 </p>
      
 * Original transformer: 6 encoder layers, 512 hidden units in FNN, and 8 attention heads
