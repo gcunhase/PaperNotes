@@ -5,7 +5,8 @@ TLDR; GAN consists of a generative net G and a discriminative model D, both MLPs
 
 ### Key Points
 * G maximizes the probability of D making a mistake = minimize $log(1 - D(G(z)))$
-* Discriminative net D: learns to distinguish whether a given data instance is real or not, distinguishes real images from synthesized ones.
+    * Log: used because it stretches the range of the function from -inf to 0, making it easier to compute the gradient since error will be bigger
+* Discriminative net D: output ranges between 0 to 1, learns to distinguish whether a given data instance is real or not, distinguishes real images from synthesized ones.
 * Generative net G: learns to confuse D by generating high quality data, synthesize images resembling real images.
 * Both the generative and discriminative models are realized as multilayer perceptrons: meaning it can be trained with *backpropagation*.
 
@@ -15,9 +16,20 @@ TLDR; GAN consists of a generative net G and a discriminative model D, both MLPs
 
 ### Notes / Questions
 * The rate with which D and G are updated can influence the result.
-* Z is the noise vector used to initilize G.
+* Z is the noise vector used to initilize G: only has 1 domain, needs random vector (similar to RNN's initial hidden state)
 * *Conditional generative model*: How to condition GAN in order to choose a desired Z?
   - Solution: MLP, VAE, Stacked Autoencoder
+* ﻿Question on Adversarial Loss (AL)
+
+* Adversarial loss
+    * MinMax: G tries to maximize the amount of times D classifies the generated samples as real and D wants to minimize the amount of times it makes a mistake
+    * Police vs faake cash/ID problem
+    * L_{GAN} (G, D_Y, X, Y) = E_{y ~ p_{data}(y)}[log D_Y(y)] + E_{x ~ p_{data}(x)}[log D_Y(G((x))]
+    * E = Expectation of the formula with samples x drawn from the distribution of p_{data}
+    * E(x) = \integral x p(x) dx
+    * E(f(x)) = \integral f(x) p(x) dx
+    * However, p(x) is what we're trying to model, so we don't have it yet. Taking the idea of Monte Carlo of sampling from the data, the integral can be approximated to a discrete sum
+    * E(f(x)) = 1/N * \sum_{n=1}^N f(x), where N = batch size
   
 ### Results
 * Datasets: MNIST, The Toronto Face Database and CIFAR-10

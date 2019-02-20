@@ -1,4 +1,5 @@
 #### 2019-02
+* *ELMo: Deep contextualized word representations* (Mar 2018, NAACL 2018, Allen Institute) [[arXiv](https://arxiv.org/abs/1802.05365)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/elmo.md)]
 * *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding* (Oct 2018, Google AI Language) [[arXiv](https://arxiv.org/abs/1810.04805)] [[Tensorflow](http://goo.gl/language/bert), [PyTorch](https://github.com/huggingface/pytorch-pretrained-BERT)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/bert.md)]
 * "NLP's ImageNet moment has arrived" (Jul 2018) [[Blog](http://ruder.io/nlp-imagenet/)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/nlp_imagenet.md)]
 * *Why Self-Attention? A Targeted Evaluation of Neural Machine Translation Architectures* (Nov 2018, EMNLP 2018) [[arXiv](http://arxiv.org/abs/1808.08946)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/whyselfattention.md)]
@@ -25,18 +26,18 @@
 * *FFTNet: a Real-Time Speaker-Dependent Neural Vocoder* (April 2018, ICASSP) [[paper](http://gfx.cs.princeton.edu/pubs/Jin_2018_FAR/)] [[code]()] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/fftnet.md)]
 
 #### 2018-08
-* *Efficient Neural Audio Synthesis* (WaveRNN) (June 2018, ICML) [[arXiv](https://arxiv.org/abs/1802.08435)] [[code](https://github.com/fatchord/WaveRNN)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/wavernn.md)]
+* *WaveRNN: Efficient Neural Audio Synthesis* (June 2018, ICML) [[arXiv](https://arxiv.org/abs/1802.08435)] [[code](https://github.com/fatchord/WaveRNN)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/wavernn.md)]
 * *Char2Wav: End-to-End Speech Synthesis* (ICLR Workshop 2017) [[OpenReview](https://openreview.net/forum?id=B1VWyySKx)] [[code](https://github.com/sotelo/parrot)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/char2wav.md)]
 * *The challenge of realistic music generation: modelling raw audio at scale* (Jun 2018) [[arXiv](https://arxiv.org/abs/1806.10474)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/rawmusicgeneration.md)]
 
 #### 2018-05
-* *Adversarial Autoencoders* [[link](https://blog.paperspace.com/adversarial-autoencoders-with-pytorch/)]
+* *Adversarial Autoencoders* [[Blog](https://blog.paperspace.com/adversarial-autoencoders-with-pytorch/)]
 
 #### 2018-04
-* *Neural Speed Reading via Skim-RNN* [[arXiv](https://arxiv.org/abs/1711.02085)] [[code](https://github.com/schelotto/Neural_Speed_Reading_via_Skim-RNN_PyTorch)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/skimRNN.md)]
+* *Neural Speed Reading via Skim-RNN* (Mar 2018) [[arXiv](https://arxiv.org/abs/1711.02085)] [[code](https://github.com/schelotto/Neural_Speed_Reading_via_Skim-RNN_PyTorch)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/skimRNN.md)]
 
 #### 2018-03
-* *What Level of Quality can Neural Machine Translation Attain on Literary Text?* [[arXiv](https://arxiv.org/abs/1801.04962)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/mtLitText.md)]
+* *What Level of Quality can Neural Machine Translation Attain on Literary Text?* (Jan 2018) [[arXiv](https://arxiv.org/abs/1801.04962)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/mtLitText.md)]
 
 #### 2018-02
 * *Song From PI: A Musically Plausible Network for Pop Music Generation* (Nov 2016) [[arXiv](https://arxiv.org/abs/1611.03477)] [[website](https://www.cs.toronto.edu/songfrompi/)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/songFromPI.md)]
@@ -85,7 +86,6 @@
 * *Pay Less Attention with Lightweight and Dynamic Convolutions* (Sep 2018, ICLR 2019, Facebook AI Research) [[OpenReview](https://openreview.net/forum?id=SkVhlh09tX)] [[PyTorch](https://github.com/pytorch/fairseq)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/lessattention.md)]
 * *Multi-Task Deep Neural Networks for Natural Language Understanding* (Jan 2019, Microsoft) [[arXiv](https://arxiv.org/abs/1901.11504)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/mtdnn.md)]
 * *GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding* (Sep 2018) [[arXiv](https://arxiv.org/abs/1804.07461)] [[Benchmark](https://gluebenchmark.com/)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/glue.md)]
-* *ELMo: Deep contextualized word representations* (NAACL 2018, Allen Institute) [[arXiv](https://arxiv.org/abs/1802.05365)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/elmo.md)]
 
 * *A Multilayer Convolutional Encoder-Decoder Neural Network for Grammatical Error Correction* [[arXiv](https://arxiv.org/abs/1801.08831)] [[code](https://github.com/nusnlp/mlconvgec2018)]
 * *Improving Neural Machine Translation with Conditional Sequence Generative Adversarial Nets* [[arXiv](https://arxiv.org/abs/1703.04887)]
