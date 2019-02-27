@@ -52,6 +52,7 @@ TLDR; It's possible to do sequence translation solely with attention.
 
     * Multi-head attention
         * Single attention performed $h$ times: produces $h$ different Q, K, V matrices
+        * Output: concatenates $h$ results 
         * Additional weights matrix for output $W^O$ trained jointly with the model
         * Allows the model to learn important information over different embeddings at different positions  
         <p align="center">
@@ -100,7 +101,12 @@ TLDR; It's possible to do sequence translation solely with attention.
     * Trial and error for the new modifications: one residual connection, relative position encoding, random relu instead of relu, batch normalization instead of layer normalization
     * Less training needed (60 epochs, 1 hour for good results), new SoTA by 0.1-1%
     * [PyTorch](https://github.com/ivan-bilan/tac-self-attention)
-    
+
+* Multiple encoder and decoder blocks are sequential! Note that there are 6 blocks in the original paper [7]
+<p align="center">
+<img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/selfattention_encoder_N.png" height="250" alt="Masked decoder attention"  hspace="20">
+</p>
+            
 ### Results
 * Tasks applied: English to German and French translations
     * German: SoTA by +2.0 BLEU, 28.4
@@ -148,3 +154,4 @@ TLDR; It's possible to do sequence translation solely with attention.
 * [4] [Self-Attention Mechanisms in Natural Language Processing](https://dzone.com/articles/self-attention-mechanisms-in-natural-language-proc) by Leona Zhang (Sep 2018): attention vs scaled dot-product attention
 * [5] [Attention is All You Need](https://www.youtube.com/watch?v=iDulhoQ2pro) by Yannic Kilcher (Nov 2017): good explanation about scaled dot-product attention
 * **[6]** [The Illustrated Transformer Blog](http://jalammar.github.io/illustrated-transformer/) by Jay Alammar (June 2018): more details on multi-head, how (K, Q, V) vectors are obtained, and differences between encoder and decoder
+* **[7]** [Dissecting BERT Encoder](https://medium.com/@mromerocalvo/dissecting-bert-part1-6dcf5360b07f) by Francisco Ingham and Miguel Romero: last image source, really good source for complete details about the Transformer encoder

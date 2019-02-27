@@ -5,7 +5,8 @@ TLDR; Trained bidirectional transformer encoder, with the main appeal being that
 
 ### Key Points
 * Bidirectional Encoder Representations from Transformers
-      
+    * Reads the entire sequence of words at once, therefore considered bidirectional (more accurate to say non-directional) [4]
+    
 * Motivation: initialization (pre-trained knowledge is in embeddings, everything else is 'from zero', needs large training set)
 
 * Successor to [ELMo](https://arxiv.org/abs/1802.05365) with contextualized word embedding and [ULMFit](https://arxiv.org/pdf/1801.06146.pdf) with transfer learning
@@ -28,7 +29,12 @@ TLDR; Trained bidirectional transformer encoder, with the main appeal being that
 </p>
 
 * Pre-training tasks
+    * "When training language models, there is a challenge of defining a prediction goal" [4]
+        * "The child came home from ___"
+        * Predicting the next word in a sequence limits context learning
+        * BERT uses the following 2 strategies to solve this
     * Masked Language Model (MLM):
+        * Learns masked words in random places in sentence, not just next word
         * Uses the output of the masked words position to predict the masked word [5]
         * Problem trying to solve: "standard conditional language models can only be trained left-to-right or right-to-left, since bidirectional conditioning would allow each word to indirectly “see itself” in a multi-layered context"
         * Used during *pre-training* to train a deep bidirectional representation
@@ -36,15 +42,18 @@ TLDR; Trained bidirectional transformer encoder, with the main appeal being that
         * Downsides
             * Mismatch between pre-training and fine-tuning. The solution is to not always substitute the masked token by a prediction. 
             * 15% of words are predicted in each batch -> longer converging time but increased performance makes it worth it            
-    * Next Sentence Prediction:
+    * Next Sentence Prediction (NSP):
         * Predicts likelihood that sentence B belongs after A [5]
         * Initial pre-trained language model is unable to understand relationships between sentences
         * Solution: pre-training of "binarized next sentence prediction task that can be trivially generated from any monolingual corpus"
-        
+    * Adding MLM and NSP make the training slower but it greatly increases context awareness
+            
 * BERT used for different tasks
 <p align="center">
 <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/bert_tasks.png" width="400" alt="BERT tasks">
 </p>
+
+> Section 3.5 of paper has further details on hyper-parameter tuning
 
 ### Notes / Questions
 * [CLS]: first input token, stands for Classification
@@ -62,10 +71,13 @@ TLDR; Trained bidirectional transformer encoder, with the main appeal being that
 * 2 BERT models:
     * Base: Comparable in size to the OpenAI Transformer
         * 12 transformer blocks (encoder layers), 768 hidden units (FFN), 12 attention heads
+        * Training: 4 Cloud TPUS for 4 days [4]
+        * Usage: 1 GPU
     * Large: Huge model which achieves SoTA in 11 tasks
         * 24 transformer blocks (encoder layers), 1024 hidden units (FFN), 16 attention heads, 340M parameters
-        * Training: 40 epochs, 3.3 billion word corpus, 16 TPUs 
-        * 40-70 days on 8 GPUs
+        * Training: 40 epochs, 3.3 billion word corpus, 16 Cloud TPUs for 4 days 
+        * Training on GPU: 40-70 days on 8 GPUs
+        * Usage: 1 TPU
 
 * Maximum length of words: 512, not suitable to handle long text such as news articles
 
@@ -87,8 +99,8 @@ TLDR; Trained bidirectional transformer encoder, with the main appeal being that
 ### References
 * [1] [Language Learning with BERT](https://www.youtube.com/watch?v=0EtD5ybnh_s) by Martin Andrews (Tensorflow and Deep Learning Singapore, Nov 2018)
 * [2] [Synced Blog](https://syncedreview.com/2018/10/16/best-nlp-model-ever-google-bert-sets-new-standards-in-11-language-tasks/): highlights from paper
-* [3] Dissecting BERT: [Encoder](https://medium.com/@mromerocalvo/dissecting-bert-part1-6dcf5360b07f) and [Decoder](https://medium.com/dissecting-bert/dissecting-bert-appendix-the-decoder-3b86f66b0e5f)
-* [4] [BERT explained](https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270)
+* [3] [Dissecting BERT Encoder](https://medium.com/@mromerocalvo/dissecting-bert-part1-6dcf5360b07f) by Francisco Ingham and Miguel Romero: really good source for complete details about the Transformer encoder
+* [4] [BERT explained](https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270) by Rani Horev: interesting BERT explanation and how to use for fine-tuning, takeaways section, Devlin's insight on Word Masking
 * **[5]** [The Illustrated BERT, ELMo, and co](http://jalammar.github.io/illustrated-bert/) by Jay Alammar: very easy to follow explanation on BERT, source for the second image used here
-* [6] [Hallo multilingual BERT, como funcionas?](https://medium.com/omnius/hallo-multilingual-bert-c%C3%B3mo-funcionas-2b3406cc4dc2): using HuggingFace's PyTorch code for German language
-* [7] Using BERT for classification: [Fine-tuning Sentence Pair Classification with BERT](https://gluon-nlp.mxnet.io/examples/sentence_embedding/bert.html), [Adding classifier after encoder](https://github.com/google-research/bert/issues/253)
+* [6] [Hallo multilingual BERT, como funcionas?](https://medium.com/omnius/hallo-multilingual-bert-c%C3%B3mo-funcionas-2b3406cc4dc2) by Marianne Stecklina: using HuggingFace's PyTorch code for German language, exploring multi-language BERT vocabulary
+* [7] [Fine-tuning Sentence Pair Classification with BERT](https://gluon-nlp.mxnet.io/examples/sentence_embedding/bert.html) and [Adding classifier after encoder](https://github.com/google-research/bert/issues/253): details on using BERT for classification
