@@ -23,11 +23,11 @@ TLDR; Word-by-word translation improved with Transformer acting as denoising aut
         * Transformer encoder-decoder as Denoising Autoencoder
         * Fix: insertion, deletion and reordering errors
 
-        <p align="center">
-        <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/lm_dae_insertion.png" height="100" alt="Insertion" hspace="20">
-        <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/lm_dae_deletion.png" height="100" alt="Deletion" hspace="20">
-        <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/lm_dae_reordering.png" height="100" alt="Reordering">
-        </p>
+    <p align="center">
+    <img src="./imgs/lm_dae_insertion.png" height="100" alt="Insertion" hspace="20">
+    <img src="./imgs/lm_dae_deletion.png" height="100" alt="Deletion" hspace="20">
+    <img src="./imgs/lm_dae_reordering.png" height="100" alt="Reordering">
+    </p>
 
 
 ### Notes / Questions
@@ -40,7 +40,7 @@ TLDR; Word-by-word translation improved with Transformer acting as denoising aut
 * Datasets: WMT 2016 DE-EN and WMT 2014 FR-EN
 * SoTA for unsupervised NMT (neural machine translation)
 
-    <img src="./imgs/lm_dae_results.png" alt="Results" width="100"/>
+    <img src="./imgs/lm_dae_results.png" alt="Results" width="400"/>
     
     > Word-by-word: nearest neighbor
 
