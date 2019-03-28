@@ -24,9 +24,9 @@ TLDR; Word-by-word translation improved with Transformer acting as denoising aut
         * Fix: insertion, deletion and reordering errors
 
         <p align="center">
-        <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/lm_dae_insertion.png" height="200" alt="Insertion" hspace="20">
-        <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/lm_dae_deletion.png" height="200" alt="Deletion" hspace="20">
-        <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/lm_dae_reordering.png" height="200" alt="Reordering">
+        <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/lm_dae_insertion.png" height="100" alt="Insertion" hspace="20">
+        <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/lm_dae_deletion.png" height="100" alt="Deletion" hspace="20">
+        <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/lm_dae_reordering.png" height="100" alt="Reordering">
         </p>
 
 
@@ -37,13 +37,10 @@ TLDR; Word-by-word translation improved with Transformer acting as denoising aut
 * Cross-lingual embeddings: "continuous representation of words whose vector space is shared across multiple languages"
 
 ## Results
-* SoTA for unsupervised NMT (neural machine translation)
 * Datasets: WMT 2016 DE-EN and WMT 2014 FR-EN
+* SoTA for unsupervised NMT (neural machine translation)
 
-
-![Results](./imgs/lm_dae_results.png?width=10px)
-
-<img src="./imgs/lm_dae_results.png" alt="Results" style="width: 100px; height: 100px"/>
-
-> Word-by-word: nearest neighbor
+    <img src="./imgs/lm_dae_results.png" alt="Results" width="100"/>
+    
+    > Word-by-word: nearest neighbor
 
