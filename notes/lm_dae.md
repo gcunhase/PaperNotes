@@ -32,8 +32,6 @@ TLDR; Word-by-word translation improved with Transformer acting as denoising aut
 
 ### Notes / Questions
 * Authors mention that their denoising autoencoder model is a 6-layer Transformer encoder-decoder.
-    * Is it correct to consider a transformer an autoencoder?
-    
 * Cross-lingual embeddings: "continuous representation of words whose vector space is shared across multiple languages"
 
 ## Results
