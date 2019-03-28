@@ -1,3 +1,8 @@
+#### 2019-03
+* *GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism* (2018, Google Brain) [[arXiv](https://arxiv.org/abs/1811.06965)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/gpipe.md)]
+* *My Notes on Autoencoders and Variants* [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/dae.md)]
+* *Improving Unsupervised Word-by-Word Translation with Language Model and Denoising Autoencoder* (Nov 2018, EMNLP 2018) [[arXiv](http://arxiv.org/abs/1901.01590)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/lm_dae.md)]
+
 #### 2019-02
 * *ELMo: Deep contextualized word representations* (Mar 2018, NAACL 2018, Allen Institute) [[arXiv](https://arxiv.org/abs/1802.05365)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/elmo.md)]
 * *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding* (Oct 2018, Google AI Language) [[arXiv](https://arxiv.org/abs/1810.04805)] [[Tensorflow](http://goo.gl/language/bert), [PyTorch](https://github.com/huggingface/pytorch-pretrained-BERT)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/bert.md)]
