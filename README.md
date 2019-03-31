@@ -73,6 +73,7 @@
 ## Others
 - [x] *How AI can save our humanity* by Kai-Fu Lee [[TEDTalk](https://www.youtube.com/watch?v=ajGgd9Ld-Wc)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/ted_aisavehumanity.md)]
 - [x] *Dynamic Routing Between Capsules* (Oct 2017) [[arXiv](https://arxiv.org/abs/1710.09829)] [[Siraj Raval](https://www.youtube.com/watch?v=VKoLGnq15RM)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/capsulenet.md)]
+- [x] *GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism* (2018, Google Brain) [[arXiv](https://arxiv.org/abs/1811.06965)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/gpipe.md)]
 
 ## Blogs/Journals/Books
 * [Browse SoTA](https://paperswithcode.com/sota)
