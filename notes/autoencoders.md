@@ -38,7 +38,7 @@ Stacked Autoencoder
     * "captures a useful "hierarchical grouping" or "part-whole decomposition" of the input" ([source](http://ufldl.stanford.edu/wiki/index.php/Stacked_Autoencoders))
 
 <p align="center">
-<img src="./imgs/autoencoder_stacked_ae_training.png" height="150" alt="Stacked AE Training" hspace="20">
+<img src="./imgs/autoencoder_stacked_ae_training.png" height="150" alt="Stacked AE Training" hspace="30">
 <img src="./imgs/autoencoder_stacked_ae_testing.png" height="150" alt="Stacked AE Testing">
 </p>
 
