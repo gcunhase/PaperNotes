@@ -1,5 +1,5 @@
 #### 2019-04
-* *My Notes on Autoencoders and Variants* [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/dae.md)]
+* *My Notes on Autoencoders and Variants* [[notes](./notes/autoencoders.md)]
 
 #### 2019-03
 * *GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism* (2018, Google Brain) [[arXiv](https://arxiv.org/abs/1811.06965)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/gpipe.md)]

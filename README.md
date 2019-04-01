@@ -10,6 +10,7 @@
 ### Embeddings
 - [x] *ELMo: Deep contextualized word representations* (Mar 2018, NAACL 2018, Allen Institute) [[arXiv](https://arxiv.org/abs/1802.05365)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/elmo.md)]
 - [x] *Improving Unsupervised Word-by-Word Translation with Language Model and Denoising Autoencoder* (Nov 2018, EMNLP 2018) [[arXiv](http://arxiv.org/abs/1901.01590)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/lm_dae.md)]
+- [x] *My Notes on Autoencoders and Variants* [[notes](./notes/autoencoders.md)]
 
 ### Recurrent Neural Networks (RNN)
 - [x] *How to Construct Deep Recurrent Neural Networks* (Dec 2013) [[arXiv](https://arxiv.org/abs/1312.6026)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/deeprnn.md)]
