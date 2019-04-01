@@ -54,7 +54,7 @@ Denoising Autoencoders (DAE) [1,2]
     * Input: noisy data
     * Output/Target: clean data 
 
-* See: Convolutional DAE [[3](https://srinjaypaul.github.io/Convolutional_autoencoders_for_images/)] and Stacked DAE [[4](﻿http://www.jmlr.org/papers/volume11/vincent10a/vincent10a.pdf)]
+* See: Convolutional DAE [3] and Stacked DAE [4]
 
 ### Pytorch Codes
 * [Simple, Conv, and Variational AE](https://github.com/L1aoXingyu/pytorch-beginner)
@@ -65,5 +65,5 @@ Denoising Autoencoders (DAE) [1,2]
 * [1] [DAE paper](http://www.cs.toronto.edu/~larocheh/publications/icml-2008-denoising-autoencoders.pdf) (ICMLR 2008) by P. Vincent, Y. Bengio et al.
 * [2] [DAE explained](https://towardsdatascience.com/denoising-autoencoders-explained-dbb82467fc2)
 * [3] [Convolutional Denoising Autoencoder for Images](https://srinjaypaul.github.io/Convolutional_autoencoders_for_images/)
-* [4] [*Stacked Denoising Autoencoders*](﻿http://www.jmlr.org/papers/volume11/vincent10a/vincent10a.pdf) (2010)
+* [4] [*Stacked Denoising Autoencoders*](http://delivery.acm.org/10.1145/1960000/1953039/11-3371-vincent.pdf?ip=155.230.104.194&id=1953039&acc=OPEN&key=0EC22F8658578FE1%2E2E6EFFBFE131E7E4%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1554103189_2017cf624e9f3e3e2f9c8f146734ecd8) (2010)
 * [5] [VAE](http://anotherdatum.com/vae.html) by Another Datum
