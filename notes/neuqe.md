@@ -7,7 +7,7 @@ TLDR; Neural quality estimation using CNN and RNN-based Encoder-Decoder architec
 * Proposed: 1st neural approach to automatic quality estimation of GEC output sentences without hand-crafted features
 * Predictor-Estimator Architecture ([Kim et al., 2017](https://www.statmt.org/wmt17/pdf/WMT63.pdf))
 
-<p align="center">
+<p align="left">
 <img src="./imgs/neuqe_predictor_estimator_architecture.png" height="200" alt="Predictor-estimator architecture">
 </p>
 
