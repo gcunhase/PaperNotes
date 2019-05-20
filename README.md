@@ -12,6 +12,9 @@
 - [x] *Improving Unsupervised Word-by-Word Translation with Language Model and Denoising Autoencoder* (Nov 2018, EMNLP 2018) [[arXiv](http://arxiv.org/abs/1901.01590)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/lm_dae.md)]
 - [x] *ELMo: Deep contextualized word representations* (Mar 2018, NAACL 2018, Allen Institute) [[arXiv](https://arxiv.org/abs/1802.05365)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/elmo.md)]
 
+### Grammar Error Correction (GEC)
+- [x] *Neural Quality Estimation of Grammatical Error Correction* (Nov 2018, EMNLP 2018) [[aclweb](https://aclweb.org/anthology/D18-1274)] [[PyTorch](https://github.com/nusnlp/neuqe)] [[notes](./notes/neuqe.md)]
+
 ### Recurrent Neural Networks (RNN)
 - [x] *How to Construct Deep Recurrent Neural Networks* (Dec 2013) [[arXiv](https://arxiv.org/abs/1312.6026)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/deeprnn.md)]
 - [x] *Read + Verify: Machine Reading Comprehension with Unanswerable Questions* (Aug 2018, AAAI 2019, Microsoft) [[arXiv](https://arxiv.org/abs/1808.05759)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/readverify.md)]
