@@ -17,7 +17,7 @@ TLDR; Neural quality estimation using CNN and RNN-based Encoder-Decoder architec
 
 * Predictor and estimator models in detail:
 <p align="left">
-<hspace="20" img src="./imgs/neuqe_predictor.png" height="250" alt="Predictor"  hspace="20">
+<img src="./imgs/neuqe_predictor.png" height="250" alt="Predictor" hspace="20">
 <img src="./imgs/neuqe_estimator.png" height="250" alt="Estimator">
 </p>
             
