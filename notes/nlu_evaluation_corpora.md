@@ -13,7 +13,7 @@ TLDR; Evaluation corpora to test NLU services for the task of Intent Classificat
   * 5 intents
 
   <p align="center">
-  <img src="./imgs/nlu_evaluation_corpora_askubuntu.png" width="150" alt="Ask Ubuntu">
+  <img src="./imgs/nlu_evaluation_corpora_askubuntu.png" width="200" alt="Ask Ubuntu">
   </p>
 
 * Web Applications
@@ -21,7 +21,7 @@ TLDR; Evaluation corpora to test NLU services for the task of Intent Classificat
   * 8 intents
 
   <p align="center">
-  <img src="./imgs/nlu_evaluation_corpora_webapps.png" width="150" alt="Web Applications">
+  <img src="./imgs/nlu_evaluation_corpora_webapps.png" width="200" alt="Web Applications">
   </p>
 
 ### Notes
