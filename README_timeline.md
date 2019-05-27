@@ -1,6 +1,12 @@
-#### 2019-05
 * *Approaching Neural Grammatical Error Correction as a Low-Resource Machine Translation Task* [[notes](./notes/.md)]
 * *A Multilayer Convolutional Encoder-Decoder Neural Network for Grammatical Error Correction* [[notes](./notes/.md)]
+* *Pay Less Attention with Lightweight and Dynamic Convolutions* (Sep 2018, ICLR 2019, Facebook AI Research) [[OpenReview](https://openreview.net/forum?id=SkVhlh09tX)] [[PyTorch](https://github.com/pytorch/fairseq)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/lessattention.md)]
+* *MT-DNN: Multi-Task Deep Neural Networks for Natural Language Understanding* (Jan 2019, Microsoft) [[arXiv](https://arxiv.org/abs/1901.11504)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/mtdnn.md)]
+* *GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding* (Sep 2018) [[arXiv](https://arxiv.org/abs/1804.07461)] [[Benchmark](https://gluebenchmark.com/)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/glue.md)]
+
+#### 2019-05
+* *Evaluating Natural Language Understanding Services for Conversational Question Answering Systems* (Aug 2017, SIGDIAL 2017)
+* *EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks* (Jan 2019) [[arXiv](https://arxiv.org/abs/1901.11196)] [[code](https://github.com/jasonwei20/eda_nlp)] [[notes](./notes/eda.md)]
 * *Neural Quality Estimation of Grammatical Error Correction* (Nov 2018, EMNLP 2018) [[aclweb](https://aclweb.org/anthology/D18-1274)] [[PyTorch](https://github.com/nusnlp/neuqe)] [[notes](./notes/neuqe.md)]
 
 #### 2019-04
@@ -95,9 +101,6 @@
 * *Super SloMo: High Quality Estimation of Multiple Intermediate Frames for Video Interpolation* [[arXiv](http://arxiv.org/abs/1712.00080)] [[code](https://github.com/avinashpaliwal/Super-SloMo?fbclid=IwAR10dPAipRpIIiDAgu57W2ShmZVEoAzNYrCzyC77m)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/superslomo.md)]
 * *TCN* [[arXiv](https://arxiv.org/abs/1803.01271)]
 * *Scaling Neural Machine Translation* (Sep 2018, Facebook AI Research) [[arXiv](https://arxiv.org/abs/1806.00187)] [[PyTorch](https://github.com/pytorch/fairseq)]
-* *Pay Less Attention with Lightweight and Dynamic Convolutions* (Sep 2018, ICLR 2019, Facebook AI Research) [[OpenReview](https://openreview.net/forum?id=SkVhlh09tX)] [[PyTorch](https://github.com/pytorch/fairseq)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/lessattention.md)]
-* *MT-DNN: Multi-Task Deep Neural Networks for Natural Language Understanding* (Jan 2019, Microsoft) [[arXiv](https://arxiv.org/abs/1901.11504)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/mtdnn.md)]
-* *GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding* (Sep 2018) [[arXiv](https://arxiv.org/abs/1804.07461)] [[Benchmark](https://gluebenchmark.com/)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/glue.md)]
 
 * *A Multilayer Convolutional Encoder-Decoder Neural Network for Grammatical Error Correction* [[arXiv](https://arxiv.org/abs/1801.08831)] [[code](https://github.com/nusnlp/mlconvgec2018)]
 * *Improving Neural Machine Translation with Conditional Sequence Generative Adversarial Nets* [[arXiv](https://arxiv.org/abs/1703.04887)]
