@@ -13,7 +13,7 @@ TLDR; This paper covers a little bit of history and the most popular deep learni
     * Vectors exhibit compositionality (man+royal=king)
     * Able "to capture syntactic and semantic information"
 * Word2vec
-    * Sentiment specific word emebedding (SSWE)
+    * Sentiment specific word embedding (SSWE)
     * Limitations: inability to represent phrases, learning embeddings based only on a small window of surrounding words (*good* and *bad* might have similar embeddings, bad for sentiment analysis), highly dependent on the applications in which it is used, and unable to account for polysemy.
 * Character embeddings
     * Solves unkown (UNK) or out-of-vocabulary (OOV) issue since the embedding is really only on the alphabet

@@ -6,6 +6,7 @@
 
 ### Benchmark/Datasets
 - [ ] *GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding* (Sep 2018) [[arXiv](https://arxiv.org/abs/1804.07461)] [[Benchmark](https://gluebenchmark.com/)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/glue.md)]
+- [x] *Evaluating Natural Language Understanding Services for Conversational Question Answering Systems* (Aug 2017, SIGDIAL 2017) [[aclweb](https://www.aclweb.org/anthology/W17-5522)] [[dataset](https://github.com/sebischair/NLU-Evaluation-Corpora)] [[notes](./notes/nlu_evaluation_corpora.md)]
 
 ### Embeddings
 - [x] *My Notes on Autoencoders and Variants* [[notes](./notes/autoencoders.md)]
