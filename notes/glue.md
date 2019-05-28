@@ -8,7 +8,7 @@ TLDR; Benchmark containing 11 NLU tasks organized by Google DeepMind, NYU ML2 an
 * Benchmark + "online platform for model evaluation, comparison and analysis"
 * Contains preexisting well-known datasets
 
-<p align="left">
+<p align="center">
 <img src="./imgs/glue_tasks.png" height="300" alt="GLUE tasks">
 </p>
 
@@ -21,6 +21,4 @@ TLDR; Benchmark containing 11 NLU tasks organized by Google DeepMind, NYU ML2 an
 ### Notes / Questions
 * Resources by: Google Deep Mind, NYU Machine Learning for Language, University of Washington's Allen School of CS and Engineering.
 * 11 tasks download: [automatic](https://gist.github.com/W4ngatang/60c2bdb54d156a41194446737ce03e2e) or [website](https://gluebenchmark.com/tasks) 
-
-### References
-* [1] [[Benchmark](https://gluebenchmark.com/)]
+* [Benchmark](https://gluebenchmark.com/)
