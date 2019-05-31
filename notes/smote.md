@@ -31,5 +31,5 @@ TLDR; Approach to solving imbalance data issue in numerical datasets by generati
 * Performance measure: AUC and ROC convex hull
 * Datasets:
  <p align="center">
- <img src="./imgs/smote_datasets.png" width="200" alt="SMOTE datasets">
+ <img src="./imgs/smote_datasets.png" width="350" alt="SMOTE datasets">
  </p>
