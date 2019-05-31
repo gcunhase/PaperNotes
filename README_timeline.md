@@ -3,7 +3,11 @@
 * *Pay Less Attention with Lightweight and Dynamic Convolutions* (Sep 2018, ICLR 2019, Facebook AI Research) [[OpenReview](https://openreview.net/forum?id=SkVhlh09tX)] [[PyTorch](https://github.com/pytorch/fairseq)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/lessattention.md)]
 * *MT-DNN: Multi-Task Deep Neural Networks for Natural Language Understanding* (Jan 2019, Microsoft) [[arXiv](https://arxiv.org/abs/1901.11504)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/mtdnn.md)]
 
+#### 2019-06
+* *ARCID: A new approach to deal with imbalanced datasets classification* (Jan 2018, SOFSEM 2018) [[paper](https://www.researchgate.net/publication/322010034_ARCID_A_New_Approach_to_Deal_with_Imbalanced_Datasets_Classification)] [[notes](./notes/arcid.md)]
+
 #### 2019-05
+* *SMOTE: Synthetic Minority Over-sampling Technique* (Jun 2002, JAIR) [[arXiv](https://arxiv.org/abs/1106.1813)] [[notes](./notes/smote.md)]
 * *GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding* (Sep 2018) [[arXiv](https://arxiv.org/abs/1804.07461)] [[Benchmark](https://gluebenchmark.com/)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/glue.md)]
 * *Evaluating Natural Language Understanding Services for Conversational Question Answering Systems* (Aug 2017, SIGDIAL 2017) [[aclweb](https://www.aclweb.org/anthology/W17-5522)] [[dataset](https://github.com/sebischair/NLU-Evaluation-Corpora)] [[notes](./notes/nlu_evaluation_corpora.md)]
 * *EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks* (Jan 2019) [[arXiv](https://arxiv.org/abs/1901.11196)] [[code](https://github.com/jasonwei20/eda_nlp)] [[notes](./notes/eda.md)]

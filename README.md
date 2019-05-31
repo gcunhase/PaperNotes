@@ -13,9 +13,6 @@
 - [x] *Improving Unsupervised Word-by-Word Translation with Language Model and Denoising Autoencoder* (Nov 2018, EMNLP 2018) [[arXiv](http://arxiv.org/abs/1901.01590)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/lm_dae.md)]
 - [x] *ELMo: Deep contextualized word representations* (Mar 2018, NAACL 2018, Allen Institute) [[arXiv](https://arxiv.org/abs/1802.05365)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/elmo.md)]
 
-### Data Augmentation
-- [x] *EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks* (Jan 2019) [[arXiv](https://arxiv.org/abs/1901.11196)] [[code](https://github.com/jasonwei20/eda_nlp)] [[notes](./notes/eda.md)]
-
 ### Grammar Error Correction (GEC)
 - [x] *Neural Quality Estimation of Grammatical Error Correction* (Nov 2018, EMNLP 2018) [[aclweb](https://aclweb.org/anthology/D18-1274)] [[PyTorch](https://github.com/nusnlp/neuqe)] [[notes](./notes/neuqe.md)]
 
@@ -40,6 +37,10 @@
 ### Attention + RNN
 - [x] *A GRU-Gated Attention Model for Neural Machine Translation* (Apr 2017) [[arXiv](https://arxiv.org/pdf/1704.08430.pdf)] [[code](https://github.com/DeepLearnXMU/CAEncoder-NMT)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/gruatt.md)]
 - [x] *DialogueRNN: An Attentive RNN for Emotion Detection in Conversations* (Nov 2018, AAAI) [[arXiv](https://arxiv.org/abs/1811.00405)] [[code](https://github.com/senticnet/conv-emotion)] [[ppt](https://github.com/gcunhase/PaperNotes/blob/master/presentations/JournalClub-DialogueRNN-Nov21_2018.pptx)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/dialoguernn.md)]
+
+## Imbalanced data / Data Augmentation
+- [x] *EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks* (Jan 2019) [[arXiv](https://arxiv.org/abs/1901.11196)] [[code](https://github.com/jasonwei20/eda_nlp)] [[notes](./notes/eda.md)]
+- [x] *SMOTE: Synthetic Minority Over-sampling Technique* (Jun 2002, JAIR) [[arXiv](https://arxiv.org/abs/1106.1813)] [[notes](./notes/smote.md)]
 
 ## Convolutional Neural Networks (CNN)
 - [x] *Deep image reconstruction from human brain activity* (Dec 2017) [[bioRxiv](https://www.biorxiv.org/content/biorxiv/early/2017/12/30/240317.full.pdf)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/deepimagereconstruction.md)]
