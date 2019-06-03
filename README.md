@@ -39,6 +39,7 @@
 - [x] *DialogueRNN: An Attentive RNN for Emotion Detection in Conversations* (Nov 2018, AAAI) [[arXiv](https://arxiv.org/abs/1811.00405)] [[code](https://github.com/senticnet/conv-emotion)] [[ppt](https://github.com/gcunhase/PaperNotes/blob/master/presentations/JournalClub-DialogueRNN-Nov21_2018.pptx)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/dialoguernn.md)]
 
 ## Imbalanced data / Data Augmentation
+- [ ] *My Notes on Solutions for Imbalanced data* [[notes](./notes/imbalanced.md)]
 - [x] *EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks* (Jan 2019) [[arXiv](https://arxiv.org/abs/1901.11196)] [[code](https://github.com/jasonwei20/eda_nlp)] [[notes](./notes/eda.md)]
 - [x] *SMOTE: Synthetic Minority Over-sampling Technique* (Jun 2002, JAIR) [[arXiv](https://arxiv.org/abs/1106.1813)] [[notes](./notes/smote.md)]
 

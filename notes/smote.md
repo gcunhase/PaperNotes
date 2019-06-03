@@ -27,7 +27,7 @@ TLDR; Approach to solving imbalance data issue in numerical datasets by generati
 * Using it in labeled text may not be ideal: it may result in a new word of opposite value to the label being generated   
 
 ### Results
-* Baseline: C4.5 decision tree classifier, Ripper, and Naive Bayes
+* Classifiers: C4.5 decision tree classifier, Ripper, and Naive Bayes
 * Performance measure: AUC and ROC convex hull
 * Datasets:
  <p align="center">
