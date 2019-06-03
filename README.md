@@ -42,13 +42,14 @@
 - [x] *My Notes on Solutions for Imbalanced data* [[notes](./notes/imbalanced.md)]
 - [x] *EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks* (Jan 2019) [[arXiv](https://arxiv.org/abs/1901.11196)] [[code](https://github.com/jasonwei20/eda_nlp)] [[notes](./notes/eda.md)]
 - [x] *SMOTE: Synthetic Minority Over-sampling Technique* (Jun 2002, JAIR) [[arXiv](https://arxiv.org/abs/1106.1813)] [[notes](./notes/smote.md)]
-
-## Convolutional Neural Networks (CNN)
-- [x] *Deep image reconstruction from human brain activity* (Dec 2017) [[bioRxiv](https://www.biorxiv.org/content/biorxiv/early/2017/12/30/240317.full.pdf)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/deepimagereconstruction.md)]
+- [x] *ARCID: A new approach to deal with imbalanced datasets classification* (Jan 2018, SOFSEM 2018) [[paper](https://www.researchgate.net/publication/322010034_ARCID_A_New_Approach_to_Deal_with_Imbalanced_Datasets_Classification)] [[notes](./notes/arcid.md)]
 
 ## Noisy/Incomplete data
 - [x] *Don't Underestimate the Benefits of Being Misunderstood* (2017) [[WebMIT](http://web.mit.edu/futrell/www/papers/gibson2017dont.pdf)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/benefitsmisunderstood.md)]
 - [x] *Learning to Discriminate Noises for Incorporating External Information in Neural Machine Translation* (Oct 2018) [[arXiv](https://arxiv.org/abs/1810.10317)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/noisesexternalinfo.md)]
+
+## Convolutional Neural Networks (CNN)
+- [x] *Deep image reconstruction from human brain activity* (Dec 2017) [[bioRxiv](https://www.biorxiv.org/content/biorxiv/early/2017/12/30/240317.full.pdf)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/deepimagereconstruction.md)]
 
 ## Audio
 - [x] *The challenge of realistic music generation: modelling raw audio at scale* (Jun 2018) [[arXiv](https://arxiv.org/abs/1806.10474)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/rawmusicgeneration.md)]
