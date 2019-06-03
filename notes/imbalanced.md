@@ -2,8 +2,7 @@
 
 TLDR; Two main techniques are used to improved accuracy classification tasks using imbalanced data: under-sampling of majority classes and over-sampling of minority classes.
 
-### Solution
-* "Alter the class distributions toward a more balanced distribution" [4]
+**Solution**: "Alter the class distributions toward a more balanced distribution" [4]
 
 ### Data-level approaches
 #### Under-sampling
