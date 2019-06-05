@@ -13,6 +13,7 @@ TLDR; Two main techniques are used to improved accuracy classification tasks usi
 
 ### Data-level approaches
 Re-balancing of data before applying algorithm
+> [A (PyTorch) imbalanced dataset sampler for oversampling low frequent classes and undersampling high frequent ones.](https://github.com/ufoym/imbalanced-dataset-sampler)
 
 #### Under-sampling
 * Goal: "decrease the population of the majority class by ignoring a large number of its instances" [8]
@@ -30,18 +31,34 @@ Re-balancing of data before applying algorithm
 * (+) No loss of data
 * (-) Possible overfitting and computational overhead
 * Approaches:
-    * [EDA](./eda.md): data augmentation for text (synonym replacement, random insertion, random swap and random deletion) [2]
-    * [SMOTE](./smote.md): over-sampling of minority class with sample generation in the feature space via feature vector and k-nearest neighbour manipulation [3]
+    * [EDA](./eda.md) (2019): data augmentation for text (synonym replacement, random insertion, random swap and random deletion) [2]
+    * [SMOTE](./smote.md) (2002): over-sampling of minority class with sample generation in the feature space via feature vector and k-nearest neighbour manipulation [3]
+    * [SMRT](https://github.com/tgsmith61591/smrt) (Synthetic Minority Reconstruction Technique): younger version of SMOTE, uses variational auto-encoders to generate synthetic observations of minority class
+    * VOS (2018) [11]: Variational oversampling of imbalanced data with VAE
     * Evolutionary-SVM Algorithm [4]: use of "mutation and crossover operators to decrease the imbalance ratio" + "clustering for both classes to delete redundant and noisy samples"
-
+    * [S-VAE](https://nicola-decao.github.io/s-vae) (2018) [12]: "variational auto-encoder with a hyperspherical latent space" (instead of a conventional gaussian)
+    * Collection of GAN for image ([PyTorch](https://github.com/znxlwm/pytorch-generative-model-collections)) 
+    
 ### Algorithm-level approaches
 * Modifies the classifier itself
 * *Cost-sensitive learning*:
     * apply "a misclassification cost to the incorrectly classified instance" [8]
     * "cost of misclassifying minority samples is higher than the majority samples" [4]
     * "consists in only learning from the minor class by treating major class’ instances as outliers" [8]
-    * Examples: RIPPER, HIPPO
+    * Examples:
+        * RIPPER (Repeated Incremental Pruning to Produce Error Reduction): rule induction learning algorithm
+        * HIPPO
+        * Class weights in loss function ([PyTorch](https://github.com/emredog/FCNN-example), 2018)
+* *Input weighting*:    
+    * [*Learning to Reweight Examples for Robust Deep Learning*](https://arxiv.org/pdf/1803.09050.pdf) (ICML 2018) [[PyTorch](https://github.com/danieltan07/learning-to-reweight-examples)]
+    * Term weighting in text (2007) [13]
+ 
 * *Boosting algorithm*: such as Adaboost (ensemble learning model). "In every iteration, weights are modified with the objective of correctly classifying examples in the next iteration". "[...] weighted vote to classify unlabeled examples".
+    * [CUSBoost](https://github.com/farshidrayhanuiu/CUSBoost) (CSITSS 2017): "clustering-based under-sampling approach with boosting (AdaBoost) algorithm"
+    * RAMOBoost (2010): ranked minority oversampling in Boosting
+    * RUSBoost (2008): random under-sampling with AdaBoost
+    * SMOTEBoost (2003): synthetic minority over-sampling with AdaBoost
+    * Minimalist Python-based implementations of algorithms ([Tensorflow](https://github.com/dialnd/imbalanced-algorithms)): under and over-sampling and ensemble sampling (RAMOBoost, RUSBoost, SMOTEBoost)
 
 ### Evaluation metrics
 * F-score: "combines Precision and Recall into a single measure that reflects the goodness of a classifier in the presence of rare classes" [9]
@@ -74,6 +91,9 @@ Re-balancing of data before applying algorithm
 * [5] [Bayes Imbalance Impact Index: A Measure of Class Imbalanced Dataset for Classification Problem](http://arxiv.org/abs/1901.10173) (Jan 2019)
 * [6] [Two Modifications of CNN](https://ieeexplore.ieee.org/document/4309452) (IEEE Trans. Systems, Man and Cybernetics 6, 1976)
 * [7] [Addressing the Curse of Imbalanced Training Sets: One-Sided Selection](https://sci2s.ugr.es/keel/pdf/algorithm/congreso/kubat97addressing.pdf) (ICML, Jul 1997)
-* [8] [ARCID: A new approach to deal with imbalanced datasets classificatio](./arcid.md) (Jan 2018)
-* [9] Rijsbergen, C.J.V.: [*Information Retrieval*](http://openlib.org/home/krichel/courses/lis618/readings/rijsbergen79_infor_retriev.pdf). Butterworth (1979)
-* [10] Kubat, M., Holte, R.C., Matwin, S.: [*Machine learning for the detection of oil spills in satellite radar images*](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.308.2361&rep=rep1&type=pdf). Machine Learning 30(2-3), 195–215 (1998)
+* [8] [ARCID: A new approach to deal with imbalanced datasets classification](./arcid.md) (Jan 2018)
+* [9] Rijsbergen, C.J.V.: [*"Information Retrieval"*](http://openlib.org/home/krichel/courses/lis618/readings/rijsbergen79_infor_retriev.pdf). Butterworth (1979)
+* [10] Kubat, M., Holte, R.C., Matwin, S.: [*"Machine learning for the detection of oil spills in satellite radar images"*](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.308.2361&rep=rep1&type=pdf). Machine Learning 30(2-3), 195–215 (1998)
+* [11] Fajardo, Val Andrei, et al. [*"Vos: a method for variational oversampling of imbalanced data"*](https://arxiv.org/pdf/1809.02596.pdf). arXiv preprint arXiv:1809.02596 (2018).
+* [12] Davidson, Tim R., et al. [*"Hyperspherical variational auto-encoders"*](https://arxiv.org/abs/1804.00891). arXiv preprint arXiv:1804.00891 (2018). [[blog](https://nicola-decao.github.io/s-vae), [PyTorch](https://github.com/nicola-decao/s-vae-pytorch), [Tensorflow](https://github.com/nicola-decao/s-vae-tf)]
+* [13] Liu, Ying, Han Tong Loh, and Aixin Sun. [*"Imbalanced text classification: A term weighting approach"*](https://ccc.inaoep.mx/~villasen/bib/Imbalanced%20text%20classification-%20A%20term%20weighting%20approach.pdf). Expert systems with Applications 36.1 (2009): 690-701.
