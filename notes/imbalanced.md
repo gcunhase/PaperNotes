@@ -20,7 +20,7 @@ Re-balancing of data before applying algorithm (only train set)
 > [A (PyTorch) imbalanced dataset sampler for oversampling low frequent classes and undersampling high frequent ones.](https://github.com/ufoym/imbalanced-dataset-sampler)
 
 <p align="center">
-<img src="./imgs/imblanced_data.png" height="250" alt="Imbalanced data approach">
+<img src="./imgs/imbalanced_data.png" height="250" alt="Imbalanced data approach">
 </p>
 
 > [Image source](https://www.datascience.com/blog/imbalanced-data)
@@ -88,7 +88,7 @@ Re-balancing of data before applying algorithm (only train set)
   * "product of the prediction accuracies of minor and major classes"
 * Confusion matrix: "helps break down the predictive performances on different classes" [19]
   <p align="center">
-  <img src="./imgs/imblanced_confusion_matrix.png" height="300" alt="Imbalanced confusion matrix">
+  <img src="./imgs/imbalanced_confusion_matrix.png" height="300" alt="Imbalanced confusion matrix">
   </p>
   
   > [Image source](https://towardsdatascience.com/handling-imbalanced-datasets-in-machine-learning-7a0e84220f28) [20]
@@ -101,7 +101,7 @@ Re-balancing of data before applying algorithm (only train set)
   * "highly consistent with the improvement of F1 score made by the imbalance recovery methods on both synthetic and real benchmark datasets"
 * ROC: Receiver Operating Characteristics curve (False Positive Rate vs True Positive Rate)
   <p align="center">
-  <img src="./imgs/imblanced_roc.png" height="300" alt="Imbalanced ROC">
+  <img src="./imgs/imbalanced_roc.png" height="300" alt="Imbalanced ROC">
   </p>
   
   > [Image source](https://towardsdatascience.com/handling-imbalanced-datasets-in-machine-learning-7a0e84220f28), in the high performance model, precision doesn't need to be sacrificed to get a high recall [20]
