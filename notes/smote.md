@@ -20,6 +20,11 @@ TLDR; Approach to solving imbalance data issue in numerical datasets by generati
     2. V = rand(0~1) * V
     3. new_sample = feat_vec + V
 
+   <p align="center">
+   <img src="./imgs/smote_alg.png" height="400" alt="SMOTE algorithm">
+   </p>
+
+
 * "The synthetic examples cause the classifier to create larger and less specific decision regions" 
 
 ### Notes
@@ -27,6 +32,7 @@ TLDR; Approach to solving imbalance data issue in numerical datasets by generati
 * Using it in labeled text may not be ideal: it may result in a new word of opposite value to the label being generated   
 
 ### Results
+* [imblearn's SMOTE](https://imbalanced-learn.readthedocs.io/en/stable/over_sampling.html?highlight=smote)
 * Classifiers: C4.5 decision tree classifier, Ripper, and Naive Bayes
 * Performance measure: AUC and ROC convex hull
 * Datasets:
