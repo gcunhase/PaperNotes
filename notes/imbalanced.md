@@ -83,9 +83,6 @@ Re-balancing of data before applying algorithm (only train set)
 ### Evaluation metrics
 * ACCURACY IS MISLEADING: an untrained classifier on a highly imbalanced dataset can give better accuracy than a trained one. The trained one will also be biased to the majority class. Thus, accuracy should not be used as a metric of good performance.
 * F-score: weighted average of precision and recall, "combines Precision and Recall into a single measure that reflects the goodness of a classifier in the presence of rare classes" [9]
-* Geometric mean (Gmean) [10]
-  * "one of standard evaluation measures used in an imbalanced dataset classifier"
-  * "product of the prediction accuracies of minor and major classes"
 * Confusion matrix: "helps break down the predictive performances on different classes" [19]
   <p align="center">
   <img src="./imgs/imbalanced_confusion_matrix.png" height="300" alt="Imbalanced confusion matrix">
@@ -94,6 +91,9 @@ Re-balancing of data before applying algorithm (only train set)
   > [Image source](https://towardsdatascience.com/handling-imbalanced-datasets-in-machine-learning-7a0e84220f28) [20]
 
 * Per-class accuracy of minor class
+* Geometric mean (Gmean) [10]
+  * "one of standard evaluation measures used in an imbalanced dataset classifier"
+  * "product of the prediction accuracies of minor and major classes"
 * Bayes Imbalance Impact Index [5]
   * "Measurement about the extent of influence of class imbalance on the classification performance of imbalanced data"
   * Indicates which "data factor is actually the main barrier for classification"
@@ -101,7 +101,7 @@ Re-balancing of data before applying algorithm (only train set)
   * "highly consistent with the improvement of F1 score made by the imbalance recovery methods on both synthetic and real benchmark datasets"
 * ROC: Receiver Operating Characteristics curve (False Positive Rate vs True Positive Rate)
   <p align="center">
-  <img src="./imgs/imbalanced_roc.png" height="300" alt="Imbalanced ROC">
+  <img src="./imgs/imbalanced_roc.png" height="200" alt="Imbalanced ROC">
   </p>
   
   > [Image source](https://towardsdatascience.com/handling-imbalanced-datasets-in-machine-learning-7a0e84220f28), in the high performance model, precision doesn't need to be sacrificed to get a high recall [20]
