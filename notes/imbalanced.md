@@ -17,7 +17,6 @@ TLDR; Two main techniques are used to improved accuracy classification tasks usi
 
 ### Data-level approaches
 Re-balancing of data before applying algorithm (only train set)
-> [A (PyTorch) imbalanced dataset sampler for oversampling low frequent classes and undersampling high frequent ones.](https://github.com/ufoym/imbalanced-dataset-sampler)
 
 <p align="center">
 <img src="./imgs/imbalanced_data.png" height="250" alt="Imbalanced data approach">
@@ -70,9 +69,12 @@ Re-balancing of data before applying algorithm (only train set)
         * HIPPO
         * Class weights in loss function ([PyTorch](https://github.com/emredog/FCNN-example), 2018)
 * *Example reweighting*:    
-    * [*Learning to Reweight Examples for Robust Deep Learning*](https://arxiv.org/pdf/1803.09050.pdf) (ICML 2018) [[PyTorch](https://github.com/danieltan07/learning-to-reweight-examples), [Tesorflow](https://github.com/uber-research/learning-to-reweight-examples)]
+    * *"A (PyTorch) imbalanced dataset sampler for oversampling low frequent classes and undersampling high frequent ones."* (2018, no paper) [[PyTorch](https://github.com/ufoym/imbalanced-dataset-sampler)]
+    * [*"Learning to Reweight Examples for Robust Deep Learning"*](https://arxiv.org/pdf/1803.09050.pdf) (ICML 2018) [[PyTorch](https://github.com/danieltan07/learning-to-reweight-examples), [Tensorflow](https://github.com/uber-research/learning-to-reweight-examples)]
+        * Learns "a good weighting of examples using a small clean and balanced dataset"
+        * Test set is balanced
     * Term weighting in text (2007) [13]
- 
+    
 * *Boosting algorithm*: such as Adaboost (ensemble learning model). "In every iteration, weights are modified with the objective of correctly classifying examples in the next iteration". "[...] weighted vote to classify unlabeled examples".
     * [CUSBoost](https://github.com/farshidrayhanuiu/CUSBoost) (CSITSS 2017): "clustering-based under-sampling approach with boosting (AdaBoost) algorithm"
     * RAMOBoost (2010): ranked minority oversampling in Boosting
@@ -140,3 +142,5 @@ Re-balancing of data before applying algorithm (only train set)
 * [19] [*"Practical tips for class imbalance in binary classification"*](https://towardsdatascience.com/practical-tips-for-class-imbalance-in-binary-classification-6ee29bcdb8a7) by Zichen Wang [[code](https://github.com/wangz10/class_imbalance)] (Aug 2018) 
 * [20] [*"Handling imbalanced datasets in machine learning"*](https://towardsdatascience.com/handling-imbalanced-datasets-in-machine-learning-7a0e84220f28) by Baptiste Rocca (Jan 28)
 * [21] [*"Machine Learning — Multiclass Classification with Imbalanced Dataset"*](https://towardsdatascience.com/machine-learning-multiclass-classification-with-imbalanced-data-set-29f6a177c1a) by Javaid Nabi [[dataset](http://qwone.com/~jason/20Newsgroups/)] [[code](https://github.com/javaidnabi31/Multi-class-with-imbalanced-dataset-classification/blob/master/20-news-group-classification.ipynb)] (Dec 2018)
+* [22] [*"Paper list of Imbalanced Time-series Classification with Deep Learning"*](https://github.com/danielgy/Paper-list-on-Imbalanced-Time-series-Classification-with-Deep-Learning) (Nov 2017)
+* [23] [*"Having an Imbalanced Dataset? Here Is How You Can Fix It."*](https://towardsdatascience.com/having-an-imbalanced-dataset-here-is-how-you-can-solve-it-1640568947eb) by Will Badr (Feb 2019)
