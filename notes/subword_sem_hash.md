@@ -24,7 +24,7 @@ of power mean word embeddings considerably closes the gap to state-of-the-art me
 * Challenges:
     * Small datasets are a challenge for data-hungry SoTA deep learning methods
     * Dataset obtained from internet communication: **OOV** and **spelling errors**
-* Focus of this paper
+* Focus of paper:
     * Embedding: semantic hashing (obtains rich features)
     * "[...] effective way to provide features to an intent classifier for small datasets"
 * Inspiration:
@@ -40,14 +40,14 @@ of power mean word embeddings considerably closes the gap to state-of-the-art me
     
 ### Algorithm    
 * Sentence to trigram
-<p align="center">
-<img src="./imgs/sem_hash_alg.png" width="500" alt="Sem Hash Alg">
-</p>
+    <p align="left">
+    <img src="./imgs/sem_hash_alg.png" width="500" alt="Sem Hash Alg">
+    </p>
 
 * Trigram to hash
-<p align="center">
-<img src="./imgs/sem_hash_alg_ngram.png" width="500" alt="Sem Hash Alg N-gram">
-</p>
+    <p align="left">
+    <img src="./imgs/sem_hash_alg_ngram.png" width="500" alt="Sem Hash Alg N-gram">
+    </p>
 
 ### Notes / Questions
 * Fields with small datasets: intent classification for CRMs, Chatbots, business process automation, customer support, ...
