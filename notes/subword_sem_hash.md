@@ -3,7 +3,7 @@ Kumar Shridhar et al., 16 Dec 2018 version
 
 TLDR; Paper focused on obtaining richer sentence embeddings for the task of intent classification (small dataset) with trigram segmentation and hashing function for vectorization. A simple classifier can be used to classify the intent.
 
-[Current Methods](#current-methods) • [Key Points](#key-points) • [Algorithm](#algorithm) • [Notes](#notes-/-questions) • [Results](#results)
+[Current Methods](#current-methods) • [Key Points](#key-points) • [Algorithm](#algorithm) • [Notes](#notes-/-questions) • [Results](#results) • [ppt](./presentations/JournalClub-SemHash-Jul17_2019.pdf)
 
 ### Current methods
 * Word embeddings:
