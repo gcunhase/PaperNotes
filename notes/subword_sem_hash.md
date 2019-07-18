@@ -48,6 +48,8 @@ of power mean word embeddings considerably closes the gap to state-of-the-art me
     <p align="left">
     <img src="./imgs/sem_hash_alg_ngram.png" width="500" alt="Sem Hash Alg N-gram">
     </p>
+    
+    > Deduced from author's code, not provided in original paper
 
 ### Notes / Questions
 * Fields with small datasets: intent classification for CRMs, Chatbots, business process automation, customer support, ...
