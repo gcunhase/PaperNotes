@@ -13,9 +13,6 @@
 - [x] *Improving Unsupervised Word-by-Word Translation with Language Model and Denoising Autoencoder* (Nov 2018, EMNLP 2018) [[arXiv](http://arxiv.org/abs/1901.01590)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/lm_dae.md)]
 - [x] *ELMo: Deep contextualized word representations* (Mar 2018, NAACL 2018, Allen Institute) [[arXiv](https://arxiv.org/abs/1802.05365)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/elmo.md)]
 
-### Grammar Error Correction (GEC)
-- [x] *Neural Quality Estimation of Grammatical Error Correction* (Nov 2018, EMNLP 2018) [[aclweb](https://aclweb.org/anthology/D18-1274)] [[PyTorch](https://github.com/nusnlp/neuqe)] [[notes](./notes/neuqe.md)]
-
 ### Recurrent Neural Networks (RNN)
 - [x] *How to Construct Deep Recurrent Neural Networks* (Dec 2013) [[arXiv](https://arxiv.org/abs/1312.6026)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/deeprnn.md)]
 - [x] *Read + Verify: Machine Reading Comprehension with Unanswerable Questions* (Aug 2018, AAAI 2019, Microsoft) [[arXiv](https://arxiv.org/abs/1808.05759)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/readverify.md)]
@@ -24,8 +21,8 @@
 - [x] *Get To The Point: Summarization with Pointer-Generator Networks* (Apr 2017) [[arXiv](https://arxiv.org/abs/1704.04368)] [[code](https://github.com/abisee/pointer-generator)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/pointergennet.md)]
 
 ### Attention
-- [x] "NLP's ImageNet moment has arrived" (Jul 2018) [[Blog](http://ruder.io/nlp-imagenet/)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/nlp_imagenet.md)]
 - [x] My Notes on Attention in NLP [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/attention.md)]
+- [x] *"NLP's ImageNet moment has arrived"* (Jul 2018) [[Blog](http://ruder.io/nlp-imagenet/)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/nlp_imagenet.md)]
 - [x] *Attention Is All You Need* [Transformer] (Dec 2017, NIPS 2017, Google Brain) [[arXiv](https://arxiv.org/abs/1706.03762)] [[Harvard Blog](http://nlp.seas.harvard.edu/2018/04/03/attention.html)] [[tensor2tensor](https://github.com/tensorflow/tensor2tensor)] [[ppt](https://github.com/gcunhase/PaperNotes/blob/master/presentations/JournalClub-Transformer-Jan23_2019.pptx)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/attentionisallyouneed.md)]
 - [x] *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding* (Oct 2018, Google AI Language) [[arXiv](https://arxiv.org/abs/1810.04805)] [[Tensorflow](http://goo.gl/language/bert), [PyTorch](https://github.com/huggingface/pytorch-pretrained-BERT)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/bert.md)]
 - [x] *Why Self-Attention? A Targeted Evaluation of Neural Machine Translation Architectures* (Nov 2018, EMNLP 2018) [[arXiv](http://arxiv.org/abs/1808.08946)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/whyselfattention.md)]
@@ -37,6 +34,12 @@
 ### Attention + RNN
 - [x] *A GRU-Gated Attention Model for Neural Machine Translation* (Apr 2017) [[arXiv](https://arxiv.org/pdf/1704.08430.pdf)] [[code](https://github.com/DeepLearnXMU/CAEncoder-NMT)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/gruatt.md)]
 - [x] *DialogueRNN: An Attentive RNN for Emotion Detection in Conversations* (Nov 2018, AAAI) [[arXiv](https://arxiv.org/abs/1811.00405)] [[code](https://github.com/senticnet/conv-emotion)] [[ppt](https://github.com/gcunhase/PaperNotes/blob/master/presentations/JournalClub-DialogueRNN-Nov21_2018.pptx)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/dialoguernn.md)]
+
+### Grammar Error Correction (GEC)
+- [x] *Neural Quality Estimation of Grammatical Error Correction* (Nov 2018, EMNLP 2018) [[aclweb](https://aclweb.org/anthology/D18-1274)] [[PyTorch](https://github.com/nusnlp/neuqe)] [[notes](./notes/neuqe.md)]
+
+### Intent Classification
+- [x] *Subword Semantic Hashing for Intent Classification on Small Datasets* (Dec 2018) [[arXiv](https://arxiv.org/abs/1810.07150)] [[PyTorch](https://github.com/kumar-shridhar/Know-Your-Intent)] [[notes](notes/subword_sem_hash.md)]
 
 ## Imbalanced data / Data Augmentation
 - [x] *My Notes on Solutions for Imbalanced data* [[notes](./notes/imbalanced.md)]
@@ -87,6 +90,7 @@
 - [x] *GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism* (2018, Google Brain) [[arXiv](https://arxiv.org/abs/1811.06965)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/gpipe.md)]
 
 ## Blogs/Journals/Books
+* *The Learning Machine* [[blog](https://www.thelearningmachine.ai/)] [[codes](https://github.com/the-learning-machine)]
 * [Browse SoTA](https://paperswithcode.com/sota)
 * [DeepMind](https://deepmind.com/blog/)
 * [Distill Journal](https://distill.pub/): Online journal that doesn't limit your work to a pdf, it allows the reader to have a more interactive experience

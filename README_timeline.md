@@ -1,7 +1,10 @@
-* *Approaching Neural Grammatical Error Correction as a Low-Resource Machine Translation Task* [[notes](./notes/.md)]
-* *A Multilayer Convolutional Encoder-Decoder Neural Network for Grammatical Error Correction* [[notes](./notes/.md)]
-* *Pay Less Attention with Lightweight and Dynamic Convolutions* (Sep 2018, ICLR 2019, Facebook AI Research) [[OpenReview](https://openreview.net/forum?id=SkVhlh09tX)] [[PyTorch](https://github.com/pytorch/fairseq)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/lessattention.md)]
-* *MT-DNN: Multi-Task Deep Neural Networks for Natural Language Understanding* (Jan 2019, Microsoft) [[arXiv](https://arxiv.org/abs/1901.11504)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/mtdnn.md)]
+
+* *Learning to Reweight Examples for Robust Deep Learning* (May 2019) [[arXiv](https://arxiv.org/abs/1803.09050)] [[Tensorflow](https://github.com/uber-research/learning-to-reweight-examples), [PyTorch](https://github.com/danieltan07/learning-to-reweight-examples)] [[notes](./notes/imbalanced_reweight.md)] 
+* *Using Trusted Data to Train Deep Networks on Labels Corrupted by Severe Noise* [Gold Loss Correction] (Jan 2019, NeurIPS 2018) [[arXiv](https://arxiv.org/abs/1802.05300)] [[PyTorch](https://github.com/mmazeika/glc)] [[notes](./notes/imbalanced_trusted_data.md)]
+* *MASS: Masked Sequence to Sequence Pre-training for Language Generation* (Jun 2019, ICML 2019) [[arXiv](https://arxiv.org/abs/1905.02450)] [[PyTorch](https://github.com/microsoft/MASS)] [[notes](./notes/mass.md)]
+
+#### 2019-07
+* *Subword Semantic Hashing for Intent Classification on Small Datasets* (Dec 2018) [[arXiv](https://arxiv.org/abs/1810.07150)] [[PyTorch](https://github.com/kumar-shridhar/Know-Your-Intent)] [[notes](notes/subword_sem_hash.md)]
 
 #### 2019-06
 * *ARCID: A new approach to deal with imbalanced datasets classification* (Jan 2018, SOFSEM 2018) [[paper](https://www.researchgate.net/publication/322010034_ARCID_A_New_Approach_to_Deal_with_Imbalanced_Datasets_Classification)] [[notes](./notes/arcid.md)]
@@ -28,7 +31,7 @@
 * *Why Self-Attention? A Targeted Evaluation of Neural Machine Translation Architectures* (Nov 2018, EMNLP 2018) [[arXiv](http://arxiv.org/abs/1808.08946)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/whyselfattention.md)]
 
 #### 2019-01
-* *Attention Is All You Need* (Dec 2017, NIPS 2017, Google Brain) [[arXiv](https://arxiv.org/abs/1706.03762)] [[Harvard Blog](http://nlp.seas.harvard.edu/2018/04/03/attention.html)] [[tensor2tensor](https://github.com/tensorflow/tensor2tensor)] [[ppt](https://github.com/gcunhase/PaperNotes/blob/master/presentations/JournalClub-Transformer-Jan23_2019.pptx)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/attentionisallyouneed.md)]
+* *Attention Is All You Need* [Transformer] (Dec 2017, NIPS 2017, Google Brain) [[arXiv](https://arxiv.org/abs/1706.03762)] [[Harvard Blog](http://nlp.seas.harvard.edu/2018/04/03/attention.html)] [[tensor2tensor](https://github.com/tensorflow/tensor2tensor)] [[ppt](https://github.com/gcunhase/PaperNotes/blob/master/presentations/JournalClub-Transformer-Jan23_2019.pptx)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/attentionisallyouneed.md)]
 * My Notes on Attention in NLP [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/attention.md)]
 * *How AI can save our humanity* by Kai-Fu Lee [[TEDTalk](https://www.youtube.com/watch?v=ajGgd9Ld-Wc)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/ted_aisavehumanity.md)]
 * *Multimodal Machine Learning: A Survey and Taxonomy* (Aug 2017, PAMI 2018) [[arXiv](https://arxiv.org/abs/1705.09406)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/multimodalsurvey.md)]
@@ -102,6 +105,11 @@
 * *Conditional Image Generation with PixelCNN Decoders* (Jun 2016) [[arXiv](https://arxiv.org/abs/1606.05328)] [[code](https://github.com/anantzoid/Conditional-PixelCNN-decoder)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/pixelcnn.md)]
 
 #### To Read
+* *Approaching Neural Grammatical Error Correction as a Low-Resource Machine Translation Task* [[notes](./notes/.md)]
+* *A Multilayer Convolutional Encoder-Decoder Neural Network for Grammatical Error Correction* [[notes](./notes/.md)]
+* *Pay Less Attention with Lightweight and Dynamic Convolutions* (Sep 2018, ICLR 2019, Facebook AI Research) [[OpenReview](https://openreview.net/forum?id=SkVhlh09tX)] [[PyTorch](https://github.com/pytorch/fairseq)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/lessattention.md)]
+* *MT-DNN: Multi-Task Deep Neural Networks for Natural Language Understanding* (Jan 2019, Microsoft) [[arXiv](https://arxiv.org/abs/1901.11504)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/mtdnn.md)]
+
 * *A Comparative Study of Rule Extraction for Recurrent Neural Networks* (Jan 2018) [[arXiv](https://arxiv.org/abs/1801.05420)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/ruleextractionrnn.md)]
 * *Super SloMo: High Quality Estimation of Multiple Intermediate Frames for Video Interpolation* [[arXiv](http://arxiv.org/abs/1712.00080)] [[code](https://github.com/avinashpaliwal/Super-SloMo?fbclid=IwAR10dPAipRpIIiDAgu57W2ShmZVEoAzNYrCzyC77m)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/superslomo.md)]
 * *TCN* [[arXiv](https://arxiv.org/abs/1803.01271)]
