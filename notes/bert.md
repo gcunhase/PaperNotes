@@ -3,7 +3,7 @@ Jacob Devlin et al., Oct 2018 version, Google AI Language
 
 TLDR; Trained bidirectional transformer encoder, with the main appeal being that it is a very well trained language model (prediction on masked word), so that to use it for other downstream tasks all one needs to do is fine-tune it.
 
-[Key Points](#key-points) • [Embedding](#notes:-bert-embedding) • [Notes](#notes-and-questions) • [Results](#results) • [References](#references) 
+[Key Points](#key-points) • [Embedding](#notes-on-bert-embedding) • [Notes](#notes-and-questions) • [Results](#results) • [References](#references) 
 
 ### Key Points
 * Bidirectional Encoder Representations from Transformers
@@ -52,12 +52,12 @@ TLDR; Trained bidirectional transformer encoder, with the main appeal being that
             
 * BERT used for different tasks
 <p align="center">
-<img src="./bert_tasks.png" width="400" alt="BERT tasks">
+<img src="./imgs/bert_tasks.png" width="400" alt="BERT tasks">
 </p>
 
 > Section 3.5 of paper has further details on hyper-parameter tuning
 
-### Notes: BERT Embedding
+### Notes on BERT Embedding
 > Sources: [8], [9]
 
 <p align="center">
@@ -74,12 +74,12 @@ TLDR; Trained bidirectional transformer encoder, with the main appeal being that
 * Embedding layers [8]:
     * Token embedding: input token is transformed into vector representations of dimension 768
         <p align="center">
-        <img src="./bert_emb_token.png" width="300" alt="BERT Token Embedding">
+        <img src="./imgs/bert_emb_token.png" width="300" alt="BERT Token Embedding">
         </p>
 
     * Segment embedding: necessary in sentence similarity tasks, where 2 sentences are given as input. In cases of just 1 sentence being given the segment embedding has a mask of all zeros.
         <p align="center">
-        <img src="./bert_emb_seg.png" width="300" alt="BERT Segment Embedding">
+        <img src="./imgs/bert_emb_seg.png" width="300" alt="BERT Segment Embedding">
         </p>
                     
     * Positional embedding: lookup table of size (512, 768), where the max length of a sequence is 512.
