@@ -3,7 +3,7 @@ Jacob Devlin et al., Oct 2018 version, Google AI Language
 
 TLDR; Trained bidirectional transformer encoder, with the main appeal being that it is a very well trained language model (prediction on masked word), so that to use it for other downstream tasks all one needs to do is fine-tune it.
 
-[Key Points](#key-points) • [Embedding](#notes-on-bert's-embedding-layers) • [Notes](#notes-/-questions) • [Results](#results) • [References](#references) 
+[Key Points](#key-points) • [Embedding](#notes:-bert-embedding) • [Notes](#notes-and-questions) • [Results](#results) • [References](#references) 
 
 ### Key Points
 * Bidirectional Encoder Representations from Transformers
@@ -57,7 +57,7 @@ TLDR; Trained bidirectional transformer encoder, with the main appeal being that
 
 > Section 3.5 of paper has further details on hyper-parameter tuning
 
-### Notes on BERT's embedding layers
+### Notes: BERT Embedding
 > Sources: [8], [9]
 
 <p align="center">
@@ -86,7 +86,7 @@ TLDR; Trained bidirectional transformer encoder, with the main appeal being that
 
 * All 3 representations have shape (bs, seq_length, 768) and are summed element-wise to produce a tensor of same shape.
 
-### Notes / Questions
+### Notes and Questions
 * Downstream tasks: "supervised-learning tasks that utilize a pre-trained model or component"
 
 * Byte-pair encoding:
