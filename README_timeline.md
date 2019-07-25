@@ -4,6 +4,7 @@
 * *MASS: Masked Sequence to Sequence Pre-training for Language Generation* (Jun 2019, ICML 2019) [[arXiv](https://arxiv.org/abs/1905.02450)] [[PyTorch](https://github.com/microsoft/MASS)] [[notes](./notes/mass.md)]
 
 #### 2019-07
+* *SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems* (Jul 2019) [[arXiv](https://arxiv.org/abs/1905.00537)] [[Benchmark](https://super.gluebenchmark.com/)] [[PyTorch](https://jiant.info/)] [[notes](./notes/superglue.md)]
 * *MT-DNN: Multi-Task Deep Neural Networks for Natural Language Understanding* (May 2019, Microsoft) [[arXiv](https://arxiv.org/abs/1901.11504)] [[notes](./notes/mtdnn.md)]
 * *Subword Semantic Hashing for Intent Classification on Small Datasets* (Dec 2018) [[arXiv](https://arxiv.org/abs/1810.07150)] [[PyTorch](https://github.com/kumar-shridhar/Know-Your-Intent)] [[ppt](../presentations/JournalClub-SemHash-Jul17_2019.pdf)] [[notes](notes/subword_sem_hash.md)]
 

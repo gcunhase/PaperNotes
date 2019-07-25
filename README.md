@@ -5,6 +5,7 @@
 - [x] *Nematus: a Toolkit for Neural Machine Translation* (Mar 2017) [[arXiv](https://arxiv.org/pdf/1703.04357.pdf)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/nematus.md)]
 
 ### Benchmark/Datasets
+- [x] *SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems* (Jul 2019) [[arXiv](https://arxiv.org/abs/1905.00537)] [[Benchmark](https://super.gluebenchmark.com/)] [[PyTorch](https://jiant.info/)] [[notes](./notes/superglue.md)]
 - [x] *GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding* (Sep 2018) [[arXiv](https://arxiv.org/abs/1804.07461)] [[Benchmark](https://gluebenchmark.com/)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/glue.md)]
 - [x] *Evaluating Natural Language Understanding Services for Conversational Question Answering Systems* (Aug 2017, SIGDIAL 2017) [[aclweb](https://www.aclweb.org/anthology/W17-5522)] [[dataset](https://github.com/sebischair/NLU-Evaluation-Corpora)] [[notes](./notes/nlu_evaluation_corpora.md)]
 

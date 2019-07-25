@@ -5,7 +5,8 @@ TLDR; Benchmark containing 11 NLU tasks organized by Google DeepMind, NYU ML2 an
 
 ### Key Points
 * GLUE: General Language Understanding Evaluation
-* Benchmark + "online platform for model evaluation, comparison and analysis"
+* Benchmark + "online platform for model evaluation and comparison" (leaderboard) and an analysis toolkit
+* "offers a single-number metric that summarizes progress on a diverse set of NLU tasks"
 * Contains preexisting well-known datasets
 
 <p align="center">
