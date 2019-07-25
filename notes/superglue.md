@@ -9,13 +9,13 @@ TLDR; Benchmark containing 11 NLU tasks organized by Google DeepMind, NYU ML2 an
 * What FashionMNIST was for MNIST
 * SuperGLUE: "new benchmark designed to pose a more rigorous test of language understanding"
 * Improvements from GLUE:
-    <p align="center">
-    <img src="./imgs/superglue_improvements.png" height="300" alt="SuperGLUE improvements">
+    <p align="left">
+    <img hspace="20cm" src="./imgs/superglue_improvements.png" height="300" alt="SuperGLUE improvements">
     </p>
     
 * 8 NLU tasks
-    <p align="center">
-    <img src="./imgs/superglue_tasks.png" height="150" alt="SuperGLUE Tasks">
+    <p align="left">
+    <img hspace="20cm" src="./imgs/superglue_tasks.png" height="150" alt="SuperGLUE Tasks">
     </p>
     
 * Scoring: average of performance in each task
