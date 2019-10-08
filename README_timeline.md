@@ -2,6 +2,12 @@
 * *Learning to Reweight Examples for Robust Deep Learning* (May 2019) [[arXiv](https://arxiv.org/abs/1803.09050)] [[Tensorflow](https://github.com/uber-research/learning-to-reweight-examples), [PyTorch](https://github.com/danieltan07/learning-to-reweight-examples)] [[notes](./notes/imbalanced_reweight.md)] 
 * *Using Trusted Data to Train Deep Networks on Labels Corrupted by Severe Noise* [Gold Loss Correction] (Jan 2019, NeurIPS 2018) [[arXiv](https://arxiv.org/abs/1802.05300)] [[PyTorch](https://github.com/mmazeika/glc)] [[notes](./notes/imbalanced_trusted_data.md)]
 * *MASS: Masked Sequence to Sequence Pre-training for Language Generation* (Jun 2019, ICML 2019) [[arXiv](https://arxiv.org/abs/1905.02450)] [[PyTorch](https://github.com/microsoft/MASS)] [[notes](./notes/mass.md)]
+* *ALBERT: A Lite BERT for Self-supervised Learning of Language Representations* (Submitted to ICLR 2020, Google) [[OpenReview](https://openreview.net/forum?id=H1eA7AEtvS)] [[notes](./notes/albert.md)]
+* *My Notes on GAN for Missing Data Imputation (including Text In-filling Task)* [[notes](./notes/gan_missingdataimputation.md)]
+* *EmbraceNet: A robust deep learning architecture for multimodal classification* (Apr 2019, Information Fusion Journal 2019) [[arXiv](https://arxiv.org/abs/1904.09078)] [[Tensorflow](https://github.com/idearibosome/embracenet)] [[notes](./notes/embracenet.md)]
+
+#### 2019-10
+* *Style Transfer Through Back-Translation* (ACL 2018) [[arXiv](https://arxiv.org/abs/1804.09000)] [[PyTorch](https://github.com/shrimai/Style-Transfer-Through-Back-Translation)] [[notes](notes/gan_styletransfer_text.md)]
 
 #### 2019-07
 * *SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems* (Jul 2019) [[arXiv](https://arxiv.org/abs/1905.00537)] [[Benchmark](https://super.gluebenchmark.com/)] [[PyTorch](https://jiant.info/)] [[notes](./notes/superglue.md)]

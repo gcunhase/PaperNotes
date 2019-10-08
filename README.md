@@ -25,7 +25,7 @@
 - [x] My Notes on Attention in NLP [[notes](./notes/attention.md)]
 - [x] *"NLP's ImageNet moment has arrived"* (Jul 2018) [[Blog](http://ruder.io/nlp-imagenet/)] [[notes](./notes/nlp_imagenet.md)]
 - [x] *Attention Is All You Need* [Transformer] (Dec 2017, NIPS 2017, Google Brain) [[arXiv](https://arxiv.org/abs/1706.03762)] [[Harvard Blog](http://nlp.seas.harvard.edu/2018/04/03/attention.html)] [[tensor2tensor](https://github.com/tensorflow/tensor2tensor)] [[ppt](./presentations/JournalClub-Transformer-Jan23_2019.pptx)] [[notes](./notes/attentionisallyouneed.md)]
-- [x] *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding* (Oct 2018, Google AI Language) [[arXiv](https://arxiv.org/abs/1810.04805)] [[Tensorflow](http://goo.gl/language/bert), [PyTorch](./notes/bert.md)]
+- [x] *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding* (Oct 2018, Google AI Language) [[arXiv](https://arxiv.org/abs/1810.04805)] [[Tensorflow](http://goo.gl/language/bert), [PyTorch](https://github.com/huggingface/pytorch-pretrained-BERT)] [[notes](./notes/bert.md)]
 - [x] *Why Self-Attention? A Targeted Evaluation of Neural Machine Translation Architectures* (Nov 2018, EMNLP 2018) [[arXiv](http://arxiv.org/abs/1808.08946)] [[notes](./notes/whyselfattention.md)]
 - [x] *MT-DNN: Multi-Task Deep Neural Networks for Natural Language Understanding* (May 2019, Microsoft) [[arXiv](https://arxiv.org/abs/1901.11504)] [[notes](./notes/mtdnn.md)]
 
@@ -41,6 +41,9 @@
 
 ### Intent Classification
 - [x] *Subword Semantic Hashing for Intent Classification on Small Datasets* (Dec 2018) [[arXiv](https://arxiv.org/abs/1810.07150)] [[PyTorch](https://github.com/kumar-shridhar/Know-Your-Intent)] [[ppt](./presentations/JournalClub-SemHash-Jul17_2019.pdf)] [[notes](notes/subword_sem_hash.md)]
+
+## GAN
+- [x] *Style Transfer Through Back-Translation* (ACL 2018) [[arXiv](https://arxiv.org/abs/1804.09000)] [[PyTorch](https://github.com/shrimai/Style-Transfer-Through-Back-Translation)] [[notes](notes/gan_styletransfer_text.md)]
 
 ## Imbalanced data / Data Augmentation
 - [x] *My Notes on Solutions for Imbalanced data* [[notes](./notes/imbalanced.md)]
