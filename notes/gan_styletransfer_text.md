@@ -15,12 +15,12 @@ TLDR; GAN for style transfer in text with back-translation as pivot for style-ag
     * Model "learns a latent content representation using MT techniques, which aids grounding the meaning of the sentences and weakening the style attributes." 
 
     <p align="center">
-    <img src="./imgs/gan_styletransfer_text_model.png" height="200" alt="Main model">
+    <img src="./imgs/gan_styletransfer_text_model.png" height="180" alt="Main model">
     </p>
     
     * Classifier: Data used to train the classifier is different to data used by the style transfer generative model.
     <p align="center">
-    <img src="./imgs/gan_styletransfer_text_model_classifier.png" height="200" alt="Classifier">
+    <img src="./imgs/gan_styletransfer_text_model_classifier.png" height="180" alt="Classifier">
     </p>
 
 ### Notes
