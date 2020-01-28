@@ -5,6 +5,7 @@
 * *ALBERT: A Lite BERT for Self-supervised Learning of Language Representations* (Submitted to ICLR 2020, Google) [[OpenReview](https://openreview.net/forum?id=H1eA7AEtvS)] [[notes](./notes/albert.md)]
 
 #### 2020-01
+* *Fast Intent Classification for Spoken Language Understanding* (arXiv, Dec 2019) [[arXiv](http://arxiv.org/abs/1912.01728)] [[notes](./notes/branchynet.md)]
 * *Simultaneous Identification of Tweet Purpose and Position* (AAAI 2020) [[arXiv](http://arxiv.org/abs/2001.00051)] [[notes](./notes/tweet_multilabel_classification.md)]
 
 #### 2019-11
