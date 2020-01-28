@@ -32,6 +32,7 @@ TLDR; BranchyNet scheme to reduce complexity and latency while retaining accurac
     2. What is *T* in Fig. 1 and 2? After the entropy check and exit.
         * Activation function?
         * Threshold number?
+    3. How is *H^T_n* defined?
     
 ### Results
 * Boost in performance (regularization effect and tailored representations from each layer with exit). The introduction of BranchyNet in DNN and Stacked LSTM does not lead to accuracy loss.
