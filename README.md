@@ -41,6 +41,7 @@
 
 ### Intent Classification
 - [x] *Subword Semantic Hashing for Intent Classification on Small Datasets* (Dec 2018) [[arXiv](https://arxiv.org/abs/1810.07150)] [[PyTorch](https://github.com/kumar-shridhar/Know-Your-Intent)] [[ppt](./presentations/JournalClub-SemHash-Jul17_2019.pdf)] [[notes](notes/subword_sem_hash.md)]
+- [x] *Simultaneous Identification of Tweet Purpose and Position* (AAAI 2020) [[arXiv](http://arxiv.org/abs/2001.00051)] [[notes](./notes/tweet_multilabel_classification.md)]
 
 ### GAN for text
 - [x] *Style Transfer Through Back-Translation* (May 2018, ACL 2018) [[arXiv](https://arxiv.org/abs/1804.09000)] [[PyTorch](https://github.com/shrimai/Style-Transfer-Through-Back-Translation)] [[notes](notes/gan_styletransfer_text.md)]

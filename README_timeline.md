@@ -3,8 +3,13 @@
 * *Using Trusted Data to Train Deep Networks on Labels Corrupted by Severe Noise* [Gold Loss Correction] (Jan 2019, NeurIPS 2018) [[arXiv](https://arxiv.org/abs/1802.05300)] [[PyTorch](https://github.com/mmazeika/glc)] [[notes](./notes/imbalanced_trusted_data.md)]
 * *MASS: Masked Sequence to Sequence Pre-training for Language Generation* (Jun 2019, ICML 2019) [[arXiv](https://arxiv.org/abs/1905.02450)] [[PyTorch](https://github.com/microsoft/MASS)] [[notes](./notes/mass.md)]
 * *ALBERT: A Lite BERT for Self-supervised Learning of Language Representations* (Submitted to ICLR 2020, Google) [[OpenReview](https://openreview.net/forum?id=H1eA7AEtvS)] [[notes](./notes/albert.md)]
+
+#### 2020-01
+* *Simultaneous Identification of Tweet Purpose and Position* (AAAI 2020) [[arXiv](http://arxiv.org/abs/2001.00051)] [[notes](./notes/tweet_multilabel_classification.md)]
+
+#### 2019-11
 * *My Notes on GAN for Missing Data Imputation (including Text In-filling Task)* [[notes](./notes/gan_missingdataimputation.md)]
-* *EmbraceNet: A robust deep learning architecture for multimodal classification* (Apr 2019, Information Fusion Journal 2019) [[arXiv](https://arxiv.org/abs/1904.09078)] [[Tensorflow](https://github.com/idearibosome/embracenet)] [[notes](./notes/embracenet.md)]
+* *SinGAN: Learning a Generative Model from a Single Natural Image* (ICCV 2019, Best Paper) [[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Shaham_SinGAN_Learning_a_Generative_Model_From_a_Single_Natural_Image_ICCV_2019_paper.pdf)] [[video1](https://www.youtube.com/watch?v=-f8sz8AExdc), [video2](https://www.youtube.com/watch?v=Xc9Rkbg6IZA)] [[paper webpage](http://webee.technion.ac.il/people/tomermic/SinGAN/SinGAN.htm)] [[PyTorch](https://github.com/tamarott/SinGAN)] [[notes](notes/singan.md)] 
 
 #### 2019-10
 * *Style Transfer Through Back-Translation* (ACL 2018) [[arXiv](https://arxiv.org/abs/1804.09000)] [[PyTorch](https://github.com/shrimai/Style-Transfer-Through-Back-Translation)] [[notes](notes/gan_styletransfer_text.md)]
