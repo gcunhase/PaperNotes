@@ -6,10 +6,10 @@ TLDR; Multi-label classification problem with RAkEL in Obama care and death pena
 ### Key Points
 * Purpose classification: user's intention
 * Position classification: user's stance on a topic (support, oppose or neutral)
-* Previous work limitations:
+* Previous work **limitations**:
     * Inefficient: training of 2 classifiers needed
     * Correlation between tweet 'purpose' and 'position' has not been exploited
-* Approach:
+* **Approach**:
     * Multi-label classification problem with Random k-Labelsets (RAkEL) problem transformation method
     * Identifies "tweet purpose and position simultaneously by exploiting the correlation between purpose and position in tweets"
     * Post-processing:
@@ -22,7 +22,7 @@ TLDR; Multi-label classification problem with RAkEL in Obama care and death pena
 </p>
 
 ### Notes
-* Dataset:
+* **Dataset**:
     * Made with the [Twitter Search API](https://dev.twitter.com/docs/using-search)
     * Two topics: Obama care and death penalty (1,000 tweets for each class)
         * 3 purpose labels: express emotion/personal interests, information sharing, social interaction
