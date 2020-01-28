@@ -59,6 +59,11 @@ lsb_release -a
   sudo ufw allow 5901:5910/tcp
   ```
 
+7. Kill vncserver in port 5905
+```bash
+vncserver -kill :5
+```
+
 ### Fix *cannot detect display running* / *connect to physical display* error
 1. [Solution](https://www.nomachine.com/fr/FR10N03221): in case of GNOME desktop, add the following key to */etc/gdm/custom.conf*:
 ```
