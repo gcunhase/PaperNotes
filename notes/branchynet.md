@@ -30,7 +30,7 @@ TLDR; BranchyNet scheme to reduce complexity and latency while retaining accurac
 * Questions:
     1. What is *r* in Eq. 2?
         * Range lower and upper, not specified in paper.
-    2. What is *T* in Fig. 1 and 2? ([answer in BranchyNet (ICPR 2016)](https://arxiv.org/pdf/1709.01686.pdf))
+    2. What is *T* in Fig. 1 and 2? ([answer in BranchyNet paper (ICPR 2016)](https://arxiv.org/pdf/1709.01686.pdf))
         * Exit treshold
         * Chosen empirically or automatically
             * Automatic 1: screen over T and pick a setting that satisfies the constraints.
