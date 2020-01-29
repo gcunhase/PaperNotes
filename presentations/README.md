@@ -9,7 +9,8 @@
 * *"Audio Generation with Deep Neural Networks"* [18th China-Japan-Korea Joint Workshop on Neurobiology and Neuroinformatics (NBNI, Oct 2018)] (Poster)
 * *"Audio Generation from Scene Considering Its Emotion Aspect"* [International Conference on Neural Information Processing (ICONIP 2016)] [[paper](https://link.springer.com/chapter/10.1007/978-3-319-46672-9_9)]
 
-### Journal Club
+### Journal Club Presentations
+* *Fast Intent Classification for Spoken Language Understanding* [BranchyNet Application] (arXiv, Dec 2019) [[ppt](../presentations/JournalClub-BranchyNet_application-Jan29_2020.pdf)] [[notes](./notes/branchynet.md)]
 * *Subword Semantic Hashing for Intent Classification on Small Datasets* (Jul 17th 2019) [[ppt](./JournalClub-SemHash-Jul17_2019.pdf)] [[notes](../notes/subword_sem_hash.md)]
 * *Attention Is All You Need* (Jan 23rd 2019) [[ppt](./JournalClub-Transformer-Jan23_2019.pptx)] [[notes](../notes/attentionisallyouneed.md)]
 * *DialogueRNN: An Attentive RNN for Emotion Detection in Conversations* (Nov 21st 2018) [[ppt](./JournalClub-DialogueRNN-Nov21_2018.pptx)] [[notes](../notes/dialoguernn.md)]

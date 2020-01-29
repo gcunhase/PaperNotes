@@ -41,7 +41,7 @@
 
 ### Intent Classification
 - [x] *Simultaneous Identification of Tweet Purpose and Position* (AAAI 2020) [[arXiv](http://arxiv.org/abs/2001.00051)] [[notes](./notes/tweet_multilabel_classification.md)]
-- [x] *Fast Intent Classification for Spoken Language Understanding* [BranchyNet Application] (arXiv, Dec 2019) [[arXiv](http://arxiv.org/abs/1912.01728)] [[notes](./notes/branchynet.md)]
+- [x] *Fast Intent Classification for Spoken Language Understanding* [BranchyNet Application] (arXiv, Dec 2019) [[arXiv](http://arxiv.org/abs/1912.01728)] [[ppt](../presentations/JournalClub-BranchyNet_application-Jan29_2020.pdf)] [[notes](./notes/branchynet.md)]
 - [x] *Subword Semantic Hashing for Intent Classification on Small Datasets* (Dec 2018) [[arXiv](https://arxiv.org/abs/1810.07150)] [[PyTorch](https://github.com/kumar-shridhar/Know-Your-Intent)] [[ppt](./presentations/JournalClub-SemHash-Jul17_2019.pdf)] [[notes](notes/subword_sem_hash.md)]
 
 ### GAN for text
