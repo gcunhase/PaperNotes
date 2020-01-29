@@ -30,13 +30,14 @@ TLDR; BranchyNet scheme to reduce complexity and latency while retaining accurac
 * Questions:
     1. What is *r* in Eq. 2?
         * Range lower and upper, not specified in paper.
-    2. What is *T* in Fig. 1 and 2? [answer in BranchyNet (ICPR 2016)](https://arxiv.org/pdf/1709.01686.pdf)
+    2. What is *T* in Fig. 1 and 2? ([answer in BranchyNet (ICPR 2016)](https://arxiv.org/pdf/1709.01686.pdf))
         * Exit treshold
         * Chosen empirically or automatically
             * Automatic 1: screen over T and pick a setting that satisfies the constraints.
             * Automatic 2: Meta-Recognition algorithm (train a MLP for each exit point on the output softmax probability vectors ˆy for that exit) -> Quantifying uncertainty.
     3. How is *H^T_n* defined?
         * *H^T_n* is not mentioned in the original BranchyNet paper. I believe that *T=H^T_n* and should not have been included in the model diagram. See original algorithm below (where *e=H_n* and *T_n=H^T_n*):
+
 <p align="center">
 <img src="./imgs/branchynet_algorithm.png" height="200" alt="DNN with BranchyNet">
 </p>
