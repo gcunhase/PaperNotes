@@ -1,5 +1,12 @@
 # Publications
 presentations/*
+notes/albert.md
+*embracenet*
+notes/lessattention.md
+notes/mass.md
+notes/ruleextractionrnn.md
+notes/imgs/twitter_error_types.png
+notes/gan_missingdataimputation.md
 
 # Node rules:
 ## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
