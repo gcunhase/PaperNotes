@@ -151,23 +151,11 @@
 
 
 #### Other notes
-* [My Ubuntu notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/myubuntunotes.md)
-* [My Mac notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/mymacnotes.md)
-* [My LaTeX notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/mylatexnotes.md)
-* [My Python notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/mypythonnotes.md)
-* [My Git notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/mygitnotes.md)
-* [My Inkspace notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/myinkspacenotes.md)
+* [My Ubuntu notes](./notes/myubuntunotes.md)
+* [My Mac notes](./notes/mymacnotes.md)
+* [My LaTeX notes](./notes/mylatexnotes.md)
+* [My Python notes](./notes/mypythonnotes.md)
+* [My Git notes](./notes/mygitnotes.md)
+* [My Inkspace notes](./notes/myinkspacenotes.md)
+* [Useful Programs notes](./notes/mynotes_useful_programs.md)
 * Online learning: [Treehouse](https://teamtreehouse.com), Udacity, Udemy
-* Reading *.hwp* online: [Hancom Inc.](https://www.netffice24.com/)
-* Markdown
-  * Markdown files preview: [Atom](https://atom.io/), [preview here](http://markdown-here.com/)
-  * [Draw diagrams](http://support.typora.io/Draw-Diagrams-With-Markdown/), [live editor](https://mermaidjs.github.io/mermaid-live-editor)
-* [Quiver](https://github.com/HappenApps/Quiver/wiki/Getting-Started): notebook built for programmers. On top of allowing the user to easily mix text, code, Markdown and LaTeX within one note, it also has a code editor, live preview of Markdown and LaTeX, and full-text search to find notes.
-* Bitvise SFTP: copying to and from remote computer
-* Editing videos: Adobe Premiere Pro CC & Adobe Media Encoder CC
-* Filezilla to download files from server, PyCharm IDE to edit them
-  ```
-  sudo add-apt-repository ppa:n-muench/programs-ppa
-  sudo apt-get update
-  sudo apt-get install filezilla
-  ```
