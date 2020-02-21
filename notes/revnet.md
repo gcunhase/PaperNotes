@@ -1,7 +1,7 @@
 ## [The Reversible Residual Network: Backpropagation Without Storing Activations](https://papers.nips.cc/paper/6816-the-reversible-residual-network-backpropagation-without-storing-activations)
 Aidan N. Gomez et al., NeurIPS 2017 (Poster)
 
-TLDR; RevNet is "a variant of ResNets where each layer's activations can be reconstructed exactly from the next layer" [1,2]. 
+TLDR; RevNet is a reversible ResNet, where "each layer's activations can be reconstructed exactly from the next layer" [1,2]. 
 
 <table>
     <tr>
@@ -19,18 +19,19 @@ TLDR; RevNet is "a variant of ResNets where each layer's activations can be reco
         * *Limitation*: "in order to compute gradients during the backpropagation pass, all the units' activations have to be stored during the feed-forward pass, leading to high memory requirements for these very deep networks" [4]
     * Incorporates NICE (Non-linear Independent Components Estimation) into ResNet
         * Decomposes y into (y1, y2) so you're able to reconstruct (x1, x2) on the backward pass (Image 1 [1,2], Image 2 [4])
+            > "where *F* and *G* are residual functions, composed of sequences of convolutions, ReLU and Batch Normalization layers" with stride of 1 so that information is not discarded and to allow invertibility.
+            
             <p align="left">
-            <img src="./imgs/revnet_passes.png" height="150" alt="RevNet forward and backward passes">
+            <img src="./imgs/revnet_passes.png" height="100" alt="RevNet forward and backward passes">
             </p>
             <p align="left">
             <img src="./imgs/revnet_formulas.png" height="150" alt="RevNet forward and backward passes formulas">
             </p>
-            > "where F and G are residual functions, composed of sequences of convolutions, ReLU and Batch Normalization layers" with stride of 1 so that information is not discarded and to allow invertibility.
             
     * Backprop modified algorithm
         > 33% more computation: 3N (forward pass: N computations, backprop: 2N) -> 4N (backprop 3N)  [3]
         <p align="left">
-        <img src="./imgs/revnet_algorithm.png" height="400" alt="RevNet Backprop Algorithm">
+        <img src="./imgs/revnet_algorithm.png" height="250" alt="RevNet Backprop Algorithm">
         </p>
         
     * Not completely reversible due to pooling layers (non-reversible subsampling operations), "for which activations have to be stored" [4]
