@@ -22,7 +22,7 @@ TLDR; RevNet is a reversible ResNet, where "each layer's activations can be reco
             > "where *F* and *G* are residual functions, composed of sequences of convolutions, ReLU and Batch Normalization layers" with stride of 1 so that information is not discarded and to allow invertibility.
             
             <p align="left">
-            <img src="./imgs/revnet_passes.png" height="100" alt="RevNet forward and backward passes">
+            <img src="./imgs/revnet_passes.png" height="125" alt="RevNet forward and backward passes">
             </p>
             <p align="left">
             <img src="./imgs/revnet_formulas.png" height="150" alt="RevNet forward and backward passes formulas">
