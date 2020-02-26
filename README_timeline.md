@@ -4,7 +4,9 @@
 * *MASS: Masked Sequence to Sequence Pre-training for Language Generation* (Jun 2019, ICML 2019) [[arXiv](https://arxiv.org/abs/1905.02450)] [[PyTorch](https://github.com/microsoft/MASS)] [[notes](./notes/mass.md)]
 * *ALBERT: A Lite BERT for Self-supervised Learning of Language Representations* (Submitted to ICLR 2020, Google) [[OpenReview](https://openreview.net/forum?id=H1eA7AEtvS)] [[notes](./notes/albert.md)]
 
+* *i-RevNet: Deep Invertible Networks* (ICLR 2018) [[OpenReview](https://openreview.net/forum?id=HJsjkMb0Z)] [[PyTorch](https://github.com/jhjacobsen/pytorch-i-revnet)] [[notes](notes/revnet_invertible.md)]
 * *The Reversible Residual Network: Backpropagation Without Storing Activations* (NeurIPS 2017) [[paper](https://papers.nips.cc/paper/6816-the-reversible-residual-network-backpropagation-without-storing-activations)] [[Tensorflow](https://github.com/renmengye/revnet-public), [PyTorch](https://github.com/tbung/pytorch-revnet)] [[notes](./notes/revnet.md)]
+
 #### 2020-01
 * *Fast Intent Classification for Spoken Language Understanding* [BranchyNet Application] (arXiv, Dec 2019) [[arXiv](http://arxiv.org/abs/1912.01728)] [[ppt](./presentations/JournalClub-BranchyNet_application-Jan29_2020.pdf)] [[notes](./notes/branchynet.md)]
 * *Simultaneous Identification of Tweet Purpose and Position* (AAAI 2020) [[arXiv](http://arxiv.org/abs/2001.00051)] [[notes](./notes/tweet_multilabel_classification.md)]

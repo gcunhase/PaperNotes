@@ -92,6 +92,7 @@
 - [x] *Bitcoin: A Peer-to-Peer Electronic Cash System* (2008) [[bitcoin](https://bitcoin.org/en/bitcoin-paper)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/bitcoin.md)]
 
 ## Others
+- [x] *i-RevNet: Deep Invertible Networks* (ICLR 2018) [[OpenReview](https://openreview.net/forum?id=HJsjkMb0Z)] [[PyTorch](https://github.com/jhjacobsen/pytorch-i-revnet)] [[notes](notes/revnet_invertible.md)]
 - [x] *The Reversible Residual Network: Backpropagation Without Storing Activations* (NeurIPS 2017) [[paper](https://papers.nips.cc/paper/6816-the-reversible-residual-network-backpropagation-without-storing-activations)] [[Tensorflow](https://github.com/renmengye/revnet-public), [PyTorch](https://github.com/tbung/pytorch-revnet)] [[notes](./notes/revnet.md)]
 - [x] *How AI can save our humanity* by Kai-Fu Lee [[TEDTalk](https://www.youtube.com/watch?v=ajGgd9Ld-Wc)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/ted_aisavehumanity.md)]
 - [x] *Dynamic Routing Between Capsules* (Oct 2017) [[arXiv](https://arxiv.org/abs/1710.09829)] [[Siraj Raval](https://www.youtube.com/watch?v=VKoLGnq15RM)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/capsulenet.md)]
