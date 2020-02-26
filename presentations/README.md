@@ -1,4 +1,5 @@
 ### Journal and Pre-prints
+* *"Emotional Video to Audio Transformation Using Deep Recurrent Neural Networks and a Neuro-Fuzzy System"* [Journal of Mathematical Problems in Engineering (Feb 2020)] [[Matlab code](https://github.com/gcunhase/Emotional-Video-to-Audio-with-ANFIS-DeepRNN)] [[paper](https://www.hindawi.com/journals/mpe/2020/8478527/)]
 * *"Stacked DeBERT: All Attention in Incomplete Data for Text Classification"* (arXiv 2020) [[PyTorch code](https://github.com/gcunhase/StackedDeBERT)] [[paper](https://arxiv.org/abs/2001.00137)]
 * *"Employing Genetic Algorithm as an Efficient Alternative to Parameter Sweep Based Multi-Layer Thickness Optimization in Solar Cells"* (arXiv 2019) [[PyTorch code](https://github.com/gcunhase/GeneticAlgorithm-SolarCells)] [[paper](https://arxiv.org/abs/1909.06447)]
 
