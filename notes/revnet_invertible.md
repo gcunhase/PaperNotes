@@ -27,7 +27,7 @@ TLDR; Invertible RevNet built by replacing non-invertible components in RevNet b
     
 * Framework
     <p align="left">
-    <img src="./imgs/revnet_invertible_framework.png" height="200" alt="i-RevNet Framework">
+    <img src="./imgs/revnet_invertible_framework.png" height="300" alt="i-RevNet Framework">
     </p>
 
 ### Results
