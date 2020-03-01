@@ -23,11 +23,11 @@ TLDR; Invertible RevNet built by replacing non-invertible components in RevNet b
 
 * Improves on [RevNet](./revnet.md) by﻿replacing "the non-invertible components of the original RevNets ﻿(such as max-pooling and downsampling operators) by invertible ones"
     * Pooling: necessary for the model to be trained "in a reasonable time and are designed to build invariance w.r.t. translation variability"
-    * Replaced by﻿Sj (linear and invertible modules)
+    * Replaced by S_j (linear and invertible modules)
     
 * Framework
     <p align="left">
-    <img src="./imgs/revnet_invertible_framework.png" height="300" alt="i-RevNet Framework">
+    <img src="./imgs/revnet_invertible_framework_explained.png" height="300" alt="i-RevNet Framework">
     </p>
 
 ### Results
