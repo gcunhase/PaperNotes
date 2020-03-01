@@ -25,9 +25,8 @@ TLDR; Invertible RevNet built by replacing non-invertible components in RevNet b
     * Pooling: necessary for the model to be trained "in a reasonable time and are designed to build invariance w.r.t. translation variability"
     * Replaced by S_j (linear and invertible modules)
     
-* Framework
-    <p align="left">
-    <img src="./imgs/revnet_invertible_framework_explained.png" height="300" alt="i-RevNet Framework">
+    <p align="center">
+    <img src="./imgs/revnet_invertible_framework_explained.png" height="350" alt="i-RevNet Framework">
     </p>
 
 ### Results
