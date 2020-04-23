@@ -68,7 +68,7 @@ TLDR; My notes on Attention and Self-Attention in NLP.
         * Bahdanau used attention for [Machine Translation](https://arxiv.org/abs/1409.0473)
 
         <p align="center">
-        <img src=./imgs/attention_history.png" width="400" alt="Attention history">
+        <img src="./imgs/attention_history.png" width="400" alt="Attention history">
         </p>
 
 ### Self-Attention: Main Key Points
@@ -85,7 +85,7 @@ TLDR; My notes on Attention and Self-Attention in NLP.
         * Selects most important value based on distribution (softmax) obtained from dot product <K, Q>
         
         <p align="center">
-        <img src=./imgs/selfattention_singleattention3.png" width="450" alt="Single attention"">
+        <img src="./imgs/selfattention_singleattention3.png" width="450" alt="Single attention"">
         </p>
 * "What makes Self-Attention unique is that it ignores the distance between words and directly computes dependency relationships, making it capable of learning the internal structure of a sentence and more merely calculating in parallel." [8]
 
