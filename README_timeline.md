@@ -4,6 +4,8 @@
 * *MASS: Masked Sequence to Sequence Pre-training for Language Generation* (Jun 2019, ICML 2019) [[arXiv](https://arxiv.org/abs/1905.02450)] [[PyTorch](https://github.com/microsoft/MASS)] [[notes](./notes/mass.md)]
 * *ALBERT: A Lite BERT for Self-supervised Learning of Language Representations* (Submitted to ICLR 2020, Google) [[OpenReview](https://openreview.net/forum?id=H1eA7AEtvS)] [[notes](./notes/albert.md)]
 
+#### 2020-04
+* Added Notes on Self-Attention [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/attention.md)]
 #### 2020-02
 * *i-RevNet: Deep Invertible Networks* (ICLR 2018) [[OpenReview](https://openreview.net/forum?id=HJsjkMb0Z)] [[PyTorch](https://github.com/jhjacobsen/pytorch-i-revnet)] [[notes](notes/revnet_invertible.md)]
 * *The Reversible Residual Network: Backpropagation Without Storing Activations* (NeurIPS 2017) [[paper](https://papers.nips.cc/paper/6816-the-reversible-residual-network-backpropagation-without-storing-activations)] [[Tensorflow](https://github.com/renmengye/revnet-public), [PyTorch](https://github.com/tbung/pytorch-revnet)] [[notes](./notes/revnet.md)]
@@ -13,7 +15,7 @@
 * *Simultaneous Identification of Tweet Purpose and Position* (AAAI 2020) [[arXiv](http://arxiv.org/abs/2001.00051)] [[notes](./notes/tweet_multilabel_classification.md)]
 
 #### 2019-11
-* *My Notes on GAN for Missing Data Imputation (including Text In-filling Task)* [[notes](./notes/gan_missingdataimputation.md)]
+* My Notes on GAN for Missing Data Imputation (including Text In-filling Task) [[notes](./notes/gan_missingdataimputation.md)]
 * *SinGAN: Learning a Generative Model from a Single Natural Image* (ICCV 2019, Best Paper) [[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Shaham_SinGAN_Learning_a_Generative_Model_From_a_Single_Natural_Image_ICCV_2019_paper.pdf)] [[video1](https://www.youtube.com/watch?v=-f8sz8AExdc), [video2](https://www.youtube.com/watch?v=Xc9Rkbg6IZA)] [[paper webpage](http://webee.technion.ac.il/people/tomermic/SinGAN/SinGAN.htm)] [[PyTorch](https://github.com/tamarott/SinGAN)] [[notes](notes/singan.md)] 
 
 #### 2019-10
@@ -26,7 +28,7 @@
 
 #### 2019-06
 * *ARCID: A new approach to deal with imbalanced datasets classification* (Jan 2018, SOFSEM 2018) [[paper](https://www.researchgate.net/publication/322010034_ARCID_A_New_Approach_to_Deal_with_Imbalanced_Datasets_Classification)] [[notes](./notes/arcid.md)]
-* *My Notes on Solutions for Imbalanced data* [[notes](./notes/imbalanced.md)]
+* My Notes on Solutions for Imbalanced data [[notes](./notes/imbalanced.md)]
 
 #### 2019-05
 * *SMOTE: Synthetic Minority Over-sampling Technique* (Jun 2002, JAIR) [[arXiv](https://arxiv.org/abs/1106.1813)] [[notes](./notes/smote.md)]
@@ -36,7 +38,7 @@
 * *Neural Quality Estimation of Grammatical Error Correction* (Nov 2018, EMNLP 2018) [[aclweb](https://aclweb.org/anthology/D18-1274)] [[PyTorch](https://github.com/nusnlp/neuqe)] [[notes](./notes/neuqe.md)]
 
 #### 2019-04
-* *My Notes on Autoencoders and Variants* [[notes](./notes/autoencoders.md)]
+* My Notes on Autoencoders and Variants [[notes](./notes/autoencoders.md)]
 
 #### 2019-03
 * *GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism* (2018, Google Brain) [[arXiv](https://arxiv.org/abs/1811.06965)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/gpipe.md)]
@@ -50,7 +52,7 @@
 
 #### 2019-01
 * *Attention Is All You Need* [Transformer] (Dec 2017, NIPS 2017, Google Brain) [[arXiv](https://arxiv.org/abs/1706.03762)] [[Harvard Blog](http://nlp.seas.harvard.edu/2018/04/03/attention.html)] [[tensor2tensor](https://github.com/tensorflow/tensor2tensor)] [[ppt](https://github.com/gcunhase/PaperNotes/blob/master/presentations/JournalClub-Transformer-Jan23_2019.pptx)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/attentionisallyouneed.md)]
-* My Notes on Attention in NLP [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/attention.md)]
+* My Notes on Attention and Self-Attention in NLP [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/attention.md)]
 * *How AI can save our humanity* by Kai-Fu Lee [[TEDTalk](https://www.youtube.com/watch?v=ajGgd9Ld-Wc)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/ted_aisavehumanity.md)]
 * *Multimodal Machine Learning: A Survey and Taxonomy* (Aug 2017, PAMI 2018) [[arXiv](https://arxiv.org/abs/1705.09406)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/multimodalsurvey.md)]
 

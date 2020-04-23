@@ -10,7 +10,7 @@
 - [x] *Evaluating Natural Language Understanding Services for Conversational Question Answering Systems* (Aug 2017, SIGDIAL 2017) [[aclweb](https://www.aclweb.org/anthology/W17-5522)] [[dataset](https://github.com/sebischair/NLU-Evaluation-Corpora)] [[notes](./notes/nlu_evaluation_corpora.md)]
 
 ### Embeddings
-- [x] *My Notes on Autoencoders and Variants* [[notes](./notes/autoencoders.md)]
+- [x] My Notes on Autoencoders and Variants [[notes](./notes/autoencoders.md)]
 - [x] *Improving Unsupervised Word-by-Word Translation with Language Model and Denoising Autoencoder* (Nov 2018, EMNLP 2018) [[arXiv](http://arxiv.org/abs/1901.01590)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/lm_dae.md)]
 - [x] *ELMo: Deep contextualized word representations* (Mar 2018, NAACL 2018, Allen Institute) [[arXiv](https://arxiv.org/abs/1802.05365)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/elmo.md)]
 
@@ -22,7 +22,7 @@
 - [x] *Get To The Point: Summarization with Pointer-Generator Networks* (Apr 2017) [[arXiv](https://arxiv.org/abs/1704.04368)] [[code](https://github.com/abisee/pointer-generator)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/pointergennet.md)]
 
 ### Attention
-- [x] My Notes on Attention in NLP [[notes](./notes/attention.md)]
+- [x] My Notes on Attention and Self-Attention in NLP [[notes](./notes/attention.md)]
 - [x] *"NLP's ImageNet moment has arrived"* (Jul 2018) [[Blog](http://ruder.io/nlp-imagenet/)] [[notes](./notes/nlp_imagenet.md)]
 - [x] *Attention Is All You Need* [Transformer] (Dec 2017, NIPS 2017, Google Brain) [[arXiv](https://arxiv.org/abs/1706.03762)] [[Harvard Blog](http://nlp.seas.harvard.edu/2018/04/03/attention.html)] [[tensor2tensor](https://github.com/tensorflow/tensor2tensor)] [[ppt](./presentations/JournalClub-Transformer-Jan23_2019.pptx)] [[notes](./notes/attentionisallyouneed.md)]
 - [x] *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding* (Oct 2018, Google AI Language) [[arXiv](https://arxiv.org/abs/1810.04805)] [[Tensorflow](http://goo.gl/language/bert), [PyTorch](https://github.com/huggingface/pytorch-pretrained-BERT)] [[notes](./notes/bert.md)]
@@ -48,7 +48,7 @@
 - [x] *Style Transfer Through Back-Translation* (May 2018, ACL 2018) [[arXiv](https://arxiv.org/abs/1804.09000)] [[PyTorch](https://github.com/shrimai/Style-Transfer-Through-Back-Translation)] [[notes](notes/gan_styletransfer_text.md)]
 
 ## Imbalanced data / Data Augmentation
-- [x] *My Notes on Solutions for Imbalanced data* [[notes](./notes/imbalanced.md)]
+- [x] My Notes on Solutions for Imbalanced data [[notes](./notes/imbalanced.md)]
 - [x] *EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks* (Jan 2019) [[arXiv](https://arxiv.org/abs/1901.11196)] [[code](https://github.com/jasonwei20/eda_nlp)] [[notes](./notes/eda.md)]
 - [x] *SMOTE: Synthetic Minority Over-sampling Technique* (Jun 2002, JAIR) [[arXiv](https://arxiv.org/abs/1106.1813)] [[notes](./notes/smote.md)]
 - [x] *ARCID: A new approach to deal with imbalanced datasets classification* (Jan 2018, SOFSEM 2018) [[paper](https://www.researchgate.net/publication/322010034_ARCID_A_New_Approach_to_Deal_with_Imbalanced_Datasets_Classification)] [[notes](./notes/arcid.md)]

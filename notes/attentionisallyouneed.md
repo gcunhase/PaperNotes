@@ -54,7 +54,7 @@ TLDR; It's possible to do sequence translation solely with attention.
         * Single attention performed $h$ times: produces $h$ different Q, K, V matrices
         * Output: concatenates $h$ results 
         * Additional weights matrix for output $W^O$ trained jointly with the model
-        * Allows the model to learn important information over different embeddings at different positions  
+        * Allows the model to learn important information over different embeddings at different positions (**different heads learn different interactions between words**)
         <p align="center">
         <img src="https://github.com/gcunhase/PaperNotes/blob/master/notes/imgs/selfattention_multihead_formula.png" height="50" alt="Multi-head attention formula"  hspace="20">
         </p>   
