@@ -5,22 +5,22 @@ TLDR; Survey paper comparing RNNs, CNNs and Self-attention (new SoTA in MT with 
 
 ### Contributions
 * Empirically testing of long-range dependency strength with subject-verb agreement task -> no evidence that Transformers or CNNs are better than RNNs in this regard
-* Empirically show that the number of attention heads in Transformer impact its ability to capture long-distance dependencies
-* Empirically show that Transformers excel at word sense disambiguation (WSD) task -> strong semantic feature extractors
+* Empirically shows that the number of attention heads in Transformer impact its ability to capture long-distance dependencies
+* Empirically shows that Transformers excel at word sense disambiguation (WSD) task -> strong semantic feature extractors
 
 ### Key Points
 * Paper motivation:
     * Transformer achieved SoTA in many MT tasks according to BLEU score.
     * But is BLEU score that reliable?
-    * Coarse-grained, not refined
-    * "Offers no insight as to which aspects of translation are improved by different architectures"    
-    * "Does not correlate well with the targeted evaluation of long-range distance interactions." -> "due to the locality of BLEU, which only measures on the level of n- grams"
+        * Coarse-grained, not refined
+        * "Offers no insight as to which aspects of translation are improved by different architectures"    
+        * "Does not correlate well with the targeted evaluation of long-range distance interactions." -> "due to the locality of BLEU, which only measures on the level of n- grams"
     
 * Statement: CNNs and self-attention models outperformed RNNs in NMT tasks
 
-* Hypothesis 1 (transformer authors):
+* Hypothesis 1 (Transformer authors):
     * CNNs and self-attention networks are better than RNNs at modeling **long-range dependency** due to shorter connecting path between co-dependent elements
-    * Based on theoretical argument, not empirically tested (this paper aims to test it)
+        * Based on theoretical argument, not empirically tested (this paper aims to test it)
     * Task used for testing: **subject-verb agreement**
     * Conclusion: self-attentional networks and CNNs do not outperform RNNs
 
@@ -31,12 +31,12 @@ TLDR; Survey paper comparing RNNs, CNNs and Self-attention (new SoTA in MT with 
 
 ### Notes
 * RNN:
-    * models variable-length input, GRUs and LSTMs for long-range dependency modelling
+    * Models variable-length input, GRUs and LSTMs for long-range dependency modelling
     * Sequentially encodes sentences, updating its hidden state at every timestep
     
 * CNN:
-    * parallelization, CNN Encoder-Decoder outperforms RNN-based NMT models (Gehring et al., 2017)
-    * "summarizes fixed size context through multiple layers"
+    * Parallelization, CNN Encoder-Decoder outperforms RNN-based NMT models (Gehring et al., 2017)
+    * "Summarizes fixed size context through multiple layers"
     * ConvS2S: needs positional embedding for sequence modelling, use of GLU
     
 * Self-attention:
