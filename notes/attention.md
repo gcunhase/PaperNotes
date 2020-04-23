@@ -7,19 +7,19 @@ TLDR; My notes on Attention and Self-Attention in NLP.
         <td rowspan="3"><b>Attention</b></td><td>About</td><td>Inspired by the human sight mechanism. Results in a context vector, which is a weighted sum of the input vectors.</td>
     </tr>
      <tr>
-        <td></td><td>Pros (+)</td><td>Outputs 1 context vector (shrinks the input).</td>
+        <td>Pros (+)</td><td>Outputs 1 context vector (shrinks the input).</td>
     </tr>
     <tr>
-        <td></td></td><td>Cons (-)</td><td>Counter-intuitive, unlike humans, "essentially looks at everything in detail before deciding what to focus on". [2]</td>
+        </td><td>Cons (-)</td><td>Counter-intuitive, unlike humans, "essentially looks at everything in detail before deciding what to focus on". [2]</td>
     </tr>
     <tr>
         <td rowspan="3"><b>Self-Attention</b></td><td>About</td><td>Series of Attention calculations with each word taking turns being the query. All words are compared to each other and the outcome is a sequence of vectors of same length as the input.</td>
     </tr>
      <tr>
-        <td></td><td>Pros (+)</td><td>Explicitly compares all words with each other.</td>
+        <td>Pros (+)</td><td>Explicitly compares all words with each other.</td>
     </tr>
     <tr>
-        <td></td></td><td>Cons (-)</td><td>Takes in *n* inputs and returns *n* outputs.</td>
+        <td>Cons (-)</td><td>Takes in <i>n</i> inputs and returns <i>n</i> outputs.</td>
     </tr>
 </table>
 
