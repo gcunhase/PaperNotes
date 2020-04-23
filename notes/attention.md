@@ -53,7 +53,7 @@ TLDR; My notes on Attention and Self-Attention in NLP.
 
 * Cell inputs in the next step:
     * Output of the last unit $y_{t-1}$, last hidden state $h_{t-1}$ and the new attention context $c_t$
-    * How to merge $y_{t-1}$ and $c_t$? []
+    * How to merge $y_{t-1}$ and $c_t$? [9]
         * Depends on programmer: sum, concatenate, addition of new set of weights
 
 #### Further Explanation
@@ -85,7 +85,7 @@ TLDR; My notes on Attention and Self-Attention in NLP.
         * Selects most important value based on distribution (softmax) obtained from dot product <K, Q>
         
         <p align="center">
-        <img src="./imgs/selfattention_singleattention3.png" width="450" alt="Single attention"">
+        <img src="./imgs/selfattention_singleattention3.png" width="450" alt="Single attention">
         </p>
 * "What makes Self-Attention unique is that it ignores the distance between words and directly computes dependency relationships, making it capable of learning the internal structure of a sentence and more merely calculating in parallel." [8]
 
