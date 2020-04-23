@@ -30,7 +30,7 @@ TLDR; My notes on Attention in NLP
 
 * Alternative interpretation: "attention mechanism is simply giving the network access to its *internal memory*, which is the hidden state of the encoder." [2]
 
-* How to merge the output of the last unit $y_(t-1)$ and the new attention context $c_t$?
+* How to merge the output of the last unit $y_{(t-1)}$ and the new attention context $c_t$?
     * Depends on programmer: sum, concatenate, addition of new set of weights
 
 * The cost of attention [2]: counter-intuitive, unlike humans, "essentially looks at everything in detail before deciding what to focus on"
