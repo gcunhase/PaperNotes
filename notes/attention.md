@@ -68,12 +68,17 @@ TLDR; My notes on Attention and Self-Attention in NLP.
         * Bahdanau used attention for [Machine Translation](https://arxiv.org/abs/1409.0473)
 
         <p align="center">
-        <img src="./imgs/attention_history.png" width="400" alt="Attention history">
+        <img src="./imgs/attention_self.gif" width="450" alt="Self-Attention">
         </p>
 
 ### Self-Attention: Main Key Points
 * "In layman’s terms, the self-attention mechanism allows the inputs to interact with each other ('self') and find out who they should pay more attention to ('attention')." [7]
 * Self-attention is a series of Attention calculations with each word taking turns being the query. 
+
+    <p align="center">
+    <img src="./imgs/attention_nmt_comparisons.png" width="400" alt="Attention Model">
+    </p>
+
 * [Transformers](./attentionisallyouneed.md) [6]
      * Q, K, V
      * Q: what the network is looking for, words, encoding
