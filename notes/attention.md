@@ -73,10 +73,10 @@ TLDR; My notes on Attention and Self-Attention in NLP.
 
 ### Self-Attention: Main Key Points
 * "In layman’s terms, the self-attention mechanism allows the inputs to interact with each other ('self') and find out who they should pay more attention to ('attention')." [7]
-* Self-attention is a series of Attention calculations with each word taking turns being the query. 
+* Self-attention is a series of Attention calculations with each word taking turns being the query. (Image Source: [7])
 
     <p align="center">
-    <img src="./imgs/attention_self.gif" width="400" alt="Self-Attention Mechanism">
+    <img src="./imgs/attention_self.gif" width="500" alt="Self-Attention Mechanism">
     </p>
 
 * [Transformers](./attentionisallyouneed.md) [6]
