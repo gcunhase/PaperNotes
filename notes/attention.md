@@ -1,4 +1,4 @@
-## My Notes on Attention and Self-Attentino in NLP
+## My Notes on Attention and Self-Attention in NLP
 
 TLDR; My notes on Attention and Self-Attention in NLP.
 
