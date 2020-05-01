@@ -1,15 +1,14 @@
 ## [Reformer: The Efficient Transformer](https://arxiv.org/abs/2001.04451)
 Nikita Kitaev, Lukasz Kaiser, Anselm Levskaya. ICLR 2020, Google AI.
 
-TLDR; 
-
+TLDR; Transformer with memory efficiency from reversible layers and time efficiency from approximating full attention with Locality Sensitive Hashing. 
 
 <table>
     <tr>
         <td><b>Pros (+)</b></td><td>Memory efficient, increased attention span, handles longer sequences</td>
     </tr>
     <tr>
-        <td><b>Cons (-)</b></td><td>Longer training</td>
+        <td><b>Cons (-)</b></td><td> ?? </td>
     </tr>
 </table>
 
@@ -19,7 +18,7 @@ TLDR;
 * **Motivation**: democratization of Transformers, should run on 1 GPU/TPU.
 
 * **Efficiency Challenges**:
-    * Memory Efficiency: reversible residual layers (see [RevNet](./revnet.md))
+    * *Memory Efficiency*: reversible residual layers (see [RevNet](./revnet.md))
         * Avoids storing intermediate activations and reduces memory costs of training Transformer at the expense of longer training speed.
         * Layer 1 (attention layer), layer 2 (feed-forward layer, with chunking)
         <p align="center">
@@ -27,30 +26,31 @@ TLDR;
             <img src="./imgs/reformer_rev2.png" height="200" alt="Reformer reversible architecture - Inverse">
         </p>
 
-    * Time Complexity: Locality Sensitive Hashing (LSH)
+    * *Time Complexity*: Locality Sensitive Hashing (LSH)
         * Attention calculations are O(n^2): dot product for all possible pairs of tokens (Q . K) -> Very slow.
         <p align="center">
             <img src="./imgs/reformer_att.png" height="200" alt="Reformer attention score matrix" hspace="20">
             <img src="./imgs/reformer_att2.png" height="200" alt="Reformer attention score matrix - sparse">
         </p>
     
-        * Idea: attention matrix of Q.K is fundamentally sparse
-        * "Takes advantage of sparsity of attention to attend to longer sequences" and speed up the model
+        * Note that the attention matrix Q.K is fundamentally sparse
         * Solution: LSH
+            * "Takes advantage of sparsity of attention to attend to longer sequences" and speed up the model
             * Approximates full attention and focuses on the "dot product between keys most similar to the query that contribute to the final attention"
             * Nearest-neighbors used to increases attention span: meaning more content from the past can be considered [4], being able to handle longer sequences (1 million words on 1 GPU with 16GB)
             * More flexible than pre-specified sparsity patterns
             * Distributes vectors into hash buckets (vectors with large dot products will end up in the same bucket with high probability)
-            * Batch division        
-            <p align="center">
-                <img src="./imgs/reformer_lsh.png" height="200" alt="LSH">
-            </p>       
+            * Batch division 
             <p align="center">
                 <img src="./imgs/reformer_lsh_hash.png" height="200" alt="LSH">
-            </p>
-    
+            </p>       
+            <p align="center">
+                <img src="./imgs/reformer_lsh.png" height="150" alt="LSH">
+            </p>   
+            > Image source [6]
 * Results:
-    * Reformer saves memory without sacrificing accuracy
+    * Reformer saves memory without sacrificing accuracy in the image generation task (imagenet64) and the text task (enwik8) 
+    * LSH with 8 buckets is able to approximate full attention well
     
 ### Notes
 * Reformer, also referred to as Trax Transformer
