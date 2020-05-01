@@ -42,12 +42,12 @@ TLDR; Transformer with memory efficiency from reversible layers and time efficie
             * Distributes vectors into hash buckets (vectors with large dot products will end up in the same bucket with high probability)
             * Batch division 
             <p align="center">
-                <img src="./imgs/reformer_lsh_hash.png" height="200" alt="LSH">
+                <img src="./imgs/reformer_lsh_hash.png" height="150" alt="LSH">
             </p>       
             <p align="center">
-                <img src="./imgs/reformer_lsh.png" height="150" alt="LSH">
+                <img src="./imgs/reformer_lsh.png" height="200" alt="LSH">
             </p>   
-            > Image source [6]
+         > Image source [6]
 * Results:
     * Reformer saves memory without sacrificing accuracy in the image generation task (imagenet64) and the text task (enwik8) 
     * LSH with 8 buckets is able to approximate full attention well
