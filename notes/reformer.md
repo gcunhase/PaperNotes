@@ -35,10 +35,6 @@ TLDR; Transformer with memory efficiency from reversible layers and time efficie
     
         * Note that the attention matrix Q.K is fundamentally sparse
         * Solution: LSH
-            * "Takes advantage of sparsity of attention to attend to longer sequences" and speed up the model
-            * Approximates full attention and focuses on the "dot product between keys most similar to the query that contribute to the final attention"
-            * Nearest-neighbors used to increases attention span: meaning more content from the past can be considered [4], being able to handle longer sequences (1 million words on 1 GPU with 16GB)
-            * More flexible than pre-specified sparsity patterns
             * Distributes vectors into hash buckets (vectors with large dot products will end up in the same bucket with high probability)
             * Batch division 
             <p align="center">
@@ -47,7 +43,12 @@ TLDR; Transformer with memory efficiency from reversible layers and time efficie
             <p align="center">
                 <img src="./imgs/reformer_lsh.png" height="200" alt="LSH">
             </p>   
-         > Image source [6]
+            
+            * "Takes advantage of sparsity of attention to attend to longer sequences" and speed up the model
+            * Approximates full attention and focuses on the "dot product between keys most similar to the query that contribute to the final attention"
+            * Nearest-neighbors used to increases attention span: meaning more content from the past can be considered [4], being able to handle longer sequences (1 million words on 1 GPU with 16GB)
+            * More flexible than pre-specified sparsity patterns
+            
 * Results:
     * Reformer saves memory without sacrificing accuracy in the image generation task (imagenet64) and the text task (enwik8) 
     * LSH with 8 buckets is able to approximate full attention well
@@ -66,4 +67,4 @@ TLDR; Transformer with memory efficiency from reversible layers and time efficie
 * [3] [Community](https://gitter.im/trax-ml/community)
 * [4] [Henry AI Labs Video](https://www.youtube.com/watch?v=Kf3x3lqf9cQ)
 * [5] [Yannic Kilcher's Video](https://www.youtube.com/watch?v=i4H0kjxrias)
-* [6] [Illustrating the Reformer: The efficient Transformer](https://towardsdatascience.com/illustrating-the-reformer-393575ac6ba0) by Alireza Dirafzoon (Feb 5th 2020)
+* [6] [Illustrating the Reformer: The efficient Transformer](https://towardsdatascience.com/illustrating-the-reformer-393575ac6ba0) by Alireza Dirafzoon (Feb 5th 2020): LSH hash image
