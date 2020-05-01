@@ -28,6 +28,8 @@
 - [x] *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding* (Oct 2018, Google AI Language) [[arXiv](https://arxiv.org/abs/1810.04805)] [[Tensorflow](http://goo.gl/language/bert), [PyTorch](https://github.com/huggingface/pytorch-pretrained-BERT)] [[notes](./notes/bert.md)]
 - [x] *Why Self-Attention? A Targeted Evaluation of Neural Machine Translation Architectures* (Nov 2018, EMNLP 2018) [[arXiv](http://arxiv.org/abs/1808.08946)] [[notes](./notes/whyselfattention.md)]
 - [x] *MT-DNN: Multi-Task Deep Neural Networks for Natural Language Understanding* (May 2019, Microsoft) [[arXiv](https://arxiv.org/abs/1901.11504)] [[notes](./notes/mtdnn.md)]
+- [x] *Reformer: The Efficient Transformer* (ICLR 2020, Google AI) [[arXiv](https://arxiv.org/abs/2001.04451)] [[Tensorflow](https://github.com/google/trax)] [[notes](./notes/reformer.md)]
+
 
 ### Less attention
 - [ ] *Pay Less Attention with Lightweight and Dynamic Convolutions* (Sep 2018, ICLR 2019, Facebook AI Research) [[OpenReview](https://openreview.net/forum?id=SkVhlh09tX)] [[PyTorch](https://github.com/pytorch/fairseq)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/lessattention.md)]
