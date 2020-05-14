@@ -12,6 +12,7 @@
 * *“Generating Music from an Image”* [3rd International Conference on Human-Agent Interaction (HAI 2015)] [[paper](https://www.researchgate.net/publication/286331343_Generating_Music_from_an_Image)]
 
 ### Journal Club Presentations
+* Some highlights from *ICLR 2020* (14 May 2020) [[ppt](./presentations/ICLR_notes_May14th_2020.pptx)]: BERTScore, knn-LM, StructBERT, ELECTRA, ALBERT
 * *Fast Intent Classification for Spoken Language Understanding* [BranchyNet Application] (arXiv, Dec 2019) [[ppt](../presentations/JournalClub-BranchyNet_application-Jan29_2020.pdf)] [[notes](./notes/branchynet.md)]
 * *Subword Semantic Hashing for Intent Classification on Small Datasets* (Jul 17th 2019) [[ppt](./JournalClub-SemHash-Jul17_2019.pdf)] [[notes](../notes/subword_sem_hash.md)]
 * *Attention Is All You Need* (Jan 23rd 2019) [[ppt](./JournalClub-Transformer-Jan23_2019.pptx)] [[notes](../notes/attentionisallyouneed.md)]

@@ -4,10 +4,12 @@
 * *MASS: Masked Sequence to Sequence Pre-training for Language Generation* (Jun 2019, ICML 2019) [[arXiv](https://arxiv.org/abs/1905.02450)] [[PyTorch](https://github.com/microsoft/MASS)] [[notes](./notes/mass.md)]
 * *ALBERT: A Lite BERT for Self-supervised Learning of Language Representations* (Submitted to ICLR 2020, Google) [[OpenReview](https://openreview.net/forum?id=H1eA7AEtvS)] [[notes](./notes/albert.md)]
 #### 2020-05
-* *Reformer: The Efficient Transformer* (ICLR 2020, Google AI) [[arXiv](https://arxiv.org/abs/2001.04451)] [[Tensorflow](https://github.com/google/trax)] [[notes](./notes/reformer.md)]
+* Some highlights from *ICLR 2020* (14 May 2020) [[ppt](./presentations/ICLR_notes_May14th_2020.pptx)]: BERTScore, knn-LM, StructBERT, ELECTRA, ALBERT
+* *Reformer: The Efficient Transformer* (ICLR 2020, Google AI) [[OpenReview](https://openreview.net/forum?id=rkgNKkHtvB)] [[Tensorflow](https://github.com/google/trax)] [[notes](./notes/reformer.md)]
 
 #### 2020-04
 * Added Notes on Self-Attention [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/attention.md)]
+
 #### 2020-02
 * *i-RevNet: Deep Invertible Networks* (ICLR 2018) [[OpenReview](https://openreview.net/forum?id=HJsjkMb0Z)] [[PyTorch](https://github.com/jhjacobsen/pytorch-i-revnet)] [[notes](notes/revnet_invertible.md)]
 * *The Reversible Residual Network: Backpropagation Without Storing Activations* (NeurIPS 2017) [[paper](https://papers.nips.cc/paper/6816-the-reversible-residual-network-backpropagation-without-storing-activations)] [[Tensorflow](https://github.com/renmengye/revnet-public), [PyTorch](https://github.com/tbung/pytorch-revnet)] [[notes](./notes/revnet.md)]
