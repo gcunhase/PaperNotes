@@ -1,7 +1,7 @@
 ## [DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference](https://www.aclweb.org/anthology/2020.acl-main.204/)
 Ji Xin et al., ACL 2020, Vector Institute.
 
-TLDR; 
+TLDR; Getting inspiration from [BranchyNet](./branchynet.md) to reduce inference time in BERT through fine-tuning.
 
 <table>
     <tr>
