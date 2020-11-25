@@ -23,6 +23,7 @@
 
 ### Attention
 - [x] My Notes on Attention and Self-Attention in NLP [[notes](./notes/attention.md)]
+- [x] My Notes on Visual-Linguistic BERT-based models [[notes](./notes/bert_visual_linguistic.md)]
 - [x] *"NLP's ImageNet moment has arrived"* (Jul 2018) [[Blog](http://ruder.io/nlp-imagenet/)] [[notes](./notes/nlp_imagenet.md)]
 - [x] *Attention Is All You Need* [Transformer] (Dec 2017, NIPS 2017, Google Brain) [[arXiv](https://arxiv.org/abs/1706.03762)] [[Harvard Blog](http://nlp.seas.harvard.edu/2018/04/03/attention.html)] [[tensor2tensor](https://github.com/tensorflow/tensor2tensor)] [[ppt](./presentations/JournalClub-Transformer-Jan23_2019.pptx)] [[notes](./notes/attentionisallyouneed.md)]
 - [x] *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding* (Oct 2018, Google AI Language) [[arXiv](https://arxiv.org/abs/1810.04805)] [[Tensorflow](http://goo.gl/language/bert), [PyTorch](https://github.com/huggingface/pytorch-pretrained-BERT)] [[notes](./notes/bert.md)]
