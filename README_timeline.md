@@ -3,6 +3,9 @@
 * *Using Trusted Data to Train Deep Networks on Labels Corrupted by Severe Noise* [Gold Loss Correction] (Jan 2019, NeurIPS 2018) [[arXiv](https://arxiv.org/abs/1802.05300)] [[PyTorch](https://github.com/mmazeika/glc)] [[notes](./notes/imbalanced_trusted_data.md)]
 * *MASS: Masked Sequence to Sequence Pre-training for Language Generation* (Jun 2019, ICML 2019) [[arXiv](https://arxiv.org/abs/1905.02450)] [[PyTorch](https://github.com/microsoft/MASS)] [[notes](./notes/mass.md)]
 * *ALBERT: A Lite BERT for Self-supervised Learning of Language Representations* (Submitted to ICLR 2020, Google) [[OpenReview](https://openreview.net/forum?id=H1eA7AEtvS)] [[notes](./notes/albert.md)]
+#### 2020-11
+* *DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference* (ACL 2020, Vector Institute) [[paper](https://www.aclweb.org/anthology/2020.acl-main.204/)] [[slideslive](https://slideslive.com/38928742/deebert-dynamic-early-exiting-for-accelerating-bert-inference)] [[PyTorch](https://github.com/castorini/DeeBERT)] [[notes](./notes/deebert.md)]
+
 #### 2020-05
 * Some highlights from *ICLR 2020* (14 May 2020) [[ppt](./presentations/ICLR_notes_May14th_2020.pptx)]: BERTScore, knn-LM, StructBERT, ELECTRA, ALBERT
 * *Reformer: The Efficient Transformer* (ICLR 2020, Google AI) [[OpenReview](https://openreview.net/forum?id=rkgNKkHtvB)] [[Tensorflow](https://github.com/google/trax)] [[notes](./notes/reformer.md)]

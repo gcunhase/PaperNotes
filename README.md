@@ -30,6 +30,7 @@
 - [x] *MT-DNN: Multi-Task Deep Neural Networks for Natural Language Understanding* (May 2019, Microsoft) [[arXiv](https://arxiv.org/abs/1901.11504)] [[notes](./notes/mtdnn.md)]
 - [x] *Reformer: The Efficient Transformer* (ICLR 2020, Google AI) [[OpenReview](https://openreview.net/forum?id=rkgNKkHtvB)] [[Tensorflow](https://github.com/google/trax)] [[notes](./notes/reformer.md)]
 
+- [x] *DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference* (ACL 2020, Vector Institute) [[paper](https://www.aclweb.org/anthology/2020.acl-main.204/)] [[slideslive](https://slideslive.com/38928742/deebert-dynamic-early-exiting-for-accelerating-bert-inference)] [[PyTorch](https://github.com/castorini/DeeBERT)] [[notes](./notes/deebert.md)]
 
 ### Less attention
 - [ ] *Pay Less Attention with Lightweight and Dynamic Convolutions* (Sep 2018, ICLR 2019, Facebook AI Research) [[OpenReview](https://openreview.net/forum?id=SkVhlh09tX)] [[PyTorch](https://github.com/pytorch/fairseq)] [[notes](https://github.com/gcunhase/PaperNotes/blob/master/notes/lessattention.md)]
