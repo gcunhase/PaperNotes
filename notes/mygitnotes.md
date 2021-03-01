@@ -2,10 +2,29 @@
 
 TLDR; Important notes related to Git
 
+### Git command line
+* Original commands [[Cheatsheet](https://gist.github.com/gcunhase/d966188832e1bd8783b451d87afde7af)] [[Git commands](https://github.com/gcunhase/Git-Commands)]
+  * [Add new SSH public key on Github](https://github.com/settings/ssh/new): ```cat ~/.ssh/id_rsa.pub```
+  * Clone repository: ```git clone ssh://git@github.com/[USERNAME]/[REPOSITORY].git```
+  * Add > commit > push
+  ```
+  git add learncpp.md 
+  git commit -m "Create learn C++ notes"
+  git push -u origin master
+  ```
+
+* [CLI Github](https://cli.github.com/)
+
+  ```
+  brew install gh
+  gh auth login
+  ```
+
 ### Remove *.pyc* files trace
   ```
   find . -name "*.pyc" -exec git rm -f "{}" \;
   ```
+
 ### Remove folder from git
   ```
   git rm -r --cached myFolder
